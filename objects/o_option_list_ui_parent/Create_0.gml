@@ -9,7 +9,7 @@ options = ds_list_create();
 
 // Set the player to the wait state
 if (instance_exists(o_elizabeth)) {
-    o_elizabeth.state = elizabeth_wait_state;
+    o_elizabeth.state = scr_elizabeth_wait_state;
 }
 
 // Color for non highlighted text

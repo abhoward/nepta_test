@@ -2,10 +2,10 @@
 var options = ds_list_create();
 
 // Loop through the items
-var items_list = obj_player_stats.items;
+var items_list = o_player_stats.items;
 for (var i = 0; i < ds_list_size(items_list); i++) {
 	var items = items_list[| i];
-	var item_number = obj_player_stats.item_number[| i];
+	var item_number = o_player_stats.item_number[| i];
 	var option_text = "x" + string(item_number) + " " + items[? "name"];
 	if (item_number > 1) option_text += "s";
 	

@@ -12,5 +12,5 @@ x = approach(x, targetx, spd);
 
 if (x == targetx) {
 	state = scr_battle_wait_state;
-	obj_battle.play = true;
+	o_battle.play = true;
 }

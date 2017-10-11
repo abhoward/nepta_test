@@ -15,7 +15,7 @@ if (animation_end()) {
 	state = scr_battle_wait_state;
 	
 	// Set the view state
-	obj_battle_view.state = scr_battle_view_idle_state;
+	o_battle_view.state = scr_battle_view_idle_state;
 	
 	x = xstart;
 }

@@ -4,7 +4,7 @@ var yy = y;
 
 if (instance_exists(parent)) {
 	with (parent) {
-		with (obj_player_stats) {
+		with (o_player_stats) {
 			var action = ds_list_find_value(actions, other.index);
 			if (action != undefined) {
 				var message = scr_create_message(xx, yy, action[? "info"]);

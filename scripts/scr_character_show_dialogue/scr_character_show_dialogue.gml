@@ -7,13 +7,13 @@ if (!instance_exists(character)) {
 	exit;
 }
 
-if (instance_exists(obj_view)) {
-	obj_view.target[? "x"] = character.x;
-	obj_view.target[? "y"] = character.y;
+if (instance_exists(o_view)) {
+	o_view.target[? "x"] = character.x;
+	o_view.target[? "y"] = character.y;
 }
 
-if (!instance_exists(obj_dialogue)) {
-	var dialogue = instance_create_depth(0, 0, 0, obj_dialogue);
+if (!instance_exists(o_dialogue)) {
+	var dialogue = instance_create_depth(0, 0, 0, o_dialogue);
 	dialogue.cutscene = id;
 	dialogue.text = dialogue_array;
 	dialogue.portrait = character.portrait;

@@ -3,8 +3,8 @@ var item_index = argument0;
 var amount = argument1;
 
 // Make sure the player stats object exists
-if (instance_exists(obj_player_stats)) {
-	with (obj_player_stats) {
+if (instance_exists(o_player_stats)) {
+	with (o_player_stats) {
 		// Find the item
 		if (ds_list_find_value(items, item_index) != undefined) {
 			item_number[| item_index] -= amount;

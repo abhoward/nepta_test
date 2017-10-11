@@ -13,7 +13,7 @@ id.level = level;
 // Set the stats object
 stats_object = id;
 if (!is_enemy) {
-	stats_object = obj_player_stats;
+	stats_object = o_player_stats;
 }
 
 // Set up the enemy stats

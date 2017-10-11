@@ -4,13 +4,13 @@ var vspd = argument1;
 var update_facing = argument2;
 
 // horizontal movement
-if (!place_meeting(x + hspd, y, obj_solid)) {
+if (!place_meeting(x + hspd, y, o_solid)) {
 	x += hspd;
 }
 
 // vertical movement
 
-if (!place_meeting(x, y + vspd, obj_solid)) {
+if (!place_meeting(x, y + vspd, o_solid)) {
 	y += vspd;
 }
 

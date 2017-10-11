@@ -2,7 +2,7 @@
 scr_battle_set_sprite(ATTACK, 0);
 
 if (animation_hit_frame(0)) {
-	var foe = instance_place(x + 32 * image_xscale, y, obj_battle_unit);
+	var foe = instance_place(x + 32 * image_xscale, y, o_battle_unit);
 	if (foe.stats_object.defend) {
 		scr_audio_play_sound_effect(a_impact_defend, false, 80);
 		
@@ -13,7 +13,7 @@ if (animation_hit_frame(0)) {
 
 // Hit
 if(animation_hit_frame(1)) {
-	var foe = instance_place(x + 32 * image_xscale, y, obj_battle_unit);
+	var foe = instance_place(x + 32 * image_xscale, y, o_battle_unit);
 	if (foe) {
 		scr_deal_damage(id, foe, chance(stats_object.stats[? "critical"] / 100), 1);
 		scr_set_hitflash(foe, room_speed / 2);
@@ -21,7 +21,7 @@ if(animation_hit_frame(1)) {
 		scr_view_screenshake(4, seconds_to_steps(0.2));
 		
 		// Set the view state
-		obj_battle_view.state = scr_battle_view_idle_state;
+		o_battle_view.state = scr_battle_view_idle_state;
 	}
 }
 

@@ -13,9 +13,9 @@ if (!instance_exists(character)) {
 	exit;
 }
 
-if (instance_exists(obj_view)) {
-	obj_view.target[? "x"] = character.x;
-	obj_view.target[? "y"] = character.y;
+if (instance_exists(o_view)) {
+	o_view.target[? "x"] = character.x;
+	o_view.target[? "y"] = character.y;
 }
 
 with (character) {

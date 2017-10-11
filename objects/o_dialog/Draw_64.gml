@@ -1,5 +1,5 @@
 /// @description  Draw the dialog shadow
-draw_background_ext(b_dialogue_shadow, 0, 0, 1, 1, 0, c_white, .5);
+draw_sprite_ext(b_dialogue_shadow, 0, 0, 0, 1, 1, 0, c_white, 0.5);
 
 // Draw the frame
 draw_sprite(sprite_index, 0, pos_x, pos_y);

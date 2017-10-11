@@ -1,5 +1,5 @@
 /// @description  Manage the text to be drawn on the screen
-get_visible_text(room_speed/3);
+scr_get_visible_text(room_speed/3);
 
 // Handle input
 if (o_input.action) {

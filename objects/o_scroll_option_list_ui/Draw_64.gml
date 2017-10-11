@@ -7,7 +7,7 @@ for (var i=index-2; i<=index+2; i++) {
         var option = options[| i];
         var color = purple_gray;
         if (i == index) color = c_white;
-        draw_text_colour(x+16, y+6+10*(i+2-index), string_hash_to_newline(option[? "text"]), color, color, color, color, 1);
+        draw_text_colour(x+16, y+6+10*(i+2-index), option[? "text"], color, color, color, color, 1);
     }
 }
 

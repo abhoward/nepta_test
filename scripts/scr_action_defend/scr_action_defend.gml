@@ -1,5 +1,5 @@
 ///scr_action_defend()
-with (obj_battle_unit) {
+with (o_battle_unit) {
 	state = scr_battle_wait_state;
 }
 

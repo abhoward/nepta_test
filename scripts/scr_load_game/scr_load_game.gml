@@ -2,8 +2,8 @@
 var file_name = argument0;	
 
 // Break cases
-if (!instance_exists(obj_player_stats)) show_error("Save error: Stats object not found.", false);
-if (!instance_exists(obj_elizabeth)) show_error("Save error: Elizabeth object not found.", false);
+if (!instance_exists(o_player_stats)) show_error("Save error: Stats object not found.", false);
+if (!instance_exists(o_elizabeth)) show_error("Save error: Elizabeth object not found.", false);
 
 // Load the file
 var loaded_data = ds_map_secure_load(file_name);
@@ -17,7 +17,7 @@ if (ds_exists(loaded_data, ds_type_map)) {
 global.save_data = loaded_data;
 
 // Load the stats
-with (obj_player_stats) {
+with (o_player_stats) {
 	level = global.save_data[? "level"];
 	ds_map_destroy(stats);
 	stats = scr_get_stats("elizabeth");
@@ -30,7 +30,7 @@ with (obj_player_stats) {
 	}
 }
 
-with (obj_elizabeth) {
+with (o_elizabeth) {
 	x = global.save_data[? "x"];
 	y = global.save_data[? "y"];
 	
@@ -39,7 +39,7 @@ with (obj_elizabeth) {
 // Load the room
 var saved_room = asset_get_index(global.save_data[? "room"]);
 if (room != saved_room) {
-	obj_elizabeth.last_room = noone;
+	o_elizabeth.last_room = noone;
 	room_goto(saved_room);
 }
 

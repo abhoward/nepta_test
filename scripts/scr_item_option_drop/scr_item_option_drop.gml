@@ -3,12 +3,12 @@
 if (instance_exists(parent)) {
 	with (parent) {
 		// Make sure there are items in the list
-		if (ds_list_size(obj_player_stats.items) > 0) {
+		if (ds_list_size(o_player_stats.items) > 0) {
 			// Remove the item
-			obj_player_stats.item_number[| index] --;
-			if (obj_player_stats.item_number[| index] <= 0) {
-				ds_list_delete(obj_player_stats.item_number, index);
-				ds_list_delete(obj_player_stats.items, index);
+			o_player_stats.item_number[| index] --;
+			if (o_player_stats.item_number[| index] <= 0) {
+				ds_list_delete(o_player_stats.item_number, index);
+				ds_list_delete(o_player_stats.items, index);
 			}
 			ds_list_destroy(options);
 			

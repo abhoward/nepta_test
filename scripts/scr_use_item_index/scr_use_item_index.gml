@@ -1,8 +1,8 @@
 ///scr_use_item_index(item_index)
 var item_index = argument0;
 
-if (instance_exists(obj_player_stats)) {
-	with(obj_player_stats) {
+if (instance_exists(o_player_stats)) {
+	with(o_player_stats) {
 		// Find the item
 		var item = ds_list_find_value(items, item_index);
 		if (item != undefined) {

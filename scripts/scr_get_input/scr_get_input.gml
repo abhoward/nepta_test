@@ -13,5 +13,6 @@ left_pressed = keyboard_check_pressed(ord("A"));
 down_pressed = keyboard_check_pressed(ord("S"));
 
 // action and back input
-action = keyboard_check_pressed(ord("X"));
-back = keyboard_check_pressed(ord("Z"));
+action = keyboard_check_pressed(vk_space);
+menu = keyboard_check_pressed(vk_tab);
+back = keyboard_check_pressed(vk_escape);

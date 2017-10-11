@@ -8,12 +8,12 @@ var effect_frame = argument3;
 scr_battle_set_sprite(RANGED, 0);
 
 var targetx = xstart + BATTLE_SPACE * image_xscale;
-var sprite_data = obj_data.sprites[? sprite_get_name(sprite[RANGED])];
+var sprite_data = o_data.sprites[? sprite_get_name(sprite[RANGED])];
 
 if (animation_hit_frame(sprite_data[? "hit frame"])) {
 	// Set the view state
-	obj_battle_view.target[? "x"] = targetx - 32 * image_xscale;
-	obj_battle_view.state = scr_battle_view_focus_state;
+	o_battle_view.target[? "x"] = targetx - 32 * image_xscale;
+	o_battle_view.state = scr_battle_view_focus_state;
 }
 
 // Hit
@@ -22,10 +22,10 @@ if(animation_hit_frame(effect_frame)) {
 	effect.image_xscale = image_xscale;
 	effect.direction = point_direction(0, 0, image_xscale, 0);
 	effect.creator = id;
-	if (object_index = obj_player_battle_unit) {
-		effect.target = obj_enemy_battle_unit;
+	if (object_index = o_player_battle_unit) {
+		effect.target = o_enemy_battle_unit;
 	} else {
-		effect.target = obj_player_battle_unit;
+		effect.target = o_player_battle_unit;
 	}
 }
 
