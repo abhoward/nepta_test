@@ -1,0 +1,879 @@
+Converting GML script: ${project_dir}/scripts/approach/approach.gml
+Converted description /// @description approach(current, target, amount)/// @function approach
+/// @param current
+/// @param  target
+/// @param  amount
+
+Converting GML script: ${project_dir}/scripts/is_in_array/is_in_array.gml
+Converted description /// @description is_in_array(value, array)/// @function is_in_array
+/// @param value
+/// @param  array
+
+Converting GML script: ${project_dir}/scripts/seconds_to_steps/seconds_to_steps.gml
+Converted description /// @description seconds_to_steps(seconds)/// @function seconds_to_steps
+/// @param seconds
+
+Converting GML script: ${project_dir}/scripts/list_to_array/list_to_array.gml
+Converted description /// @description list_to_array(list)/// @function list_to_array
+/// @param list
+
+Converting GML script: ${project_dir}/scripts/animation_end/animation_end.gml
+Converted description /// @description animation_end()/// @function animation_end
+
+Converting GML script: ${project_dir}/scripts/animation_hit_frame/animation_hit_frame.gml
+Converted description /// @description animation_hit_frame(frame)/// @function animation_hit_frame
+/// @param frame
+
+Converting GML script: ${project_dir}/scripts/array/array.gml
+Converted description /// @description array(elements...)/// @function array
+/// @param elements...
+
+Converting GML script: ${project_dir}/scripts/battle_view_focus_state/battle_view_focus_state.gml
+Converted description /// @description battle_view_focus_state()/// @function battle_view_focus_state
+
+Converting GML script: ${project_dir}/scripts/battle_approach_state/battle_approach_state.gml
+Converted description /// @description battle_approach_state()/// @function battle_approach_state
+
+Converting GML script: ${project_dir}/scripts/battle_action_state/battle_action_state.gml
+Converted description /// @description battle_action_state()/// @function battle_action_state
+
+Converting GML script: ${project_dir}/scripts/battle_hit_state/battle_hit_state.gml
+Converted description /// @description battle_hit_state
+
+Converting GML script: ${project_dir}/scripts/chance/chance.gml
+Converted description /// @description chance(percent)/// @function chance
+/// @param percent
+
+Converting GML script: ${project_dir}/scripts/battle_idle_state/battle_idle_state.gml
+Converted description /// @description battle_idle_state()/// @function battle_idle_state
+
+Converting GML script: ${project_dir}/scripts/battle_view_intro_state/battle_view_intro_state.gml
+Converted description /// @description battle_view_intro_state();/// @function battle_view_intro_state
+
+Converting GML script: ${project_dir}/scripts/battle_view_idle_state/battle_view_idle_state.gml
+Converted description /// @description battle_view_idle_state
+
+Converting GML script: ${project_dir}/scripts/change_sprites/change_sprites.gml
+Converted description /// @description change_sprites(sprite_index, image_index, image_speed)/// @function change_sprites
+/// @param sprite_index
+/// @param  image_index
+/// @param  image_speed
+
+Converting GML script: ${project_dir}/scripts/battle_attack_state/battle_attack_state.gml
+Converted description /// @description battle_attack_state()/// @function battle_attack_state
+
+Converting GML script: ${project_dir}/scripts/battle_use_item_state/battle_use_item_state.gml
+Converted description /// @description battle_use_item_state()/// @function battle_use_item_state
+
+Converting GML script: ${project_dir}/scripts/battle_death_state/battle_death_state.gml
+Converted description /// @description battle_death_state()/// @function battle_death_state
+
+Converting GML script: ${project_dir}/scripts/get_stats_from_class/get_stats_from_class.gml
+Converted description /// @description get_stats_from_class(class_string)/// @function get_stats_from_class
+/// @param class_string
+
+Converting GML script: ${project_dir}/scripts/battle_return_state/battle_return_state.gml
+Converted description /// @description battle_return_state()/// @function battle_return_state
+
+Converting GML script: ${project_dir}/scripts/battle_wait_state/battle_wait_state.gml
+Converted description /// @description wait_state
+
+Converting GML script: ${project_dir}/scripts/battle_fire_spell_state/battle_fire_spell_state.gml
+Converted description /// @description battle_fire_spell_state()/// @function battle_fire_spell_state
+
+Converting GML script: ${project_dir}/scripts/calculate_health/calculate_health.gml
+Converted description /// @description calculate_health(level, health)/// @function calculate_health
+/// @param level
+/// @param  health
+
+Converting GML script: ${project_dir}/scripts/create_action_list/create_action_list.gml
+Converted description /// @description create_action_list
+
+Converting GML script: ${project_dir}/scripts/action_defend/action_defend.gml
+Converted description /// @description action_defend()/// @function action_defend
+
+Converting GML script: ${project_dir}/scripts/set_hitflash/set_hitflash.gml
+Converted description /// @description set_hitflash(target, duration)/// @function set_hitflash
+/// @param target
+/// @param  duration
+
+Converting GML script: ${project_dir}/scripts/deal_damage/deal_damage.gml
+Converted description /// @description deal_damage(attacker, defender, critical, modifier)/// @function deal_damage
+/// @param attacker
+/// @param  defender
+/// @param  critical
+/// @param  modifier
+
+Converting GML script: ${project_dir}/scripts/init_battle_unit/init_battle_unit.gml
+Converted description /// @description init_battle_unit(name, level, is_enemy, idle_speed, attack_speed, hit_speed, ranged_speed)/// @function init_battle_unit
+/// @param name
+/// @param  level
+/// @param  is_enemy
+/// @param  idle_speed
+/// @param  attack_speed
+/// @param  hit_speed
+/// @param  ranged_speed
+
+Converting GML script: ${project_dir}/scripts/move/move.gml
+Converted description /// @description move(hspd, vspd, update_facing)/// @function move
+/// @param hspd
+/// @param  vspd
+/// @param  update_facing
+
+Converting GML script: ${project_dir}/scripts/encounter/encounter.gml
+Converted description /// @description encounter()/// @function encounter
+
+Converting GML script: ${project_dir}/scripts/battle_sonar_spell_state/battle_sonar_spell_state.gml
+Converted description /// @description battle_sonar_spell_state()/// @function battle_sonar_spell_state
+
+Converting GML script: ${project_dir}/scripts/elizabeth_wait_state/elizabeth_wait_state.gml
+Converted description /// @description elizabeth_wait_state()/// @function elizabeth_wait_state
+
+Converting GML script: ${project_dir}/scripts/battle_ranged_attack_state/battle_ranged_attack_state.gml
+Converted description /// @description battle_ranged_attack_state(xoffset, yoffset, effect, effect_frame)/// @function battle_ranged_attack_state
+/// @param xoffset
+/// @param  yoffset
+/// @param  effect
+/// @param  effect_frame
+
+Converting GML script: ${project_dir}/scripts/get_facing/get_facing.gml
+Converted description /// @description get_facing(direction)/// @function get_facing
+/// @param direction
+
+Converting GML script: ${project_dir}/scripts/activate_interactable_object/activate_interactable_object.gml
+Converted description /// @description activate_interactable_object(xdir, ydir);/// @function activate_interactable_object
+/// @param xdir
+/// @param  ydir
+
+Converting GML script: ${project_dir}/scripts/elizabeth_talking_state/elizabeth_talking_state.gml
+Converted description /// @description elizabeth_talking_state
+
+Converting GML script: ${project_dir}/scripts/get_input/get_input.gml
+Converted description /// @description get_input()/// @function get_input
+Converted string - line 17: 'X' -> "X"
+Converted string - line 18: 'Z' -> "Z"
+
+Converting GML script: ${project_dir}/scripts/view_follow_elizabeth_state/view_follow_elizabeth_state.gml
+Converted description /// @description view_follow_elizabeth_state()/// @function view_follow_elizabeth_state
+
+Converting GML script: ${project_dir}/scripts/move_intended_direction/move_intended_direction.gml
+Converted description /// @description move_intended_direction(hspd, vspd, distance)/// @function move_intended_direction
+/// @param hspd
+/// @param  vspd
+/// @param  distance
+
+Converting GML script: ${project_dir}/scripts/view_approach/view_approach.gml
+Converted builtin - line 14: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 15: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description view_approach(x, y, width, height, speed, zoom_speed)/// @function view_approach
+/// @param x
+/// @param  y
+/// @param  width
+/// @param  height
+/// @param  speed
+/// @param  zoom_speed
+Converted builtin - line 21: view_wview[0] = lerp(__view_get( e__VW.WView, 0 ), width, zoom_spd -> __view_set( e__VW.WView, 0, lerp(__view_get( e__VW.WView, 0 ), width, zoom_spd )
+Converted builtin - line 22: view_hview[0] = lerp(__view_get( e__VW.HView, 0 ), height, zoom_spd -> __view_set( e__VW.HView, 0, lerp(__view_get( e__VW.HView, 0 ), height, zoom_spd )
+
+Converting GML script: ${project_dir}/scripts/view_screenshake/view_screenshake.gml
+Converted description /// @description view_screenshake(amount, duration)/// @function view_screenshake
+/// @param amount
+/// @param  duration
+
+Converting GML script: ${project_dir}/scripts/set_tile_depth/set_tile_depth.gml
+Converted description /// @description set_tile_depth(tile_layer, yoffset)/// @function set_tile_depth
+/// @param tile_layer
+/// @param  yoffset
+
+Converting GML script: ${project_dir}/scripts/save_key/save_key.gml
+Converted description /// @description save_key()/// @function save_key
+
+Converting GML script: ${project_dir}/scripts/draw_bar/draw_bar.gml
+Converted description /// @description draw_bar(x, y, sprite, value, maxvalue)/// @function draw_bar
+/// @param x
+/// @param  y
+/// @param  sprite
+/// @param  value
+/// @param  maxvalue
+
+Converting GML script: ${project_dir}/scripts/battle_set_sprite/battle_set_sprite.gml
+Converted description /// @description battle_set_sprite(sprite_macro, image_index)/// @function battle_set_sprite
+/// @param sprite_macro
+/// @param  image_index
+
+Converting GML script: ${project_dir}/scripts/get_item_data/get_item_data.gml
+Converted description /// @description get_item_data()/// @function get_item_data
+Converted string - line 3: '
+{
+    "potion" : {
+        "name"          : "Potion",
+        "effect"        : "heal_effect",
+        "info"          : "A potion that#heals 50 health.",
+        "arguments"     : [50],
+        "battle"        : 0
+    }
+}' -> "
+{
+    "+"\""+@"potion"+"\""+@" : {
+        "+"\""+@"name"+"\""+@"          : "+"\""+@"Potion"+"\""+@",
+        "+"\""+@"effect"+"\""+@"        : "+"\""+@"heal_effect"+"\""+@",
+        "+"\""+@"info"+"\""+@"          : "+"\""+@"A potion that#heals 50 health."+"\""+@",
+        "+"\""+@"arguments"+"\""+@"     : [50],
+        "+"\""+@"battle"+"\""+@"        : 0
+    }
+}"
+
+Converting GML script: ${project_dir}/scripts/elizabeth_move_state/elizabeth_move_state.gml
+Converted description /// @description elizabeth_move_state()/// @function elizabeth_move_state
+
+Converting GML script: ${project_dir}/scripts/get_class_data/get_class_data.gml
+Converted description /// @description get_class_data()/// @function get_class_data
+Converted string - line 3: '
+{
+    "elizabeth" : {
+        "name" : "Elizabeth",
+        "health" : 10,
+        "attack" : 8,
+        "defense" : 8,
+        "speed" : 9,
+        "critical" : 25,
+        "experience" : 0,
+        "actions" : []
+    },
+    
+    "spider" : {
+        "name"          : "Spider",
+        "health"        : 3,
+        "attack"        : 500,
+        "defense"       : 4,
+        "speed"         : 10,
+        "critical"      : 5,
+        "experience"    : 10,
+        "actions"       : ["attack", "defend"]
+    },
+    
+    "gargoyle" : {
+        "name"          : "Gargoyle",
+        "health"        : 10,
+        "attack"        : 4,
+        "defense"       : 8,
+        "speed"         : 4,
+        "critical"      : 10,
+        "experience"    : 100,
+        "actions"       : ["sonar spell", "defend"]
+    }
+}' -> "
+{
+    "+"\""+@"elizabeth"+"\""+@" : {
+        "+"\""+@"name"+"\""+@" : "+"\""+@"Elizabeth"+"\""+@",
+        "+"\""+@"health"+"\""+@" : 10,
+        "+"\""+@"attack"+"\""+@" : 8,
+        "+"\""+@"defense"+"\""+@" : 8,
+        "+"\""+@"speed"+"\""+@" : 9,
+        "+"\""+@"critical"+"\""+@" : 25,
+        "+"\""+@"experience"+"\""+@" : 0,
+        "+"\""+@"actions"+"\""+@" : []
+    },
+    
+    "+"\""+@"spider"+"\""+@" : {
+        "+"\""+@"name"+"\""+@"          : "+"\""+@"Spider"+"\""+@",
+        "+"\""+@"health"+"\""+@"        : 3,
+        "+"\""+@"attack"+"\""+@"        : 500,
+        "+"\""+@"defense"+"\""+@"       : 4,
+        "+"\""+@"speed"+"\""+@"         : 10,
+        "+"\""+@"critical"+"\""+@"      : 5,
+        "+"\""+@"experience"+"\""+@"    : 10,
+        "+"\""+@"actions"+"\""+@"       : ["+"\""+@"attack"+"\""+@", "+"\""+@"defend"+"\""+@"]
+    },
+    
+    "+"\""+@"gargoyle"+"\""+@" : {
+        "+"\""+@"name"+"\""+@"          : "+"\""+@"Gargoyle"+"\""+@",
+        "+"\""+@"health"+"\""+@"        : 10,
+        "+"\""+@"attack"+"\""+@"        : 4,
+        "+"\""+@"defense"+"\""+@"       : 8,
+        "+"\""+@"speed"+"\""+@"         : 4,
+        "+"\""+@"critical"+"\""+@"      : 10,
+        "+"\""+@"experience"+"\""+@"    : 100,
+        "+"\""+@"actions"+"\""+@"       : ["+"\""+@"sonar spell"+"\""+@", "+"\""+@"defend"+"\""+@"]
+    }
+}"
+
+Converting GML script: ${project_dir}/scripts/get_sprite_data/get_sprite_data.gml
+Converted description /// @description get_sprite_data()/// @function get_sprite_data
+Converted string - line 3: '{
+    "s_battle_elizabeth_ranged" : {
+        "xoffset"       : 32,
+        "yoffset"       :-32,
+        "hit frame"     : 4
+    },
+    
+    "s_battle_gargoyle_ranged" : {
+        "xoffset"       : -36,
+        "yoffset"       : -18,
+        "hit frame"     : 11
+    }
+}' -> "{
+    "+"\""+@"s_battle_elizabeth_ranged"+"\""+@" : {
+        "+"\""+@"xoffset"+"\""+@"       : 32,
+        "+"\""+@"yoffset"+"\""+@"       :-32,
+        "+"\""+@"hit frame"+"\""+@"     : 4
+    },
+    
+    "+"\""+@"s_battle_gargoyle_ranged"+"\""+@" : {
+        "+"\""+@"xoffset"+"\""+@"       : -36,
+        "+"\""+@"yoffset"+"\""+@"       : -18,
+        "+"\""+@"hit frame"+"\""+@"     : 11
+    }
+}"
+
+Converting GML script: ${project_dir}/scripts/format_text/format_text.gml
+Converted description /// @description format_text(text_array, width, font)/// @function format_text
+/// @param text_array
+/// @param  width
+/// @param  font
+
+Converting GML script: ${project_dir}/scripts/load_game/load_game.gml
+Converted description /// @description load_game(file_name)/// @function load_game
+/// @param file_name
+
+Converting GML script: ${project_dir}/scripts/get_action_data/get_action_data.gml
+Converted description /// @description get_action_data()/// @function get_action_data
+Converted string - line 3: '{
+    "attack" : {
+        "name"          : "Attack",
+        "action"        : "battle_approach_state",
+        "info"          : "A basic melee#attack."
+    },
+    
+    "defend" : {
+        "name"          : "Defend",
+        "action"        : "action_defend",
+        "info"          : "Reduces damage taken#by half and sets#action bar to half."
+    },
+    
+    "fire spell" : {
+        "name"          : "Fire Spell",
+        "action"        : "battle_fire_spell_state",
+        "info"          : "Has a lower damage#rate but a higher#critical chance."
+    }
+    ,
+    
+    "sonar spell" : {
+        "name"          : "Sonar Spell",
+        "action"        : "battle_sonar_spell_state",
+        "info"          : "A basic ranged#attack."
+    }
+}' -> "{
+    "+"\""+@"attack"+"\""+@" : {
+        "+"\""+@"name"+"\""+@"          : "+"\""+@"Attack"+"\""+@",
+        "+"\""+@"action"+"\""+@"        : "+"\""+@"battle_approach_state"+"\""+@",
+        "+"\""+@"info"+"\""+@"          : "+"\""+@"A basic melee#attack."+"\""+@"
+    },
+    
+    "+"\""+@"defend"+"\""+@" : {
+        "+"\""+@"name"+"\""+@"          : "+"\""+@"Defend"+"\""+@",
+        "+"\""+@"action"+"\""+@"        : "+"\""+@"action_defend"+"\""+@",
+        "+"\""+@"info"+"\""+@"          : "+"\""+@"Reduces damage taken#by half and sets#action bar to half."+"\""+@"
+    },
+    
+    "+"\""+@"fire spell"+"\""+@" : {
+        "+"\""+@"name"+"\""+@"          : "+"\""+@"Fire Spell"+"\""+@",
+        "+"\""+@"action"+"\""+@"        : "+"\""+@"battle_fire_spell_state"+"\""+@",
+        "+"\""+@"info"+"\""+@"          : "+"\""+@"Has a lower damage#rate but a higher#critical chance."+"\""+@"
+    }
+    ,
+    
+    "+"\""+@"sonar spell"+"\""+@" : {
+        "+"\""+@"name"+"\""+@"          : "+"\""+@"Sonar Spell"+"\""+@",
+        "+"\""+@"action"+"\""+@"        : "+"\""+@"battle_sonar_spell_state"+"\""+@",
+        "+"\""+@"info"+"\""+@"          : "+"\""+@"A basic ranged#attack."+"\""+@"
+    }
+}"
+
+Converting GML script: ${project_dir}/scripts/menu_option_stats/menu_option_stats.gml
+Converted description /// @description menu_option_stats()/// @function menu_option_stats
+
+Converting GML script: ${project_dir}/scripts/save_game/save_game.gml
+Converted description /// @description save_game(file_name)/// @function save_game
+/// @param file_name
+
+Converting GML script: ${project_dir}/scripts/pickup_item/pickup_item.gml
+Converted description /// @description pickup_item(item, amount);/// @function pickup_item
+/// @param item
+/// @param  amount
+
+Converting GML script: ${project_dir}/scripts/menu_option_items/menu_option_items.gml
+Converted description /// @description menu_option_items
+
+Converting GML script: ${project_dir}/scripts/menu_option_save/menu_option_save.gml
+Converted description /// @description menu_option_save()/// @function menu_option_save
+
+Converting GML script: ${project_dir}/scripts/get_frames/get_frames.gml
+Converted description /// @description get_frames(x1, x2, speed);/// @function get_frames
+/// @param x1
+/// @param  x2
+/// @param  speed
+
+Converting GML script: ${project_dir}/scripts/heal_effect/heal_effect.gml
+Converted description /// @description heal_effect(args_list)/// @function heal_effect
+/// @param args_list
+
+Converting GML script: ${project_dir}/scripts/get_image_speed_from_frames/get_image_speed_from_frames.gml
+Converted description /// @description get_image_speed_from_frames(frames, image_number)/// @function get_image_speed_from_frames
+/// @param frames
+/// @param  image_number
+
+Converting GML script: ${project_dir}/scripts/get_visible_text/get_visible_text.gml
+Converted description /// @description get_visible_text(pause_time)/// @function get_visible_text
+/// @param pause_time
+
+Converting GML script: ${project_dir}/scripts/item_option_use_ui/item_option_use_ui.gml
+Converted description /// @description item_option_use_ui()/// @function item_option_use_ui
+
+Converting GML script: ${project_dir}/scripts/item_option_use/item_option_use.gml
+Converted description /// @description item_option_use
+
+Converting GML script: ${project_dir}/scripts/item_option_info/item_option_info.gml
+Converted description /// @description item_option_info()/// @function item_option_info
+
+Converting GML script: ${project_dir}/scripts/use_item_index/use_item_index.gml
+Converted description /// @description use_item_index(item_index)/// @function use_item_index
+/// @param item_index
+
+Converting GML script: ${project_dir}/scripts/action_option_use_ui/action_option_use_ui.gml
+Converted description /// @description action_option_use_ui()/// @function action_option_use_ui
+
+Converting GML script: ${project_dir}/scripts/drop_item_index/drop_item_index.gml
+Converted description /// @description drop_item_index(item_index, amount)/// @function drop_item_index
+/// @param item_index
+/// @param  amount
+
+Converting GML script: ${project_dir}/scripts/menu_option_load/menu_option_load.gml
+Converted description /// @description menu_option_load()/// @function menu_option_load
+
+Converting GML script: ${project_dir}/scripts/action_option_use/action_option_use.gml
+Converted description /// @description action_option_use()/// @function action_option_use
+
+Converting GML script: ${project_dir}/scripts/menu_option_exit/menu_option_exit.gml
+Converted description /// @description menu_option_exit()/// @function menu_option_exit
+
+Converting GML script: ${project_dir}/scripts/item_option_drop/item_option_drop.gml
+Converted description /// @description item_option_drop()/// @function item_option_drop
+
+Converting GML script: ${project_dir}/scripts/say_hi/say_hi.gml
+Converted description /// @description say_hi()/// @function say_hi
+
+Converting GML script: ${project_dir}/scripts/draw_nine_slice/draw_nine_slice.gml
+Converted description /// @description draw_nine_slice(sprite_index, x1, y1, x2, y2)/// @function draw_nine_slice
+/// @param sprite_index
+/// @param  x1
+/// @param  y1
+/// @param  x2
+/// @param  y2
+
+Converting GML script: ${project_dir}/scripts/mark_option_list/mark_option_list.gml
+Converted description /// @description mark_option_list(list)/// @function mark_option_list
+/// @param list
+
+Converting GML script: ${project_dir}/scripts/create_option/create_option.gml
+Converted description /// @description create_option(text, script)/// @function create_option
+/// @param text
+/// @param  script
+
+Converting GML script: ${project_dir}/scripts/create_message_at_view_center/create_message_at_view_center.gml
+Converted description /// @description create_message_at_view_center(text)/// @function create_message_at_view_center
+/// @param text
+
+Converting GML script: ${project_dir}/scripts/character_show_dialog/character_show_dialog.gml
+Converted description /// @description character_show_dialog(character, dialog_array)/// @function character_show_dialog
+/// @param character
+/// @param  dialog_array
+
+Converting GML script: ${project_dir}/scripts/create_items_option_list/create_items_option_list.gml
+Converted description /// @description create_items_option_list()/// @function create_items_option_list
+
+Converting GML script: ${project_dir}/scripts/action_option_info/action_option_info.gml
+Converted description /// @description action_option_info()/// @function action_option_info
+
+Converting GML script: ${project_dir}/scripts/create_message/create_message.gml
+Converted description /// @description create_message(x, y, text)/// @function create_message
+/// @param x
+/// @param  y
+/// @param  text
+
+Converting GML script: ${project_dir}/scripts/audio_play_sound_effect/audio_play_sound_effect.gml
+Converted description /// @description audio_play_sound_effect(sound, loops, priority)/// @function audio_play_sound_effect
+/// @param sound
+/// @param  loops
+/// @param  priority
+
+Converting GML script: ${project_dir}/scripts/character_move_to/character_move_to.gml
+Converted description /// @description character_move_to(character, x, y, relative, speed, wait_seconds)/// @function character_move_to
+/// @param character
+/// @param  x
+/// @param  y
+/// @param  relative
+/// @param  speed
+/// @param  wait_seconds
+
+Converting GML script: ${project_dir}/scripts/cutscene_show_message/cutscene_show_message.gml
+Converted description /// @description cutscene_show_message(text)/// @function cutscene_show_message
+/// @param text
+
+Converting GML script: ${project_dir}/scripts/wait/wait.gml
+Converted description /// @description wait(seconds)/// @function wait
+/// @param seconds
+
+Converting GML script: ${project_dir}/scripts/audio_set_next_song/audio_set_next_song.gml
+Converted description /// @description audio_set_next_song(next_song, fade)/// @function audio_set_next_song
+/// @param next_song
+/// @param  fade
+
+Converting GML script: ${project_dir}/objects/o_input/Create_0.gml
+Converted description /// @description  Initialize the input object
+
+Converting GML script: ${project_dir}/objects/o_input/Step_1.gml
+Converted description /// @description  Get the input
+
+Converting GML script: ${project_dir}/objects/o_view_parent/Create_0.gml
+Converted description /// @description  Initialize the view parent
+
+Converting GML script: ${project_dir}/objects/o_view_parent/Destroy_0.gml
+Converted description /// @description  Destroy the target
+
+Converting GML script: ${project_dir}/objects/o_view_parent/Alarm_0.gml
+Converted description /// @description  Set screenshake to 0
+
+Converting GML script: ${project_dir}/objects/o_view_parent/Step_0.gml
+Converted builtin - line 2: view_xview[0] = (x-view_wview[0]/2)+irandom_range(-screenshake, screenshake -> __view_set( e__VW.XView, 0, (x-view_wview[0]/2)+irandom_range(-screenshake, screenshake )
+Converted builtin - line 3: view_yview[0] = (y-view_hview[0]/2)+irandom_range(-screenshake, screenshake -> __view_set( e__VW.YView, 0, (y-view_hview[0]/2)+irandom_range(-screenshake, screenshake )
+Converted description /// @description  Update the view position
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}/objects/o_view_parent/Other_5.gml
+Converted description /// @description  Destroy the view
+
+Converting GML script: ${project_dir}/objects/o_game/Create_0.gml
+Converted builtin - line 5: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 5: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Initialize the game object
+
+Converting GML script: ${project_dir}/objects/o_game/Other_4.gml
+Converted description /// @description  Create depth on tiles
+
+Converting GML script: ${project_dir}/objects/o_game/Draw_64.gml
+Converted description /// @description  Draw the vignette
+
+Converting GML script: ${project_dir}/scripts/character_face_direction/character_face_direction.gml
+Converted description /// @description character_face_direction(character, facing, wait_seconds)/// @function character_face_direction
+/// @param character
+/// @param  facing
+/// @param  wait_seconds
+
+Converting GML script: ${project_dir}/objects/o_interactable_parent/Create_0.gml
+Converted description /// @description  Initialize the interactable parent
+
+Converting GML script: ${project_dir}/objects/o_interactable_parent/Other_10.gml
+Converted description /// @description  This event handles the interaction
+
+Converting GML script: ${project_dir}/objects/o_view/Create_0.gml
+Converted builtin - line 12: view_xview[0] = x-view_wview[0]/2 -> __view_set( e__VW.XView, 0, x-view_wview[0]/2 )
+Converted builtin - line 13: view_yview[0] = y-view_hview[0]/2 -> __view_set( e__VW.YView, 0, y-view_hview[0]/2 )
+Converted description /// @description  Initialize the view
+Converted builtin - line 12: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 13: view_hview[0] -> __view_get( e__VW.HView, 0 )
+
+Converting GML script: ${project_dir}/objects/o_view/Step_2.gml
+Converted description /// @description  Run the view state
+
+Converting GML script: ${project_dir}/objects/o_fade_transition/Create_0.gml
+Converted description /// @description  Initialize the transition
+
+Converting GML script: ${project_dir}/objects/o_fade_transition/Step_0.gml
+Converted description /// @description  Fade
+
+Converting GML script: ${project_dir}/objects/o_fade_transition/Draw_64.gml
+Converted description /// @description  Draw the fade
+
+Converting GML script: ${project_dir}/objects/o_audio_player/Create_0.gml
+Converted description /// @description  Initialize the audio player
+
+Converting GML script: ${project_dir}/objects/o_audio_player/Step_0.gml
+Converted description /// @description  Play the song
+
+Converting GML script: ${project_dir}/objects/o_audio_player/Other_3.gml
+Converted description /// @description  Destroy the emitters
+
+Converting GML script: ${project_dir}/objects/o_battle/Step_0.gml
+Converted description /// @description  Check for play
+
+Converting GML script: ${project_dir}/objects/o_random_encounters/Create_0.gml
+Converted description /// @description  Initialize random encounters
+
+Converting GML script: ${project_dir}/objects/o_last_encounter/Create_0.gml
+Converted description /// @description  Initialize the last encounter object
+
+Converting GML script: ${project_dir}/objects/o_player_stats/Create_0.gml
+Converted description /// @description  Initialize the player's states
+
+Converting GML script: ${project_dir}/objects/o_player_stats/Destroy_0.gml
+Converted description /// @description  Destroy the lists and the stats map
+
+Converting GML script: ${project_dir}/objects/o_player_stats/Step_1.gml
+Converted description /// @description  Update the draw health
+
+Converting GML script: ${project_dir}/objects/o_player_stats/Step_0.gml
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 7: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 7: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Update the stats for death and level-up
+
+Converting GML script: ${project_dir}/objects/o_game_over/Step_0.gml
+Converted description /// @description  Check for exit
+
+Converting GML script: ${project_dir}/objects/o_battle_view/Create_0.gml
+Converted description /// @description  Initialize the battle camera
+
+Converting GML script: ${project_dir}/objects/o_battle_view/Step_0.gml
+Converted description /// @description  Execute the state
+
+Converting GML script: ${project_dir}/objects/o_battle_transition/Create_0.gml
+Converted description /// @description  Initialize the battle transition
+
+Converting GML script: ${project_dir}/objects/o_battle_transition/Step_0.gml
+Converted description /// @description  Fade
+
+Converting GML script: ${project_dir}/objects/o_battle_transition/Other_4.gml
+Converted description /// @description  Handle alphas for new room
+
+Converting GML script: ${project_dir}/objects/o_battle_transition/Draw_64.gml
+Converted description /// @description  Draw the fade
+
+Converting GML script: ${project_dir}/objects/o_parallax/Create_0.gml
+Converted builtin - line 6: background_x[index] -> __background_get( e__BG.X, index )
+Converted description /// @description  Initialize the backgrounds
+
+Converting GML script: ${project_dir}/objects/o_parallax/Step_0.gml
+Converted builtin - line 6: background_x[0] = view_xview[0] -> __background_set( e__BG.X, 0, view_xview[0] )
+Converted builtin - line 12: background_x[1] = (view_xview[0]/1.25)+background_xstart[1] -> __background_set( e__BG.X, 1, (view_xview[0]/1.25)+background_xstart[1] )
+Converted builtin - line 16: background_x[2] = (view_xview[0]/2)+background_xstart[2] -> __background_set( e__BG.X, 2, (view_xview[0]/2)+background_xstart[2] )
+Converted builtin - line 17: background_x[3] = (view_xview[0]/2.75)+background_xstart[3] -> __background_set( e__BG.X, 3, (view_xview[0]/2.75)+background_xstart[3] )
+Converted builtin - line 18: background_x[5] = background_xstart[5] - (view_xview[0]/2.75) -> __background_set( e__BG.X, 5, background_xstart[5] - (view_xview[0]/2.75) )
+Converted builtin - line 19: background_x[6] = background_xstart[6] - view_xview[0] -> __background_set( e__BG.X, 6, background_xstart[6] - view_xview[0] )
+Converted builtin - line 20: background_x[7] = background_xstart[7] - (view_xview[0]/0.8) -> __background_set( e__BG.X, 7, background_xstart[7] - (view_xview[0]/0.8) )
+Converted builtin - line 7: background_y[0] = view_yview[0] -> __background_set( e__BG.Y, 0, view_yview[0] )
+Converted builtin - line 13: background_y[1] = view_yview[0]/2.75 -> __background_set( e__BG.Y, 1, view_yview[0]/2.75 )
+Converted builtin - line 8: background_xscale[0] = xscale -> __background_set( e__BG.XScale, 0, xscale )
+Converted builtin - line 9: background_yscale[0] = yscale -> __background_set( e__BG.YScale, 0, yscale )
+Converted builtin - line 2: view_wview[0] -> __view_get( e__VW.WView, 0 )
+Converted builtin - line 3: view_hview[0] -> __view_get( e__VW.HView, 0 )
+Converted description /// @description  Update the background positions
+Converted builtin - line 6: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 12: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 16: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 17: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 18: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 19: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 20: view_xview[0] -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 7: view_yview[0] -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 13: view_yview[0] -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}/objects/o_data/Create_0.gml
+Converted description /// @description  Load the data
+
+Converting GML script: ${project_dir}/objects/o_data/Destroy_0.gml
+Converted description /// @description  Destroy the ds maps
+
+Converting GML script: ${project_dir}/objects/o_player_battle_unit/Create_0.gml
+Converted description /// @description  Create the player battle object
+
+Converting GML script: ${project_dir}/objects/o_enemy_battle_unit/Create_0.gml
+Converted description /// @description  Create the player battle object
+
+Converting GML script: ${project_dir}/objects/o_enemy_battle_unit/Other_5.gml
+Converted description /// @description  Destroy the data structures
+
+Converting GML script: ${project_dir}/objects/o_elizabeth/Create_0.gml
+Converted description /// @description  Initialize the Elizabeth object
+
+Converting GML script: ${project_dir}/objects/o_elizabeth/Step_0.gml
+Converted description /// @description  Control the state
+
+Converting GML script: ${project_dir}/objects/o_elizabeth/Collision_35904492-e13a-42fc-8533-24fe90145415.gml
+Converted description /// @description  Go to the next room
+
+Converting GML script: ${project_dir}/objects/o_elizabeth/Other_4.gml
+Converted description /// @description  Move to start position
+
+Converting GML script: ${project_dir}/objects/o_battle_unit/Create_0.gml
+Converted description /// @description  Initialize the battle unit
+
+Converting GML script: ${project_dir}/objects/o_battle_unit/Destroy_0.gml
+Converted description /// @description  Check to see if we are an enemy
+
+Converting GML script: ${project_dir}/objects/o_battle_unit/Alarm_0.gml
+Converted description /// @description  Set hitflash to false
+
+Converting GML script: ${project_dir}/objects/o_battle_unit/Step_1.gml
+Converted description /// @description  Update the draw health
+
+Converting GML script: ${project_dir}/objects/o_battle_unit/Step_0.gml
+Converted description /// @description  Execute the state
+
+Converting GML script: ${project_dir}/objects/o_battle_unit/Draw_0.gml
+Converted description /// @description  Draw the character
+
+Converting GML script: ${project_dir}/objects/o_decoration_parent/Create_0.gml
+Converted description /// @description  Control the depth
+
+Converting GML script: ${project_dir}/objects/o_battle_unit_ui/Create_0.gml
+Converted description /// @description  Initialize the battle character ui
+
+Converting GML script: ${project_dir}/objects/o_battle_unit_ui/Draw_0.gml
+Converted description /// @description  Draw the unit information
+
+Converting GML script: ${project_dir}/objects/o_battle_ui/Create_0.gml
+Converted description /// @description  Initialize the battle ui
+
+Converting GML script: ${project_dir}/objects/o_battle_ui/Step_0.gml
+Converted description /// @description  Move the ui
+
+Converting GML script: ${project_dir}/objects/o_battle_ui/Draw_64.gml
+Converted description /// @description  Draw the battle ui
+
+Converting GML script: ${project_dir}/objects/o_levelup/Alarm_0.gml
+Converted description /// @description  Go to last room
+
+Converting GML script: ${project_dir}/objects/o_adam/Create_0.gml
+Converted description /// @description  Initailize Adam
+
+Converting GML script: ${project_dir}/objects/o_character_parent/Create_0.gml
+Converted description /// @description  Initialize the character parent
+
+Converting GML script: ${project_dir}/objects/o_option_list_ui_parent/Create_0.gml
+Converted description /// @description  Initialize the options list
+
+Converting GML script: ${project_dir}/objects/o_option_list_ui_parent/Destroy_0.gml
+Converted description /// @description  Destroy the options list
+
+Converting GML script: ${project_dir}/objects/o_option_list_ui_parent/Step_0.gml
+Converted description /// @description  Navigate the options
+
+Converting GML script: ${project_dir}/objects/o_option_list_ui_parent/Draw_64.gml
+Converted description /// @description  Draw the option list border and box
+
+Converting GML script: ${project_dir}/objects/o_action_use_ui/Create_0.gml
+Converted description /// @description  Initialize the action ui
+
+Converting GML script: ${project_dir}/objects/o_speaker/Create_0.gml
+Converted description /// @description  Initialize the speaker object
+
+Converting GML script: ${project_dir}/objects/o_speaker/Other_10.gml
+Converted description /// @description  Activate the dialog
+
+Converting GML script: ${project_dir}/objects/o_action_list_ui/Draw_64.gml
+Converted description /// @description  Draw the option list
+
+Converting GML script: ${project_dir}/objects/o_scroll_option_list_ui/Draw_64.gml
+Converted description /// @description  Draw the option list
+
+Converting GML script: ${project_dir}/objects/o_option_list_ui/Draw_64.gml
+Converted description /// @description  Draw the option list
+
+Converting GML script: ${project_dir}/objects/o_ui_parent/Create_0.gml
+Converted description /// @description  Initialize the base UI object
+
+Converting GML script: ${project_dir}/objects/o_ui_parent/Destroy_0.gml
+Converted description /// @description  Destroy the child
+
+Converting GML script: ${project_dir}/objects/o_ui_parent/Draw_0.gml
+Converted description /// @description  Override the draw event
+
+Converting GML script: ${project_dir}/objects/o_menu_ui/Create_0.gml
+Converted description /// @description  Initialize the menu ui
+
+Converting GML script: ${project_dir}/objects/o_dialog/Create_0.gml
+Converted description /// @description  Initialize the dialog object
+
+Converting GML script: ${project_dir}/objects/o_dialog/Alarm_0.gml
+Converted description /// @description  Pause dialog alarm
+
+Converting GML script: ${project_dir}/objects/o_dialog/Step_0.gml
+Converted description /// @description  Manage the text to be drawn on the screen
+
+Converting GML script: ${project_dir}/objects/o_dialog/Other_10.gml
+Converted description /// @description  Format the text
+
+Converting GML script: ${project_dir}/objects/o_dialog/Draw_64.gml
+Converted description /// @description  Draw the dialog shadow
+
+Converting GML script: ${project_dir}/objects/o_dialog/Draw_0.gml
+Converted description /// @description  Override the draw event
+
+Converting GML script: ${project_dir}/objects/o_message_ui/Create_0.gml
+Converted description /// @description  Initialize the message ui
+
+Converting GML script: ${project_dir}/objects/o_message_ui/Alarm_0.gml
+Converted description /// @description  Used for temporary messages
+
+Converting GML script: ${project_dir}/objects/o_message_ui/Step_0.gml
+Converted description /// @description  Close the message
+
+Converting GML script: ${project_dir}/objects/o_message_ui/Draw_64.gml
+Converted description /// @description  Draw the message
+
+Converting GML script: ${project_dir}/objects/o_item_list_ui/Create_0.gml
+Converted description /// @description  Initialize the item list ui
+
+Converting GML script: ${project_dir}/objects/o_cutscene_parent/Create_0.gml
+Converted description /// @description  Initialize the cutscene
+
+Converting GML script: ${project_dir}/objects/o_cutscene_parent/Destroy_0.gml
+Converted description /// @description  Set Elizabeth back to the move state
+
+Converting GML script: ${project_dir}/objects/o_cutscene_parent/Alarm_0.gml
+Converted description /// @description Wait alarm
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Missing audiogroup for sound: 'a_battle_music' - setting to default audio group
+Missing audiogroup for sound: 'a_town_music' - setting to default audio group
+Missing audiogroup for sound: 'a_graveyard_music' - setting to default audio group
+Missing audiogroup for sound: 'a_enter_next_area' - setting to default audio group
+Missing audiogroup for sound: 'a_defend' - setting to default audio group
+Missing audiogroup for sound: 'a_firespell_with_impact' - setting to default audio group
+Missing audiogroup for sound: 'a_impact' - setting to default audio group
+Missing audiogroup for sound: 'a_attack_swordswing' - setting to default audio group
+Missing audiogroup for sound: 'a_levelup' - setting to default audio group
+Missing audiogroup for sound: 'a_menu_select' - setting to default audio group
+Missing audiogroup for sound: 'a_potion' - setting to default audio group
+Missing audiogroup for sound: 'a_spider_die' - setting to default audio group
+Missing audiogroup for sound: 'a_use_door' - setting to default audio group
+Missing audiogroup for sound: 'a_impact_defend' - setting to default audio group
+Missing audiogroup for sound: 'a_item_pickup' - setting to default audio group
+Missing audiogroup for sound: 'a_menu_move' - setting to default audio group
+Missing audiogroup for sound: 'a_sonar_with_impact' - setting to default audio group
+Game speed set to 30
+Added compatibility script 'background/draw_background_ext.gml'
+Added compatibility script 'background/__background_get.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'd3d/d3d_set_fog.gml'
+Added compatibility script 'draw/draw_set_blend_mode.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'tile/tile_exists.gml'
+Added compatibility script 'tile/tile_get_ids_at_depth.gml'
+Added compatibility script 'tile/tile_get_y.gml'
+Added compatibility script 'tile/tile_set_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'd3d/__init_d3d.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

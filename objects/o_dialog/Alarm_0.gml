@@ -1,0 +1,2 @@
+/// @description  Pause dialog alarm
+

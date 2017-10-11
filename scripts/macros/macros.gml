@@ -1,0 +1,15 @@
+#macro FONT_CHARS "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,!?'-+/:"
+#macro RIGHT 0
+#macro UP 1
+#macro LEFT 2
+#macro DOWN 3
+#macro TREE_TILES 1000
+#macro IDLE 0
+#macro APPROACH 1
+#macro ATTACK 2
+#macro RETURN 3
+#macro HIT 4
+#macro RANGED 5
+#macro BATTLE_SPACE 160
+#macro ACTIVATE 0
+#macro FORMAT_TEXT 0
