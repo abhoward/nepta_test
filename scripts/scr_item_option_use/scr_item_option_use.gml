@@ -12,9 +12,15 @@ if (instance_exists(parent)) {
 			scr_use_item_index(index);
 			
 			// Destroy the menu
-			if (instance_exists(o_menu_ui)) {
-				with (o_menu_ui) instance_destroy();
-			}
+			//if (instance_exists(o_menu_ui)) {
+			//	with (o_item_list_ui) instance_destroy();
+			//}
+			
+			ds_list_destroy(options);
+			
+			// Update the items list
+			options = scr_create_items_option_list();
+			index = min(index, ds_list_size(options) - 1);
 		}
 	}
 }

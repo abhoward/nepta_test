@@ -7786,7 +7786,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_character_show_dialogue\/scr_character_show_dialogue.yy",
+                "resourcePath": "scripts\/scr_character_show_dialog\/scr_character_show_dialog.yy",
                 "resourceType": "GMScript"
             }
         },

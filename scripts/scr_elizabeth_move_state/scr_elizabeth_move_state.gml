@@ -12,7 +12,7 @@ if (!scr_move(hspd, vspd, true)) {
 }
 
 // Check for menu
-if (o_input.back) {
+if (o_input.menu) {
 	if (!instance_exists(o_menu_ui)) {
 		instance_create_depth(16, 16, 0, o_menu_ui);
 		exit;

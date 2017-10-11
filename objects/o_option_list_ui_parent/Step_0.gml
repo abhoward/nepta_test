@@ -13,7 +13,7 @@ if (o_input.back) {
 }
 
 // Run the option
-if (o_input.menu && ds_list_size(options) > 0) {
+if (o_input.action && ds_list_size(options) > 0) {
     var option = options[| index];
     script_execute(option[? "script"]);
     if (!instance_exists(child)) {
