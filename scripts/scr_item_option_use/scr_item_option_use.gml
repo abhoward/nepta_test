@@ -12,7 +12,7 @@ if (instance_exists(parent)) {
 			scr_use_item_index(index);
 			
 			// Destroy the menu
-			//if (instance_exists(o_menu_ui)) {
+			// if (instance_exists(o_menu_ui)) {
 			//	with (o_item_list_ui) instance_destroy();
 			//}
 			
