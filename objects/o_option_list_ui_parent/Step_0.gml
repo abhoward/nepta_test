@@ -8,7 +8,7 @@ if (index != last_index) {
 }
 
 // Exit the option list
-if (o_input.back) {
+if (o_input.back || o_input.menu) {
     instance_destroy();
 }
 

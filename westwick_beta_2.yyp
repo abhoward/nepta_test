@@ -6575,6 +6575,25 @@
             }
         },
         {
+            "Key": "c3e7264a-840b-4143-a109-6c90b6d46ed4",
+            "Value": {
+                "id": "2f66bbad-b2c6-458f-8d92-eb32e09c63ec",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_attack_effect\/scr_attack_effect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c530e7fe-5a1b-4caf-8516-f4bf4d9610ab",
             "Value": {
                 "id": "311fca9d-6cf5-4ba6-830d-07122ca00894",
@@ -8285,6 +8304,25 @@
             }
         },
         {
+            "Key": "f1f24874-d4f0-4f74-95d7-f08ee5966081",
+            "Value": {
+                "id": "7ca4f4a9-a2f8-46e2-a59a-d9b908137ab7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_hidden_item\/s_hidden_item.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "74eb4197-13d0-45cf-9532-e3cc90ff5e7a",
@@ -8301,6 +8339,25 @@
                 ],
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f41ae88c-8fb4-404f-be73-589244cb8577",
+            "Value": {
+                "id": "93bddd54-a3ad-4873-84c1-4da8966e5da5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_hidden_item\/o_hidden_item.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -8695,7 +8752,6 @@
         "b4561071-1fb7-4768-8db8-708ca5730262",
         "9bc54ada-f456-44a7-90f2-04e7edb0f2e0",
         "3749c1de-062b-439c-bb81-5eab42807ef6",
-        "b69d03d3-639e-40aa-acc3-5f6b2c5df1e0",
         "b7d70fb1-a631-45c6-b0f1-b09372cf7bba",
         "ffd83ac9-bab9-42e7-ad4b-4fb2bb97dfab",
         "84c219b3-956a-4651-a6ee-42c0360f1b1e",
@@ -8725,6 +8781,8 @@
         "bc4378ba-b91b-49dc-9c6c-a9bc6262b9aa",
         "dfd14fe5-6562-4e25-b4e5-0d3a906702fd",
         "78e66532-5039-4656-a128-dd673c0a25fd",
+        "b69d03d3-639e-40aa-acc3-5f6b2c5df1e0",
+        "c3e7264a-840b-4143-a109-6c90b6d46ed4",
         "0df13738-3e81-4fa6-af48-0ca6308d4531",
         "3d74cb8c-7fc9-468a-9ce9-d1308dc6628b",
         "6dece793-ec47-4ebd-b346-3bd89ee276e5",
