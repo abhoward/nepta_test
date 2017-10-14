@@ -36,6 +36,10 @@ sprite[ATTACK] = asset_get_index("s_battle_" + name + "_attack");
 sprite[RETURN] = asset_get_index("s_battle_" + name + "_return");
 sprite[HIT] = asset_get_index("s_battle_" + name + "_hit");
 sprite[RANGED] = asset_get_index("s_battle_" + name + "_ranged");
+sprite[SAD] = asset_get_index("s_battle_" + name + "_sad");
+sprite[ANGRY] = asset_get_index("s_battle_" + name + "_angry");
+sprite[RETURN_SAD] = asset_get_index("s_battle_" + name + "_return_sad");
+sprite[RETURN_ANGRY] = asset_get_index("s_battle_" + name + "_return_angry");
 
 // Set animation speed array
 animation_speed[IDLE] = idle_speed;
@@ -44,6 +48,8 @@ animation_speed[ATTACK] = attack_speed;
 animation_speed[RETURN] = 0;
 animation_speed[HIT] = hit_speed;
 animation_speed[RANGED] = ranged_speed;
+animation_speed[SAD] = attack_speed;
+animation_speed[ANGRY] = attack_speed;
 
 // Set the sprite
 image_speed = animation_speed[IDLE];

@@ -9,7 +9,8 @@ return json_decode(@'
 		"speed": 9,
 		"critical": 25,
 		"experience": 0,
-		"actions": []
+		"actions": [],
+		"stances": ["sad", "angry"]
 	},
 	
 	"spider": {

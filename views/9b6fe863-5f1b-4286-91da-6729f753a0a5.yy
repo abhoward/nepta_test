@@ -11,7 +11,8 @@
         "62962bbb-68a8-45e4-80b4-58be4832651f",
         "17885514-ee33-472e-af2d-9be61785e214",
         "be2c1eac-4794-4a75-8b16-52f30bd00a9a",
-        "8aefa1b2-7bc1-45c9-994e-af914b3b5a62"
+        "8aefa1b2-7bc1-45c9-994e-af914b3b5a62",
+        "d8d33b49-4a37-4265-a551-147245affb99"
     ],
     "filterType": "GMSprite",
     "folderName": "Character Sprites",

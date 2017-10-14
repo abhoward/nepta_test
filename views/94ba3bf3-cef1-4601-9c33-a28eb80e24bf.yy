@@ -14,7 +14,8 @@
         "ca2d5b85-51e3-450b-ba73-11af10b476cb",
         "bc4378ba-b91b-49dc-9c6c-a9bc6262b9aa",
         "dfd14fe5-6562-4e25-b4e5-0d3a906702fd",
-        "78e66532-5039-4656-a128-dd673c0a25fd"
+        "78e66532-5039-4656-a128-dd673c0a25fd",
+        "a604702b-c517-4d7d-ae9a-02fc2d6a5c88"
     ],
     "filterType": "GMScript",
     "folderName": "Data Scripts",

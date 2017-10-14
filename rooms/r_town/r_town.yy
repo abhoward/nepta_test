@@ -2,7 +2,7 @@
 {
     "name": "r_town",
     "id": "cc36df1b-3dcc-4341-99c1-68b2cd829f23",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -594,12 +594,12 @@
     },
     "roomSettings":     {
         "id": "e8ae2a48-0a9f-403e-b43b-c4c3765dceb0",
-        "Height": 180,
+        "Height": 360,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 320
+        "Width": 640
     },
     "mvc": "1.0",
     "views": [
