@@ -20,3 +20,9 @@ actions[| action_index++] = o_data.actions[? "defend"];
 actions[| action_index++] = o_data.actions[? "fire spell"];
 actions[| action_index++] = o_data.actions[? "sonar spell"];
 
+// Stance list
+stances = ds_list_create();
+var stance_index = 0;
+stances[| stance_index++] = o_data.stances[? "sad"];
+stances[| stance_index++] = o_data.stances[? "angry"];
+//stances[| stance_index++] = o_data.actions[? "fire spell"];

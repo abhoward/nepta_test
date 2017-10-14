@@ -4,5 +4,4 @@ index = 0;
 ACTION = 0;
 ITEM = 1;
 RUN = 2;
-
-
+STANCE = 3;

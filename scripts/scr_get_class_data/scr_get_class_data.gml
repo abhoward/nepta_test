@@ -21,7 +21,8 @@ return json_decode(@'
 		"speed": 10,
 		"critical": 5,
 		"experience": 100,
-		"actions": ["attack", "defend"]
+		"actions": ["attack", "defend"],
+		"stances": []
 	},
 	
 	"gargoyle": {
@@ -32,6 +33,7 @@ return json_decode(@'
 		"speed": 4,
 		"critical": 10,
 		"experience": 100,
-		"actions": ["sonar spell", "defend"]
+		"actions": ["sonar spell", "defend"],
+		"stances": []
 	}
 }');

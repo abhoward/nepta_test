@@ -248,6 +248,25 @@
             }
         },
         {
+            "Key": "0ac13d56-995b-433e-b28f-d465f6b51039",
+            "Value": {
+                "id": "ba81a038-6970-4271-8dc4-2f98fd5608af",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_stance_setup\/scr_stance_setup.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c27d934-7eef-4c1b-9661-45b535836de9",
             "Value": {
                 "id": "ed009211-a351-47c4-afc0-acc22068dfaf",
@@ -967,6 +986,25 @@
                 ],
                 "resourcePath": "sprites\/s_battle_elizabeth_attack_angry\/s_battle_elizabeth_attack_angry.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1dc44266-e559-472e-af8a-4dff6261a65f",
+            "Value": {
+                "id": "7e8d2deb-aa00-47e6-a83c-b9dfc532d9fc",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_battle_hit_sad_state\/scr_battle_hit_sad_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1803,6 +1841,25 @@
                 ],
                 "resourcePath": "sprites\/b_rug\/b_rug.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3386b95d-f087-4dab-a95d-cf81bd0d579a",
+            "Value": {
+                "id": "fc4b3991-329e-4b83-863a-21579219a0c5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_battle_ranged_attack_angry_state\/scr_battle_ranged_attack_angry_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2715,6 +2772,25 @@
                 ],
                 "resourcePath": "sprites\/b_blacksmith_rock_floor\/b_blacksmith_rock_floor.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "49f1c9f2-9267-463e-b653-b6562f222f21",
+            "Value": {
+                "id": "d122d129-56b7-481f-a571-ac582bad28f9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_battle_hit_angry_state\/scr_battle_hit_angry_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -6290,6 +6366,25 @@
             }
         },
         {
+            "Key": "ac8a09dc-bb6a-472f-9e96-1e3457ef0c38",
+            "Value": {
+                "id": "c161ea17-a578-4ddc-b65c-efed15bf2911",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_ui_stance\/s_battle_ui_stance.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ace74cfc-85c2-4167-960b-97d670709251",
             "Value": {
                 "id": "45689b81-445b-4b27-86e9-ec6140f8388a",
@@ -9425,6 +9520,25 @@
             }
         },
         {
+            "Key": "fcb187dd-03f9-40b5-ba24-e7bb623ef76c",
+            "Value": {
+                "id": "55980689-a54d-4948-85ac-e9ccf7aa076a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_battle_ranged_attack_sad_state\/scr_battle_ranged_attack_sad_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fd027bdc-ab69-44c2-a557-60a759e74bd2",
             "Value": {
                 "id": "e7aeee70-1e5c-4079-9996-9bb7a7fb37dd",
@@ -9652,20 +9766,24 @@
         "470fa07b-47ce-4419-9057-802017312faa",
         "6769021f-d445-49fb-a5bb-e9c29d03c08c",
         "501a3a62-898a-4596-866a-5f35269fa7a7",
+        "1dc44266-e559-472e-af8a-4dff6261a65f",
+        "fcb187dd-03f9-40b5-ba24-e7bb623ef76c",
         "a761ce76-8d0d-40a3-9ea8-a6fbf1b30796",
         "a86d63ab-e78b-4e17-9790-54bd1e06809a",
         "d5379be4-0623-48ae-b2b8-1df1b14c474b",
         "20daac7f-0104-475d-ab32-b674ae236fe3",
         "e64c0340-3b6f-4736-84e1-0e2141442ee3",
         "b034aba4-4baa-4993-bb5d-95dae3ae4866",
-        "2851fbb0-bf7f-449a-b99f-fbc4d3a998a4",
+        "49f1c9f2-9267-463e-b653-b6562f222f21",
+        "3386b95d-f087-4dab-a95d-cf81bd0d579a",
         "2f126cd8-4637-495f-8804-cfc021628e14",
-        "0e547086-775e-43f0-9aff-05d5e4e21168",
         "514c54b9-671d-4d23-8f27-1b2f438de600",
-        "dafd0d09-b548-4ce3-ae59-e64ad09479d4",
         "907d7dab-e6d5-49f0-976e-d0ad03c360fd",
         "777aedb1-a0d4-4a5e-9ce7-aaa4399a5cf0",
         "bfe88cf2-abd3-4024-ab3a-fa55c3915030",
+        "2851fbb0-bf7f-449a-b99f-fbc4d3a998a4",
+        "0e547086-775e-43f0-9aff-05d5e4e21168",
+        "dafd0d09-b548-4ce3-ae59-e64ad09479d4",
         "a98f7cfb-4b0c-498a-b069-a694fee5f264",
         "ea3c59eb-4b8b-43ec-bc5d-61ccbfe18d67",
         "10cb4dd3-a27a-4801-a16c-2dc108ee01cc",
@@ -9698,13 +9816,14 @@
         "e5c50101-fe4d-4a6d-bc4f-903d0b2401ad",
         "7aaacd0e-ea76-4faa-965c-5da502c2bb51",
         "5778e9a5-7726-4c2b-84fe-c88ed2b5e904",
+        "a604702b-c517-4d7d-ae9a-02fc2d6a5c88",
         "43284ace-f578-4dab-800f-f127f7b9994e",
         "1bde718f-9808-41ba-b3c8-71060612355c",
         "ca2d5b85-51e3-450b-ba73-11af10b476cb",
         "bc4378ba-b91b-49dc-9c6c-a9bc6262b9aa",
         "dfd14fe5-6562-4e25-b4e5-0d3a906702fd",
         "78e66532-5039-4656-a128-dd673c0a25fd",
-        "a604702b-c517-4d7d-ae9a-02fc2d6a5c88",
+        "0ac13d56-995b-433e-b28f-d465f6b51039",
         "b69d03d3-639e-40aa-acc3-5f6b2c5df1e0",
         "c3e7264a-840b-4143-a109-6c90b6d46ed4",
         "0df13738-3e81-4fa6-af48-0ca6308d4531",

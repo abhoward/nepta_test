@@ -1,4 +1,4 @@
-/// @description Initialize the stanceui
+/// @description Initialize the stance ui
 event_inherited();
 width = 56;
 height = 40;

@@ -11,4 +11,3 @@ state = scr_battle_idle_state;
 var unit_ui = instance_create_depth(xstart, 16, 0, o_battle_unit_ui);
 unit_ui.unit = id;
 unit_ui.x -= unit_ui.sprite_width/2;
-

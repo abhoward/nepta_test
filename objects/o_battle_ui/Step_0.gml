@@ -21,7 +21,7 @@ if (point_distance(x, y, x, 160) <= 16 && enabled) {
     }
     
     // Clamp the value
-    index = clamp(index, ACTION, RUN);
+    index = clamp(index, ACTION, STANCE);
     
     if (o_input.action) {
         switch(index) {
@@ -46,6 +46,14 @@ if (point_distance(x, y, x, 160) <= 16 && enabled) {
                 var transition = instance_create_depth(0, 0, 0, o_fade_transition);
                 transition.next_room = o_game.last_room;
                 depth = 100;
+                scr_audio_play_sound_effect(a_menu_move, false, 50);
+                break;
+				
+			case STANCE:
+                enabled = false;
+                var stance_list = instance_create_depth(bbox_left+13, targety-sprite_height/2, 0, o_stance_list_ui);
+                stance_list.y -= stance_list.height+4;
+                stance_list.parent = id;
                 scr_audio_play_sound_effect(a_menu_move, false, 50);
                 break;
         }

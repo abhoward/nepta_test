@@ -1,4 +1,5 @@
 ///scr_battle_use_item_state()
+
 // Enemies can't use items
 if (object_index != o_player_battle_unit) {
 	state = scr_battle_wait_state;

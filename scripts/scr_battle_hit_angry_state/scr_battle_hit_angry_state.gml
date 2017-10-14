@@ -1,5 +1,5 @@
-///scr_battle_hit_state()
-scr_battle_set_sprite(HIT, 0);
+///scr_battle_hit_angry_state()
+scr_battle_set_sprite(HIT_ANGRY, 0);
 
 // Move the player based on the position in the animation
 var input = (image_index / image_number) * pi;
@@ -12,7 +12,7 @@ if (abs(x - xstart) > 24 && stats_object.stats[? "health"] <= 0) {
 
 // Return to the wait state
 if (animation_end()) {
-	state = scr_battle_wait_state;
+	state = scr_battle_wait_angry_state;
 	
 	// Set the view state
 	o_battle_view.state = scr_battle_view_idle_state;
