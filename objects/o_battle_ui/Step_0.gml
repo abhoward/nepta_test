@@ -10,7 +10,7 @@ y = lerp(y, targety, .1);
 
 if (point_distance(x, y, x, 160) <= 16 && enabled) {
     // Move ui options
-    if (o_input.right_pressed && index < 2) {
+    if (o_input.right_pressed && index < 3) {
         index += 1;
         scr_audio_play_sound_effect(a_menu_move, false, 50);
     }

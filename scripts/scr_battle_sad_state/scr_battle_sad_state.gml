@@ -2,6 +2,8 @@
 scr_battle_set_sprite(IDLE_SAD, 0);
 depth = -1;
 
+
+
 // AI
 if (object_index == o_enemy_battle_unit) {
 	// Check for attack and if the stats map doesn't exist

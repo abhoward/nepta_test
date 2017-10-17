@@ -18,7 +18,7 @@ if (x == targetx) {
 	state = scr_battle_attack_angry_state;
 }
 
-// Play sound, need to set it up a little differently if differnet sounds for different enemies
+// Play sound, need to set it up a little differently if different sounds for different enemies
 if (animation_hit_frame(1)) {
 	scr_audio_play_sound_effect(a_attack_swordswing, false, 80);
 }
