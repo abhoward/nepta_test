@@ -1,6 +1,7 @@
 event_inherited();
 width = 80;
 height = 44;
+stance_enabled = true;
 
 // Create the options list
 options = ds_list_create();

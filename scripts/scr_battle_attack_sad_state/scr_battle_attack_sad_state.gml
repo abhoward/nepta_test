@@ -16,7 +16,7 @@ if(animation_hit_frame(1)) {
 	if (foe) {
 		scr_deal_damage(id, foe, chance(stats_object.stats[? "critical"] / 100), 1);
 		scr_set_hitflash(foe, room_speed / 2);
-		foe.state = scr_battle_hit_state;
+		foe.state = scr_battle_hit_sad_state;
 		scr_view_screenshake(4, seconds_to_steps(0.2));
 		
 		// Set the view state

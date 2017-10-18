@@ -4,6 +4,10 @@ max_action_meter = 100;
 item_index = 0;
 hitflash = false;
 
+sad_stance = false;
+angry_stance = false;
+normal_stance = true;
+
 // Set up the state
 state = scr_battle_idle_state;
 

@@ -11,6 +11,6 @@ image_speed = scr_get_image_speed_from_frames(frames, image_number);
 x = approach(x, targetx, spd);
 
 if (x == targetx) {
-	state = scr_battle_wait_state;
+	state = scr_battle_wait_sad_state;
 	o_battle.play = true;
 }

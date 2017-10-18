@@ -22,5 +22,11 @@ return json_decode(@'{
 		"name": "Sonar Spell",
 		"action": "scr_battle_sonar_spell_state",
 		"info": "A basic ranged\nattack."
+	},
+	
+	"cry": {
+		"name": "Cry",
+		"action": "scr_battle_cry_state",
+		"info": "Cry like a little baby.\nNot to be confused\nwith the Youtuber."
 	}
 }')

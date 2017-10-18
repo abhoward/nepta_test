@@ -61,6 +61,16 @@ animation_speed[HIT] = hit_speed;
 animation_speed[RANGED] = ranged_speed;
 animation_speed[IDLE_SAD] = idle_speed;
 animation_speed[IDLE_ANGRY] = idle_speed;
+animation_speed[APPROACH_SAD] = 0;
+animation_speed[APPROACH_ANGRY] = 0;
+animation_speed[ATTACK_SAD] = attack_speed;
+animation_speed[ATTACK_ANGRY] = attack_speed;
+animation_speed[RETURN_SAD] = 0;
+animation_speed[RETURN_ANGRY] = 0;
+animation_speed[HIT_SAD] = hit_speed;
+animation_speed[HIT_ANGRY] = hit_speed;
+animation_speed[RANGED_SAD] = ranged_speed;
+animation_speed[RANGED_ANGRY] = ranged_speed;
 
 // Set the sprite
 image_speed = animation_speed[IDLE];
