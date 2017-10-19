@@ -400,6 +400,25 @@
             }
         },
         {
+            "Key": "0e3755c1-c065-415a-afcd-ef9dab9fbd74",
+            "Value": {
+                "id": "86acc9af-5119-45d2-8950-84babf938318",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_attack_sad\/s_battle_spider_attack_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e547086-775e-43f0-9aff-05d5e4e21168",
             "Value": {
                 "id": "9ac6d6a9-3e56-4478-8a7a-fc97eb55c358",
@@ -472,6 +491,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/b_floor_detail\/b_floor_detail.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "101c58e1-a9b9-4b6e-b868-4d04e7e8224c",
+            "Value": {
+                "id": "9ad01137-5b75-433c-95f4-b560ea168a09",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_approach_sad\/s_battle_spider_approach_sad.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -834,6 +872,25 @@
                 ],
                 "resourcePath": "objects\/o_last_encounter\/o_last_encounter.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "19a375a3-4a05-4e4b-abf2-ea3659c33979",
+            "Value": {
+                "id": "235fbd41-8622-4461-89db-57893dd40395",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_action_defend\/scr_action_defend.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1499,6 +1556,25 @@
                 ],
                 "resourcePath": "scripts\/scr_item_option_info\/scr_item_option_info.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "28a8861c-2e3e-459f-83f3-5de4202427bf",
+            "Value": {
+                "id": "f9679402-4e75-41e5-b1c8-a7b7633ee7a3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_idle_angry\/s_battle_spider_idle_angry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3801,6 +3877,25 @@
             }
         },
         {
+            "Key": "69f97f71-4323-4f24-86d3-fb214f7f12e7",
+            "Value": {
+                "id": "23f818fb-8882-4745-99a1-4bfe25728910",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_attack_angry\/s_battle_spider_attack_angry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6ad7ac41-7b5f-4ec0-826e-09a5b539c2a3",
             "Value": {
                 "id": "e4b9c28e-b2dc-4c25-923b-19eaf923ffbe",
@@ -4884,6 +4979,25 @@
             }
         },
         {
+            "Key": "8371aa8b-bedc-442f-b6f0-6bc09de6f195",
+            "Value": {
+                "id": "5f237517-a18e-47e8-addb-d4c4163025f3",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_return_angry\/s_battle_spider_return_angry.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "842f6086-140e-436d-8119-10e3571156d3",
             "Value": {
                 "id": "89cbbd9d-f3eb-4ec9-877a-165d6740fe8b",
@@ -5033,6 +5147,25 @@
                 ],
                 "resourcePath": "scripts\/scr_elizabeth_wait_state\/scr_elizabeth_wait_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "88ef667f-1ab2-41fb-873c-d6f21df118cf",
+            "Value": {
+                "id": "75df3271-b77a-410d-ac0b-4c65f6339166",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_hit_sad\/s_battle_spider_hit_sad.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5888,6 +6021,25 @@
                 ],
                 "resourcePath": "objects\/o_battle_unit_ui\/o_battle_unit_ui.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a206288c-5909-4220-92ad-d7245777a1cc",
+            "Value": {
+                "id": "6bc32439-7dbc-476c-a0c3-6edeb1e01f16",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_hit_angry\/s_battle_spider_hit_angry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -7050,6 +7202,25 @@
             }
         },
         {
+            "Key": "bf00a179-c326-43af-84ae-66ad6a6a81ac",
+            "Value": {
+                "id": "615941a8-f84b-4d59-802b-054757189046",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_return_sad\/s_battle_spider_return_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bf431b58-a068-4c16-a995-c3567ebc5c0a",
             "Value": {
                 "id": "555828e0-31ff-43d7-a1c1-94b78f606c4c",
@@ -7560,6 +7731,25 @@
                 ],
                 "resourcePath": "objects\/o_option_list_ui\/o_option_list_ui.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "caa3cb36-d174-4101-bbab-a81fd42929e0",
+            "Value": {
+                "id": "cd85343c-81d2-49a2-b081-9051411ebfcd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_approach_angry\/s_battle_spider_approach_angry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -9121,6 +9311,25 @@
             }
         },
         {
+            "Key": "ee69ad98-b867-4869-8c3d-e70a1f03b220",
+            "Value": {
+                "id": "938ce16e-94d0-4940-a1fe-c981fc6da176",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_idle_sad\/s_battle_spider_idle_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ee944a78-ab39-4f0c-b213-75d2835a1ccd",
             "Value": {
                 "id": "46f46296-90ae-423d-a500-046b3ccc4b9e",
@@ -9809,6 +10018,7 @@
         "46bbe8fb-b916-4cbc-acaf-3cee5f61ca28",
         "fd384f42-cbc9-4f8f-bd7a-1bec93dae60b",
         "b22641ab-361a-4a61-bc3a-1bdc96ba0071",
+        "19a375a3-4a05-4e4b-abf2-ea3659c33979",
         "9f267846-e5b3-487c-bd4a-48f501f47f72",
         "7e1d8ecb-1d0f-4da3-a64c-1092eb09fd21",
         "9bc54ada-f456-44a7-90f2-04e7edb0f2e0",

@@ -27,6 +27,7 @@ return json_decode(@'{
 	"cry": {
 		"name": "Cry",
 		"action": "scr_battle_cry_state",
-		"info": "Cry like a little baby.\nNot to be confused\nwith the Youtuber."
+		"info": "Cry like a little baby.\nNot to be confused\nwith the Youtuber.",
+		"message": "You must be sad\nto use this."
 	}
 }')

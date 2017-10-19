@@ -22,7 +22,7 @@ return json_decode(@'
 		"critical": 5,
 		"experience": 100,
 		"actions": ["attack", "defend"],
-		"stances": []
+		"stances": ["sad", "angry"]
 	},
 	
 	"gargoyle": {
