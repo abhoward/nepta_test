@@ -4922,6 +4922,25 @@
             }
         },
         {
+            "Key": "8188269e-79c6-4b5f-89cb-98bea06f8b80",
+            "Value": {
+                "id": "1db53117-016b-4170-900c-f63ba734c033",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_battle_rage_state\/scr_battle_rage_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "81bf6034-2773-435e-bbcc-39683f26d876",
             "Value": {
                 "id": "6f20031c-6676-4e78-9687-b4dc89dd2b7c",
@@ -10018,6 +10037,7 @@
         "46bbe8fb-b916-4cbc-acaf-3cee5f61ca28",
         "fd384f42-cbc9-4f8f-bd7a-1bec93dae60b",
         "b22641ab-361a-4a61-bc3a-1bdc96ba0071",
+        "8188269e-79c6-4b5f-89cb-98bea06f8b80",
         "19a375a3-4a05-4e4b-abf2-ea3659c33979",
         "9f267846-e5b3-487c-bd4a-48f501f47f72",
         "7e1d8ecb-1d0f-4da3-a64c-1092eb09fd21",

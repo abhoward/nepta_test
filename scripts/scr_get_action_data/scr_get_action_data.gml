@@ -29,5 +29,12 @@ return json_decode(@'{
 		"action": "scr_battle_cry_state",
 		"info": "Cry like a little baby.\nNot to be confused\nwith the Youtuber.",
 		"message": "You must be sad\nto use this."
+	},
+	
+	"rage": {
+		"name": "Rage",
+		"action": "scr_battle_rage_state",
+		"info": "Rage quit the game. Find\n out you cannot. Then\nrage some more.",
+		"message": "You must be angry\nto use this."
 	}
 }')

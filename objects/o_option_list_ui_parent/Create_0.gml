@@ -14,4 +14,3 @@ if (instance_exists(o_elizabeth)) {
 
 // Color for non highlighted text
 purple_gray = make_colour_rgb(145, 145, 175);
-

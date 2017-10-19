@@ -7,16 +7,21 @@ for (var i=index-1; i<=index+1; i++) {
         var option = options[| i];
         var color = purple_gray;
 		if (i == index) {
-			if (option[? "text"] == "Cry") {
+			color = c_white;
+			if (option[? "text"] == "Cry") {			
 				if (o_player_battle_unit.sad_stance) {
-					color = c_white;
 					stance_enabled = true;
 				} else if (!o_player_battle_unit.sad_stance) {
 					stance_enabled = false;
 				}
-			} else {
-				color = c_white;
-			}
+			} else if (option[? "text"] == "Rage") {
+				if (o_player_battle_unit.angry_stance) {
+					stance_enabled = true;
+				} else if (!o_player_battle_unit.angry_stance) {
+					stance_enabled = false;
+				} else {
+				}
+			} 
 		}
         draw_text_colour(x+16, y+6+10*(i+1-index), (option[? "text"]), color, color, color, color, 1);
     }
