@@ -3,11 +3,12 @@ scr_battle_set_sprite(ATTACK, 0);
 
 if (animation_hit_frame(0)) {
 	var foe = instance_place(x + 32 * image_xscale, y, o_battle_unit);
-	if (foe.stats_object.defend) {
-		scr_audio_play_sound_effect(a_impact_defend, false, 80);
-	} else {
-		scr_audio_play_sound_effect(a_impact, false, 80);
-	}
+	scr_audio_play_sound_effect(a_impact, false, 80);
+	//if (foe.stats_object.defend) {
+	//	scr_audio_play_sound_effect(a_impact_defend, false, 80);
+	//} else {
+	//	scr_audio_play_sound_effect(a_impact, false, 80);
+	//}
 }
 
 // Hit

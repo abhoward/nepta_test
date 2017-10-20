@@ -1,28 +1,28 @@
-///scr_deal_damage(attacker, defender, critical, modifier)
-var attacker = argument0.stats_object;
-var defender = argument1.stats_object;
+///scr_deal_damage(attacker, defender, critical, modifier, type)
+var attacker = argument0;
+var defender = argument1;
 var critical = argument2;
 var modifier = argument3;
 
-var attack = attacker.stats[? "attack"];
-var defense = defender.stats[? "defense"];
+var attack = attacker.stats_object.stats[? "attack"];
+var defense = defender.stats_object.stats[? "defense"];
 var defending_unit = argument1;
 
-if (instance_exists(defender) && instance_exists(attacker)) {
-	var damage = (attack + (attacker.level * 3) + (1 - defense * 0.05)) * 0.5;
+if (instance_exists(defender) && instance_exists(attacker.stats_object)) {
+	var damage = (attack + (attacker.stats_object.level * 3) + (1 - defense * 0.05)) * 0.5;
 	
-	var total_damage = (damage + (critical * damage * (attacker.stats[? "critical"] / 100))) / (defender.defend + 1);
+	var total_damage = (damage + (critical * damage * (attacker.stats_object.stats[? "critical"] / 100)));
 	
-	if (defender) {
+	if (attacker.angry_stance) {
 		modifier += 0.25;
 	}
 	
-	if (attacker.angry_stance) {
+	if (defender.sad_stance) {
 		modifier += 0.25
 	}
 	
 	total_damage *= modifier;
 	
 	// Deal damage
-	defender.stats[? "health"] -= total_damage;
+	defender.stats_object.stats[? "health"] -= total_damage;
 }

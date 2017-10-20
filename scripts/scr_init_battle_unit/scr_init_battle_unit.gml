@@ -20,7 +20,7 @@ if (!is_enemy) {
 if (is_enemy) {
 	stats = scr_get_stats(name);
 	draw_health = stats[? "health"];
-	defend = false;
+	//defend = false;
 	
 	// Create the actions and stances list
 	actions = scr_create_action_list();

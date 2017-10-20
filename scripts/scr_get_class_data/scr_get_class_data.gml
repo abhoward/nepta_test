@@ -10,7 +10,7 @@ return json_decode(@'
 		"critical": 25,
 		"experience": 0,
 		"actions": [],
-		"stances": ["sad", "angry"]
+		"stances": ["sad", "angry", "content"]
 	},
 	
 	"spider": {
@@ -21,8 +21,8 @@ return json_decode(@'
 		"speed": 10,
 		"critical": 5,
 		"experience": 100,
-		"actions": ["attack", "defend"],
-		"stances": ["sad", "angry"]
+		"actions": ["attack"],
+		"stances": ["sad", "angry", "content"]
 	},
 	
 	"gargoyle": {
@@ -33,7 +33,7 @@ return json_decode(@'
 		"speed": 4,
 		"critical": 10,
 		"experience": 100,
-		"actions": ["sonar spell", "defend"],
-		"stances": []
+		"actions": ["sonar spell"],
+		"stances": ["sad", "angry", "content"]
 	}
 }');

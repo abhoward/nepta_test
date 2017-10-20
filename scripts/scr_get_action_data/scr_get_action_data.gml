@@ -6,12 +6,6 @@ return json_decode(@'{
 		"info": "A basic melee\nattack."
 	}, 
 	
-	"defend": {
-		"name": "Defend",
-		"action": "scr_action_defend",
-		"info": "Reduces damage taken\nby half and sets\naction bar to half."
-	}, 
-	
 	"fire spell": {
 		"name": "Fire Spell",
 		"action": "scr_battle_fire_spell_state",

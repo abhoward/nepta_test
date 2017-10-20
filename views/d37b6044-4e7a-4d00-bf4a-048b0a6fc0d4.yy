@@ -14,7 +14,7 @@
         "dafd0d09-b548-4ce3-ae59-e64ad09479d4"
     ],
     "filterType": "GMScript",
-    "folderName": "Battle Normal State Scripts",
+    "folderName": "Battle Content State Scripts",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

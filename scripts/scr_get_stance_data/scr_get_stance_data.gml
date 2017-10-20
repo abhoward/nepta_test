@@ -10,5 +10,11 @@ return json_decode(@'{
 		"name": "Angry",
 		"stance": "scr_battle_idle_angry_state",
 		"info": "Decreases defense but\nincreases attack and\nallows the use\nof angry attacks."
+	},
+	
+	"content": {
+		"name": "Content",
+		"stance": scr_battle_idle_state",
+		"info": "A neutral stance,\naffecting neither attack\nnor defense."
 	}
 }')
