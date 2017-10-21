@@ -13,7 +13,8 @@
         "46bbe8fb-b916-4cbc-acaf-3cee5f61ca28",
         "fd384f42-cbc9-4f8f-bd7a-1bec93dae60b",
         "b22641ab-361a-4a61-bc3a-1bdc96ba0071",
-        "8188269e-79c6-4b5f-89cb-98bea06f8b80"
+        "8188269e-79c6-4b5f-89cb-98bea06f8b80",
+        "a046dcdb-794b-411a-8779-0b27ef5b4514"
     ],
     "filterType": "GMScript",
     "folderName": "Battle Unit State Scripts",

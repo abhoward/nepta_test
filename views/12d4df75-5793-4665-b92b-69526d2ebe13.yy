@@ -11,7 +11,8 @@
         "6769021f-d445-49fb-a5bb-e9c29d03c08c",
         "501a3a62-898a-4596-866a-5f35269fa7a7",
         "1dc44266-e559-472e-af8a-4dff6261a65f",
-        "fcb187dd-03f9-40b5-ba24-e7bb623ef76c"
+        "fcb187dd-03f9-40b5-ba24-e7bb623ef76c",
+        "7b0f85df-099e-40b9-a73d-66757cb45ce7"
     ],
     "filterType": "GMScript",
     "folderName": "Battle Sad State Scripts",

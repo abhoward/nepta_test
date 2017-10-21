@@ -4,9 +4,13 @@ max_action_meter = 100;
 item_index = 0;
 hitflash = false;
 
+// Stances
 sad_stance = false;
 angry_stance = false;
 content_stance = true;
+
+// Status Effects
+poisoned = false;
 
 // Set up the state
 state = scr_battle_idle_state;

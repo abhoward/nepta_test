@@ -3,7 +3,8 @@ return json_decode(@'{
 	"attack": {
 		"name": "Attack",
 		"action": "scr_battle_approach_state",
-		"info": "A basic melee\nattack."
+		"info": "A basic melee\nattack.",
+		"message": "Testing"
 	}, 
 	
 	"fire spell": {

@@ -11,7 +11,8 @@
         "e64c0340-3b6f-4736-84e1-0e2141442ee3",
         "b034aba4-4baa-4993-bb5d-95dae3ae4866",
         "49f1c9f2-9267-463e-b653-b6562f222f21",
-        "3386b95d-f087-4dab-a95d-cf81bd0d579a"
+        "3386b95d-f087-4dab-a95d-cf81bd0d579a",
+        "0c012ba5-fc6d-4a61-b347-92169a73f425"
     ],
     "filterType": "GMScript",
     "folderName": "Battle Angry State Scripts",

@@ -11,7 +11,8 @@
         "ac8a09dc-bb6a-472f-9e96-1e3457ef0c38",
         "bb4b59a8-72c0-4755-917e-8d96258f1aee",
         "68d5abd0-59c9-43a5-aaa3-2f1a893169f2",
-        "cd6e5cf5-c444-4bc2-9518-4037002edfd9"
+        "cd6e5cf5-c444-4bc2-9518-4037002edfd9",
+        "89061297-c696-45e1-bdfe-fc322cb95ce3"
     ],
     "filterType": "GMSprite",
     "folderName": "Battle UI Sprites",

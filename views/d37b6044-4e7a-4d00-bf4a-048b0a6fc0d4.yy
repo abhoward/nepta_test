@@ -11,7 +11,8 @@
         "bfe88cf2-abd3-4024-ab3a-fa55c3915030",
         "2851fbb0-bf7f-449a-b99f-fbc4d3a998a4",
         "0e547086-775e-43f0-9aff-05d5e4e21168",
-        "dafd0d09-b548-4ce3-ae59-e64ad09479d4"
+        "dafd0d09-b548-4ce3-ae59-e64ad09479d4",
+        "935af50b-466b-4fd7-a8da-55fe10c2494a"
     ],
     "filterType": "GMScript",
     "folderName": "Battle Content State Scripts",

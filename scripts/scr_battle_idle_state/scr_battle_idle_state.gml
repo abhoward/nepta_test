@@ -3,6 +3,10 @@ scr_battle_set_sprite(IDLE, 0);
 
 depth = 0;
 
+//if (o_player_battle_unit.content_stance == true) {
+//	o_battle.play = true;
+//}
+
 // Check to see if battle timeline is running
 if (o_battle.play && instance_exists(stats_object)) {
 	// Add to action meter

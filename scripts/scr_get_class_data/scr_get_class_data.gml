@@ -15,10 +15,10 @@ return json_decode(@'
 	
 	"spider": {
 		"name": "Spider",
-		"health": 3,
+		"health": 300,
 		"attack": 5,
 		"defense": 4,
-		"speed": 10,
+		"speed": 7,
 		"critical": 5,
 		"experience": 100,
 		"actions": ["attack"],
