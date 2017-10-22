@@ -1,9 +1,15 @@
 /// @description  Move the ui
 var targety;
 if (instance_exists(o_player_battle_unit)) {
-    targety = 160+((o_player_battle_unit.state != scr_battle_action_state)*64);
-} else {
-    targety = 224;
+	if (o_player_battle_unit.state == scr_battle_action_state) {
+		targety = 160;
+	} else if (o_player_battle_unit.state == scr_battle_angry_state) {
+		targety = 160;
+	} else if (o_player_battle_unit.state == scr_battle_sad_state) {
+		targety = 160;
+	} else {
+		targety = 224;
+	}		
 }
 
 y = lerp(y, targety, .1);

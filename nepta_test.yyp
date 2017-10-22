@@ -6746,6 +6746,25 @@
             }
         },
         {
+            "Key": "af866b86-9732-4dab-a2dd-cf4a0148795d",
+            "Value": {
+                "id": "96009973-c00e-436c-ad99-ed3b38ae8d98",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_enemy_poison_line\/o_enemy_poison_line.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b034aba4-4baa-4993-bb5d-95dae3ae4866",
             "Value": {
                 "id": "eedd3d55-f31d-47b8-8a1b-6b39e1672982",
@@ -9175,6 +9194,25 @@
                 ],
                 "resourcePath": "sounds\/a_town_music\/a_town_music.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e758bbac-7be5-4e76-ba72-ee760c24261b",
+            "Value": {
+                "id": "a03706fe-11ec-435d-8b01-01f9ec12556f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_player_poison_line\/o_player_poison_line.yy",
+                "resourceType": "GMObject"
             }
         },
         {
