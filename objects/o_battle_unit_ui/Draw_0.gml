@@ -13,12 +13,12 @@ scr_draw_bar(x+3, y+4, s_health_bar, unit.stats_object.draw_health, unit.stats_o
 
 if (o_player_battle_unit.poisoned) {
 	instance_destroy(o_player_poison_line);
-	instance_create_depth(x + 3 + global.player_poison_pos, y + 8, -100, o_player_poison_line);
+	instance_create_depth(o_player_battle_unit.xstart - (sprite_width/2) + 3 + global.player_poison_pos, y + 8, -100, o_player_poison_line);
 }
 
 if (o_enemy_battle_unit.poisoned) {
 	instance_destroy(o_enemy_poison_line);
-	instance_create_depth(x + 3 + global.enemy_poison_pos, y + 8, -100, o_enemy_poison_line);
+	instance_create_depth(o_enemy_battle_unit.xstart - (sprite_width/2) + 3 + global.enemy_poison_pos, y + 8, -100, o_enemy_poison_line);
 }
 
 // Draw the text

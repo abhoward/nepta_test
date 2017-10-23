@@ -21,19 +21,19 @@ return json_decode(@'
 		"speed": 7,
 		"critical": 5,
 		"experience": 100,
-		"actions": ["attack"],
+		"actions": ["cry"],
 		"stances": ["sad", "angry", "content"]
 	},
 	
 	"gargoyle": {
 		"name": "Gargoyle",
-		"health": 10,
-		"attack": 500,
+		"health": 300,
+		"attack": 1,
 		"defense": 8,
 		"speed": 4,
 		"critical": 10,
 		"experience": 100,
-		"actions": ["sonar spell"],
+		"actions": ["cry"],
 		"stances": ["sad", "angry", "content"]
 	}
 }');

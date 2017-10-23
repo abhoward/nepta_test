@@ -5,12 +5,22 @@ item_index = 0;
 hitflash = false;
 
 // Stances
-sad_stance = false;
+sad_stance = true;
 angry_stance = false;
-content_stance = true;
+content_stance = false;
 
 // Status Effects
 poisoned = false;
+//poison_pos = 0;
+poison_hit = false;
+
+//if (object_index == o_player_battle_unit) {
+//	poison_hit_player = false;	
+//}
+
+//if (object_index == o_enemy_battle_unit) {
+//	poison_hit_enemy = false;
+//}
 
 // Set up the state
 state = scr_battle_idle_state;
