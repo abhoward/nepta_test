@@ -1,4 +1,4 @@
-///scr_draw_bar(x, y, sprite, value, max_value)
+	///scr_draw_bar(x, y, sprite, value, max_value)
 var xx = argument0;
 var yy = argument1;
 var sprite = argument2;

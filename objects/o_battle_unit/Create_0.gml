@@ -11,8 +11,9 @@ content_stance = false;
 
 // Status Effects
 poisoned = false;
-//poison_pos = 0;
+poison_pos = 0;
 poison_hit = false;
+poison_created = false;
 
 //if (object_index == o_player_battle_unit) {
 //	poison_hit_player = false;	
@@ -26,6 +27,6 @@ poison_hit = false;
 state = scr_battle_idle_state;
 
 // Create the battle unit ui
-var unit_ui = instance_create_depth(xstart, 16, 0, o_battle_unit_ui);
+unit_ui = instance_create_depth(xstart, 16, 0, o_battle_unit_ui);
 unit_ui.unit = id;
 unit_ui.x -= unit_ui.sprite_width/2;
