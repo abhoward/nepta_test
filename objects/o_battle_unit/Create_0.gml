@@ -15,13 +15,7 @@ poison_pos = 0;
 poison_hit = false;
 poison_created = false;
 
-//if (object_index == o_player_battle_unit) {
-//	poison_hit_player = false;	
-//}
-
-//if (object_index == o_enemy_battle_unit) {
-//	poison_hit_enemy = false;
-//}
+raged = false;
 
 // Set up the state
 state = scr_battle_idle_state;

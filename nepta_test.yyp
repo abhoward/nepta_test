@@ -8855,6 +8855,25 @@
             }
         },
         {
+            "Key": "dc13053a-3350-4b44-b829-0dc153cf2eb4",
+            "Value": {
+                "id": "492290e6-ca17-4504-b7f4-842fbe2f67d9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_antidote_effect\/scr_antidote_effect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "dcac4470-ba3f-4bbf-8c63-ff37bff06777",
             "Value": {
                 "id": "9e136e96-dc77-4ddf-a742-955393743141",
@@ -10365,6 +10384,7 @@
         "78e66532-5039-4656-a128-dd673c0a25fd",
         "b69d03d3-639e-40aa-acc3-5f6b2c5df1e0",
         "c3e7264a-840b-4143-a109-6c90b6d46ed4",
+        "dc13053a-3350-4b44-b829-0dc153cf2eb4",
         "0df13738-3e81-4fa6-af48-0ca6308d4531",
         "3d74cb8c-7fc9-468a-9ce9-d1308dc6628b",
         "3294de4f-9a14-457e-b133-db0fa820638b",

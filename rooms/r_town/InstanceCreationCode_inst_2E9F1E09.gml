@@ -1,2 +1,2 @@
-item = "attack_boost";
+item = "antidote";
 amount = 3;

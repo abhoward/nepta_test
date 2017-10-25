@@ -14,7 +14,11 @@ if (instance_exists(defender) && instance_exists(attacker.stats_object)) {
 	var total_damage = (damage + (critical * damage * (attacker.stats_object.stats[? "critical"] / 100)));
 	
 	if (attacker.angry_stance) {
-		modifier += 0.25;
+		if (attacker.raged) {
+			modifier -= 0.5;
+		} else {
+			modifier += 0.25;
+		}
 	}
 	
 	if (defender.sad_stance) {
@@ -25,4 +29,8 @@ if (instance_exists(defender) && instance_exists(attacker.stats_object)) {
 	
 	// Deal damage
 	defender.stats_object.stats[? "health"] -= total_damage;
+	
+	if (attacker.raged) {
+		defender.action_meter -= 20 * (sprite_get_number(s_action_meter) / defender.max_action_meter);
+	}
 }
