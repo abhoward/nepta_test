@@ -22,10 +22,10 @@ if (o_input.menu) {
 // Check for random encounter
 if (!instance_exists(o_last_encounter)) {
 	instance_create_depth(x, y, 1, o_last_encounter);
-	o_last_encounter.distance = random_range(32, room_width / 2);	
+	o_last_encounter.distance = random_range(50, 200);	
 } else {
 	if(point_distance(x, y, o_last_encounter.x, o_last_encounter.y) >= o_last_encounter.distance) {
-		o_last_encounter.distance = random_range(32, room_width / 2);
+		o_last_encounter.distance = random_range(50, 200);
 		o_last_encounter.x = x;
 		o_last_encounter.y = y;
 		scr_encounter();

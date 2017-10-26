@@ -13,4 +13,5 @@ x = approach(x, targetx, spd);
 if (x == targetx) {
 	state = scr_battle_wait_sad_state;
 	o_battle.play = true;
+	show_debug_message("Play called from scr_battle_return_sad_state");
 }

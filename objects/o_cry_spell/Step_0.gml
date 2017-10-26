@@ -8,7 +8,7 @@ if (animation_hit_frame(4)) {
 	
 	target.poisoned = true;
 	target.poison_created = false;
-	target.poison_pos = irandom(sprite_get_width(s_action_meter));
+	target.poison_pos = clamp(irandom(sprite_get_width(s_action_meter)), 4, 58);
 	
 	if (target.sad_stance) {
 		target.state = scr_battle_hit_sad_state;

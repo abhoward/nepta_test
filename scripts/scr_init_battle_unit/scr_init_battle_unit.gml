@@ -73,5 +73,13 @@ animation_speed[RANGED_SAD] = ranged_speed;
 animation_speed[RANGED_ANGRY] = ranged_speed;
 
 // Set the sprite
-image_speed = animation_speed[IDLE];
-sprite_index = sprite[IDLE];
+if (o_battle_unit.sad_stance) {
+	image_speed = animation_speed[IDLE_SAD];
+	sprite_index = sprite[IDLE_SAD];
+} else if (o_battle_unit.angry_stance) {
+	image_speed = animation_speed[IDLE_ANGRY];
+	sprite_index = sprite[IDLE_ANGRY];
+} else if (o_battle_unit.content_stance) {
+	image_speed = animation_speed[IDLE];
+	sprite_index = sprite[IDLE];
+}

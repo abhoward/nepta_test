@@ -4,7 +4,7 @@ scr_battle_set_sprite(IDLE, 0);
 depth = 0;
 
 //if (o_player_battle_unit.content_stance == true) {
-//	o_battle.play = true;
+//	o_battle.;
 //}
 
 // Check to see if battle timeline is running

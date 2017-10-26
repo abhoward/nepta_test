@@ -14,4 +14,3 @@ if (object_index == o_enemy_battle_unit) {
 // Stop the play and view stats
 o_battle.play = false;
 o_battle_view.state = scr_battle_view_idle_state;
-

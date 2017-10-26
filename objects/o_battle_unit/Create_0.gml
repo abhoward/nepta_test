@@ -18,7 +18,13 @@ poison_created = false;
 raged = false;
 
 // Set up the state
-state = scr_battle_idle_state;
+if (sad_stance) {
+	state = scr_battle_idle_sad_state;
+} else if (angry_stance) {
+	state = scr_battle_idle_angry_state;
+} else if (content_stance) {
+	state = scr_battle_idle_state;
+}
 
 // Create the battle unit ui
 unit_ui = instance_create_depth(xstart, 16, 0, o_battle_unit_ui);
