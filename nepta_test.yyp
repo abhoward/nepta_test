@@ -2775,6 +2775,25 @@
             }
         },
         {
+            "Key": "474d7761-18cf-4e70-8cf9-0046dfad2465",
+            "Value": {
+                "id": "884464ff-09c6-40f1-8718-8f41cc0a2787",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_stance_action_use_ui\/o_stance_action_use_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "476c7820-84f8-48ad-acca-90ecbae72baf",
             "Value": {
                 "id": "3d481de2-367a-4949-9b3e-188cc2d0682e",
@@ -3475,6 +3494,25 @@
                 ],
                 "resourcePath": "sprites\/s_rock\/s_rock.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d4999b3-fd33-40af-9db6-d8da67adca83",
+            "Value": {
+                "id": "d4bb4da7-2935-4814-a172-0d9e38b94105",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_stance_action_list_ui\/o_stance_action_list_ui.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5945,6 +5983,25 @@
                 ],
                 "resourcePath": "views\/993b2e49-ac86-4f1c-afd3-eb347b7f7035.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "996cec57-1e4c-4893-a45e-fe83e5b7fb14",
+            "Value": {
+                "id": "0021a857-0bad-408b-8639-2956d1000e73",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_stance_action_option_use_ui\/scr_stance_action_option_use_ui.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -10404,6 +10461,7 @@
         "cc95f8f0-ffed-4122-be3e-326ac75f98bb",
         "b39a42ea-d0fc-4892-b328-e531796eede7",
         "fd0a936d-e8fb-4aa2-9372-8d3bdbb24172",
+        "996cec57-1e4c-4893-a45e-fe83e5b7fb14",
         "f32988b3-8510-4300-8144-ded8cfe3f768",
         "65ba0793-e3ee-437d-a2c5-2bc149ec8be6",
         "9630b391-d259-4838-a8a6-498e370ca4ac",

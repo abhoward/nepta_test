@@ -2,7 +2,7 @@
 if (!enabled) exit;
 var last_index = index;
 index += o_input.down_pressed - o_input.up_pressed;
-index = clamp(index, 0, ds_list_size(options)-1);
+index = clamp(index, 0, ds_list_size(options) - 1);
 if (index != last_index) {
    scr_audio_play_sound_effect(a_menu_move, false, 50);
 }

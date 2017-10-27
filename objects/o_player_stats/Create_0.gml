@@ -12,15 +12,26 @@ items = ds_list_create();
 item_number = ds_list_create();
 scr_pickup_item(o_data.items[? "potion"], 4);
 
-// Action list
-actions = ds_list_create();
-var action_index = 0;
-actions[| action_index++] = o_data.actions[? "attack"];
+// Action lists
+content_actions = ds_list_create();
+sad_actions = ds_list_create();
+angry_actions = ds_list_create();
+
+var content_action_index = 0;
+var sad_action_index = 0;
+var angry_action_index = 0;
+
+content_actions[| content_action_index++] = o_data.actions[? "attack"];
+content_actions[| content_action_index++] = o_data.actions[? "fire spell"];
+content_actions[| content_action_index++] = o_data.actions[? "sonar spell"];
+
+sad_actions[| sad_action_index++] = o_data.actions[? "attack"];
+sad_actions[| sad_action_index++] = o_data.actions[? "cry"];
+
+sad_actions[| angry_action_index++] = o_data.actions[? "attack"];
+angry_actions[| angry_action_index++] = o_data.actions[? "rage"];
+
 //actions[| action_index++] = o_data.actions[? "defend"];
-actions[| action_index++] = o_data.actions[? "fire spell"];
-actions[| action_index++] = o_data.actions[? "sonar spell"];
-actions[| action_index++] = o_data.actions[? "cry"];
-actions[| action_index++] = o_data.actions[? "rage"];
 
 // Stance list	
 stances = ds_list_create();
@@ -28,4 +39,3 @@ var stance_index = 0;
 stances[| stance_index++] = o_data.stances[? "sad"];
 stances[| stance_index++] = o_data.stances[? "angry"];
 stances[| stance_index++] = o_data.stances[? "content"];
-//stances[| stance_index++] = o_data.actions[? "fire spell"];

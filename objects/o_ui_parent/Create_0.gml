@@ -2,4 +2,4 @@
 enabled = true;
 child = noone;
 parent = noone;
-depth = depth-500;
+depth = depth - 500;

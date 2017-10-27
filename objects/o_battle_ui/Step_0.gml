@@ -33,7 +33,7 @@ if (point_distance(x, y, x, 160) <= 16 && enabled) {
         switch(index) {
             case ACTION:
                 enabled = false;
-                var action_list = instance_create_depth(bbox_left+13, targety-sprite_height/2, 0, o_action_list_ui);
+                var action_list = instance_create_depth(bbox_left+13, targety-sprite_height/2, 0, o_stance_action_list_ui);
                 action_list.y -= action_list.height+4;
                 action_list.parent = id;
                 scr_audio_play_sound_effect(a_menu_move, false, 50);
