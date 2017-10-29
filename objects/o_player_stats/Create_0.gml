@@ -21,14 +21,14 @@ var content_action_index = 0;
 var sad_action_index = 0;
 var angry_action_index = 0;
 
-content_actions[| content_action_index++] = o_data.actions[? "attack"];
+content_actions[| content_action_index++] = o_data.actions[? "content attack"];
 content_actions[| content_action_index++] = o_data.actions[? "fire spell"];
 content_actions[| content_action_index++] = o_data.actions[? "sonar spell"];
 
-sad_actions[| sad_action_index++] = o_data.actions[? "attack"];
+sad_actions[| sad_action_index++] = o_data.actions[? "sad attack"];
 sad_actions[| sad_action_index++] = o_data.actions[? "cry"];
 
-sad_actions[| angry_action_index++] = o_data.actions[? "attack"];
+angry_actions[| angry_action_index++] = o_data.actions[? "angry attack"];
 angry_actions[| angry_action_index++] = o_data.actions[? "rage"];
 
 //actions[| action_index++] = o_data.actions[? "defend"];

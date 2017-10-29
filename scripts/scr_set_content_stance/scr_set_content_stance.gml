@@ -1,6 +1,6 @@
 ///scr_set_content_stance()
 
-with (o_player_battle_unit) {
+with (o_battle_unit) {
 	sad_stance = false;
 	angry_stance = false;
 	content_stance = true;

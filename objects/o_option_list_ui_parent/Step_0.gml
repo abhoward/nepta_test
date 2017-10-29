@@ -9,7 +9,12 @@ if (index != last_index) {
 
 // Exit the option list
 if (o_input.back || o_input.menu) {
-    instance_destroy();
+	if (action_list_enabled) {
+		instance_destroy(o_action_list_ui);
+		action_list_enabled = false;
+	} else {
+		instance_destroy();
+	}
 }
 
 // Run the option

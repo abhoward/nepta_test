@@ -1,11 +1,25 @@
 ///scr_get_content_action_data()
 return json_decode(@'{
-	"attack": {
-		"name": "Attack",
+	"sad attack": {
+		"name": "Sad Attack",
+		"action": "scr_battle_approach_sad_state",
+		"info": "A basic melee\nattack.",
+		"message": "Only usable\nwhen sad."
+	}, 
+	
+	"angry attack": {
+		"name": "Angry Attack",
+		"action": "scr_battle_approach_angry_state",
+		"info": "A basic melee\nattack.",
+		"message": "Only usable\nwhen angry."
+	},
+	
+	"content attack": {
+		"name": "Content Attack",
 		"action": "scr_battle_approach_state",
 		"info": "A basic melee\nattack.",
-		"message": ""
-	}, 
+		"message": "Only usable\nwhen content."
+	},
 	
 	"fire spell": {
 		"name": "Fire Spell",

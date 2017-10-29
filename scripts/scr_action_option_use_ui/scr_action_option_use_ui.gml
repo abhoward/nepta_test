@@ -2,3 +2,4 @@
 child = instance_create_depth(x + width + 4, y, 0, o_action_use_ui);
 child.parent = id;
 enabled = false;
+action_list_enabled = false;

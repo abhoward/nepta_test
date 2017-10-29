@@ -14,5 +14,4 @@ if (stats[? "experience"] >= stats[? "maxexperience"]) {
     stats[? "maxexperience"] = level*10;
     stats[? "health"] = scr_calculate_health(level, class[? "health"]);
     stats[? "maxhealth"] = stats[? "health"];
-}
-
+} 
