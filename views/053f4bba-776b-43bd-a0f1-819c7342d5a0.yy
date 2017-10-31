@@ -16,7 +16,9 @@
         "5d4999b3-fd33-40af-9db6-d8da67adca83",
         "474d7761-18cf-4e70-8cf9-0046dfad2465",
         "e758bbac-7be5-4e76-ba72-ee760c24261b",
-        "af866b86-9732-4dab-a2dd-cf4a0148795d"
+        "af866b86-9732-4dab-a2dd-cf4a0148795d",
+        "1a146a3f-2bfd-4983-bd61-6b0372e4bfc7",
+        "02dec893-29bb-4697-a563-f0674a11623c"
     ],
     "filterType": "GMObject",
     "folderName": "Battle UI",

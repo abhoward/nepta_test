@@ -31,7 +31,7 @@ if (instance_exists(defender) && instance_exists(attacker.stats_object)) {
 	defender.stats_object.stats[? "health"] -= total_damage;
 	
 	if (attacker.raged) {
-		defender.action_meter -= 20 * (sprite_get_number(s_action_meter) / defender.max_action_meter);
+		defender.action_meter -= 40 * (sprite_get_number(s_action_meter) / defender.max_action_meter);
 		attacker.raged = false;
 	}
 }

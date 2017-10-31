@@ -9,13 +9,13 @@ if (object_index == o_enemy_battle_unit) {
 		//var stance_index = 0;
 		
 		if (o_player_battle_unit.sad_stance) {
-			if (chance(0.75)) {
-				var stance_index = 2;
+			if (chance(0.9)) {
+				var stance_index = 1;
 				var stance = stances[| stance_index];
 				state = asset_get_index(stance[? "stance"]);
 				scr_create_message_at_view_center("Enemy switched stances to " + stance[? "name"]);
 			} else {
-				var action_index = 1;
+				var action_index = 0;
 				var action = actions[| action_index];
 				state = asset_get_index(action[? "action"]);
 			}

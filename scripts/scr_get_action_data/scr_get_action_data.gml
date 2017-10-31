@@ -39,7 +39,8 @@ return json_decode(@'{
 		"name": "Rage",
 		"action": "scr_battle_rage_state",
 		"info": "Rage quit the game. Find\n out you cannot. Then\nrage some more.",
-		"message": "You must be angry\nto use this."
+		"message": "You must be angry\nto use this.",
+		"cooldown": "Turns left to use this attack: "
 	},
 	
 	"cry": {

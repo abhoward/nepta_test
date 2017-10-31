@@ -10,12 +10,23 @@ angry_stance = false;
 content_stance = false;
 
 // Status Effects
+
+// Poison
 poisoned = false;
 poison_pos = 0;
 poison_hit = false;
 poison_created = false;
+poison_timer = 0;
+
+// Confuse
+confused = false;
+confuse_pos = 0;
+confuse_hit = false;
+confuse_created = false;
+confuse_timer = 0;
 
 raged = false;
+rage_timer = 0;
 
 // Set up the state
 if (sad_stance) {

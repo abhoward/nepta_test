@@ -4,7 +4,8 @@
     "mvc": "1.1",
     "name": "a046dcdb-794b-411a-8779-0b27ef5b4514",
     "children": [
-        "41a7f15f-c204-40bc-904c-b0c2333d7f8f"
+        "41a7f15f-c204-40bc-904c-b0c2333d7f8f",
+        "52363811-c315-4515-aafd-ea3776495926"
     ],
     "filterType": "GMScript",
     "folderName": "Battle Effect Scrips",

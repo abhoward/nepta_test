@@ -4,12 +4,12 @@ event_inherited();
 if (animation_hit_frame(4)) {
     speed = 0;
     scr_set_hitflash(target, room-speed/4);
-    scr_deal_damage(creator, target, chance(creator.stats_object.stats[? "critical"]/100), 1);
+    //scr_deal_damage(creator, target, chance(creator.stats_object.stats[? "critical"]/100), 1);
 	
-	target.poisoned = true;
-	target.poison_created = false;
-	target.poison_pos = clamp(irandom(sprite_get_width(s_action_meter)), 4, 58);
-	target.poison_timer = 4;
+	target.confused = true;
+	target.confuse_created = false;
+	target.confuse_pos = clamp(irandom(sprite_get_width(s_action_meter)), 4, 58);
+	target.confuse_timer = 5;
 	
 	if (target.sad_stance) {
 		target.state = scr_battle_hit_sad_state;

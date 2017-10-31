@@ -11,6 +11,7 @@ if (stats_object.stats[? "health"] <= (stats_object.stats[? "maxhealth"] / 10)) 
 stats_object.stats[? "health"] -= damage;
 
 poison_hit = true;
+poison_timer--;
 
 if (o_battle.play) {
 	o_battle.play = false;

@@ -13,6 +13,7 @@ if (o_battle.play && instance_exists(stats_object)) {
 		o_battle.play = false;
 		action_meter = 0;
 		poison_hit = false;
+		rage_timer--;
 		//stats_object.defend = false;
 	}
 }

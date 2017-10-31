@@ -11,7 +11,11 @@ with (o_player_battle_unit) {
 	} else if (o_stance_action_list_ui.option[? "text"] == "Angry Actions") {
 		if (angry_stance) {
 			var action = stats_object.angry_actions[| other.parent.index];
-			state = asset_get_index(action[? "action"]);
+			if (action[? "name"] == "Rage" && rage_timer > 0) {
+				scr_create_message_at_view_center(action[? "cooldown"] + string(rage_timer));
+			} else { 
+				state = asset_get_index(action[? "action"]);
+			}
 		} else if (!angry_stance) {
 			var action = stats_object.angry_actions[| other.parent.index];
 			scr_create_message_at_view_center(action[? "message"]);
