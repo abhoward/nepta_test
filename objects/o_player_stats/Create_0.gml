@@ -27,6 +27,7 @@ content_actions[| content_action_index++] = o_data.actions[? "sonar spell"];
 
 sad_actions[| sad_action_index++] = o_data.actions[? "sad attack"];
 sad_actions[| sad_action_index++] = o_data.actions[? "cry"];
+sad_actions[| sad_action_index++] = o_data.actions[? "confuse"];
 
 angry_actions[| angry_action_index++] = o_data.actions[? "angry attack"];
 angry_actions[| angry_action_index++] = o_data.actions[? "rage"];

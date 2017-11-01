@@ -6,7 +6,6 @@ var modifier = argument3;
 
 var attack = attacker.stats_object.stats[? "attack"];
 var defense = defender.stats_object.stats[? "defense"];
-var defending_unit = argument1;
 
 if (instance_exists(defender) && instance_exists(attacker.stats_object)) {
 	var damage = (attack + (attacker.stats_object.level * 3) + (1 - defense * 0.05)) * 0.5;

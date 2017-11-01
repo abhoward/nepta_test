@@ -9,9 +9,9 @@ var battle_unit = argument0;
 //}
 
 scr_deal_damage(battle_unit, battle_unit, 0, 1);
+scr_set_hitflash(battle_unit, room_speed / 2);
 
 confuse_hit = true;
-confuse_timer--;
 
 if (o_battle.play) {
 	o_battle.play = false;

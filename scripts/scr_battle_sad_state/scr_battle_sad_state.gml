@@ -9,7 +9,7 @@ if (object_index == o_enemy_battle_unit) {
 		//var stance_index = 0;
 		
 		if (o_player_battle_unit.sad_stance) {
-			if (chance(0.9)) {
+			if (chance(0.99)) {
 				var stance_index = 1;
 				var stance = stances[| stance_index];
 				state = asset_get_index(stance[? "stance"]);
@@ -17,8 +17,15 @@ if (object_index == o_enemy_battle_unit) {
 			} else {
 				var action_index = 0;
 				var action = actions[| action_index];
-				state = asset_get_index(action[? "action"]);
-			}
+				if (action[? "name"] == "Confuse" && o_enemy_battle_unit.confuse_cooldown > 0) {
+					scr_create_message_at_view_center(action[? "cooldown"] + string(confuse_cooldown));
+				} else if (action[? "name"] == "Cry" && o_enemy_battle_unit.poison_cooldown > 0) {
+					scr_create_message_at_view_center(action[? "cooldown"] + string(poison_cooldown));
+				} else { 
+					state = asset_get_index(action[? "action"]);
+				}
+					state = asset_get_index(action[? "action"]);
+				}
 		} else {
 			var action_index = 0;
 			var action = actions[| action_index];

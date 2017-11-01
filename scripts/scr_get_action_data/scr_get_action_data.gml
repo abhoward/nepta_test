@@ -4,35 +4,35 @@ return json_decode(@'{
 		"name": "Sad Attack",
 		"action": "scr_battle_approach_sad_state",
 		"info": "A basic melee\nattack.",
-		"message": "Only usable\nwhen sad."
+		"message": "You must be sad\nto use this."
 	}, 
 	
 	"angry attack": {
 		"name": "Angry Attack",
 		"action": "scr_battle_approach_angry_state",
 		"info": "A basic melee\nattack.",
-		"message": "Only usable\nwhen angry."
+		"message": "You must be angry\nto use this."
 	},
 	
 	"content attack": {
 		"name": "Content Attack",
 		"action": "scr_battle_approach_state",
 		"info": "A basic melee\nattack.",
-		"message": "Only usable\nwhen content."
+		"message": "You must be content\nto use this."
 	},
 	
 	"fire spell": {
 		"name": "Fire Spell",
 		"action": "scr_battle_fire_spell_state",
 		"info": "Has a lower damage\nrate but a higher\ncritical chance.",
-		"message": "Only usable\nwhen content."
+		"message": "You must be content\nto use this."
 	},
 	
 	"sonar spell": {
 		"name": "Sonar Spell",
 		"action": "scr_battle_sonar_spell_state",
 		"info": "A basic ranged\nattack.",
-		"message": "Only usable\nwhen content."
+		"message": "You must be content\nto use this."
 	},
 	
 	"rage": {
@@ -47,6 +47,15 @@ return json_decode(@'{
 		"name": "Cry",
 		"action": "scr_battle_cry_state",
 		"info": "Cry like a little baby.\nNot to be confused\nwith the Youtuber.",
-		"message": "You must be sad\nto use this."
+		"message": "You must be sad\nto use this.",
+		"cooldown": "Turns left to use this attack: "
+	},
+	
+	"confuse": {
+		"name": "Confuse",
+		"action": "scr_battle_confuse_state",
+		"info": "Spout a bunch of\nrandom nonsense to confuse\nthe enemy.",
+		"message": "You must be sad\n to use this.",
+		"cooldown": "Turns left to use this attack: "
 	}
 }')
