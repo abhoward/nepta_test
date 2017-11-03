@@ -35,5 +35,23 @@ return json_decode(@'{
 		"xoffset": -36,
 		"yoffset": -18,
 		"hit frame": 11
+	},
+	
+	"s_battle_spider_ranged": {
+		"xoffset": -36,
+		"yoffset": -18,
+		"hit frame": 11
+	},
+	
+	"s_battle_spider_ranged_sad": {
+		"xoffset": -36,
+		"yoffset": -18,
+		"hit frame": 11
+	},
+	
+	"s_battle_spider_ranged_angry": {
+		"xoffset": -36,
+		"yoffset": -18,
+		"hit frame": 11
 	}
 }')

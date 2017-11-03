@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "022b7407-500d-4ec0-a3dd-36d529a19f17",
+            "Value": {
+                "id": "44c47709-a7cc-4a20-a9c7-409ba840fbc7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_spider_sad_ai\/scr_spider_sad_ai.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "02dec893-29bb-4697-a563-f0674a11623c",
             "Value": {
                 "id": "dde14ead-22ae-4050-84b5-bee9ff63a170",
@@ -3174,6 +3193,25 @@
             }
         },
         {
+            "Key": "4f6f41f6-0b8e-4f04-97fe-48cab6494e49",
+            "Value": {
+                "id": "9efd87da-a00b-4f7e-bf15-9ec6e21834ff",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/4f6f41f6-0b8e-4f04-97fe-48cab6494e49.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "501a3a62-898a-4596-866a-5f35269fa7a7",
             "Value": {
                 "id": "c298c7f0-5aa9-4ccc-927a-aacbd683a1c4",
@@ -4064,6 +4102,25 @@
                 ],
                 "resourcePath": "sprites\/s_battle_spider_attack_angry\/s_battle_spider_attack_angry.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6a322230-1a35-4370-b68d-06532bcb1350",
+            "Value": {
+                "id": "7ea7d882-1003-4234-bb87-7413cb1265a5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/6a322230-1a35-4370-b68d-06532bcb1350.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -5169,6 +5226,25 @@
             }
         },
         {
+            "Key": "808e680f-0c06-4b11-9ce5-4fbe8fd18f2b",
+            "Value": {
+                "id": "44c5bfc2-3440-4d0e-878a-9972810da010",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_spider_content_ai\/scr_spider_content_ai.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "813ebc09-3da1-451d-943f-40132a013e43",
             "Value": {
                 "id": "43043cab-01e4-486f-9565-1d3fea2882fb",
@@ -5678,6 +5754,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/s_elizabeth_down\/s_elizabeth_down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8e6b2f67-846e-4e4b-bfbb-5d8d6b1ec3f8",
+            "Value": {
+                "id": "2f42adfd-1d29-431a-9090-e5c72ce5e6eb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_ranged_angry\/s_battle_spider_ranged_angry.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7202,6 +7297,25 @@
             }
         },
         {
+            "Key": "b31075b0-3354-412d-bec6-43450ba2af2e",
+            "Value": {
+                "id": "c3446e12-6b54-4969-9ff5-0191d3d8674b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_ranged_sad\/s_battle_spider_ranged_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b36ee96c-aac2-4b91-82be-70cd435a677f",
             "Value": {
                 "id": "3c3280bd-2672-476c-a153-867937c7c36e",
@@ -8057,6 +8171,25 @@
             }
         },
         {
+            "Key": "c6fa3070-7ce3-4d05-9506-838bc100ac96",
+            "Value": {
+                "id": "916fe309-dc37-4f2f-92b4-ad388bf93560",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_spider_ranged\/s_battle_spider_ranged.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c874b8f2-96cd-4541-9b6a-6af7333bd1df",
             "Value": {
                 "id": "7ca4ed5b-e9f1-4b7f-b8d9-412dc79bd8d4",
@@ -8605,6 +8738,25 @@
                 ],
                 "resourcePath": "objects\/o_cry_spell\/o_cry_spell.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d32e1fe1-53be-404c-87ee-23d498497935",
+            "Value": {
+                "id": "0b45d5d9-8453-48b4-a283-2e959884b322",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_spider_angry_ai\/scr_spider_angry_ai.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -10545,6 +10697,9 @@
         "9bc54ada-f456-44a7-90f2-04e7edb0f2e0",
         "3749c1de-062b-439c-bb81-5eab42807ef6",
         "b7d70fb1-a631-45c6-b0f1-b09372cf7bba",
+        "022b7407-500d-4ec0-a3dd-36d529a19f17",
+        "d32e1fe1-53be-404c-87ee-23d498497935",
+        "808e680f-0c06-4b11-9ce5-4fbe8fd18f2b",
         "ffd83ac9-bab9-42e7-ad4b-4fb2bb97dfab",
         "84c219b3-956a-4651-a6ee-42c0360f1b1e",
         "59c4adab-6078-4de5-968a-c68995f59f1a",

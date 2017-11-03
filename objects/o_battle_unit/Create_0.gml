@@ -18,6 +18,7 @@ poison_hit = false;
 poison_created = false;
 poison_timer = 0;
 poison_cooldown = 0;
+poison_passed = false;
 
 // Confuse
 confused = false;
@@ -26,6 +27,7 @@ confuse_hit = false;
 confuse_created = false;
 confuse_timer = 0;
 confuse_cooldown = 0;
+confuse_passed = false;
 
 // Rage
 raged = false;

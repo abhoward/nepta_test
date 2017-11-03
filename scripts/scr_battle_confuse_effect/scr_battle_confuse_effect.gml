@@ -7,11 +7,13 @@ var battle_unit = argument0;
 //	var damage = stats_object.stats[? "maxhealth"] / 10;
 //	scr_set_hitflash(battle_unit, room_speed / 2);
 //}
+if (chance(0.25)) {
+	scr_deal_damage(battle_unit, battle_unit, 0, 1);
+	scr_set_hitflash(battle_unit, room_speed / 2);
 
-scr_deal_damage(battle_unit, battle_unit, 0, 1);
-scr_set_hitflash(battle_unit, room_speed / 2);
-
-confuse_hit = true;
+	confuse_hit = true;
+	action_meter = 0;
+}
 
 if (o_battle.play) {
 	o_battle.play = false;

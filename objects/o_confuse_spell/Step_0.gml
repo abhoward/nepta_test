@@ -4,7 +4,6 @@ event_inherited();
 if (animation_hit_frame(4)) {
     speed = 0;
     scr_set_hitflash(target, room-speed/4);
-    //scr_deal_damage(creator, target, chance(creator.stats_object.stats[? "critical"]/100), 1);
 	
 	target.confused = true;
 	target.confuse_created = false;

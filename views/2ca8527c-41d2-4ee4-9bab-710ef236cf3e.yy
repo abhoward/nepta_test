@@ -18,7 +18,10 @@
         "caa3cb36-d174-4101-bbab-a81fd42929e0",
         "a206288c-5909-4220-92ad-d7245777a1cc",
         "69f97f71-4323-4f24-86d3-fb214f7f12e7",
-        "8371aa8b-bedc-442f-b6f0-6bc09de6f195"
+        "8371aa8b-bedc-442f-b6f0-6bc09de6f195",
+        "8e6b2f67-846e-4e4b-bfbb-5d8d6b1ec3f8",
+        "b31075b0-3354-412d-bec6-43450ba2af2e",
+        "c6fa3070-7ce3-4d05-9506-838bc100ac96"
     ],
     "filterType": "GMSprite",
     "folderName": "Spider Sprites",
