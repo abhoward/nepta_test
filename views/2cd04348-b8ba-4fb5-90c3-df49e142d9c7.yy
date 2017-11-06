@@ -12,7 +12,16 @@
         "7fbe7e46-d1ca-45ff-a68f-33ef5e89079a",
         "17526036-0545-4685-a40f-33181ef75d7f",
         "f0e00ce5-ae5f-40f2-b75c-e9735c9991d1",
-        "4447a38b-b66a-46a2-868e-d4ca72c58830"
+        "4447a38b-b66a-46a2-868e-d4ca72c58830",
+        "f7a688d6-83e9-4b23-bcd6-f32aaa4b5060",
+        "46db24b4-494b-4a5d-8f1a-bbbf91ee6910",
+        "8a4b5704-da3e-42c6-ba9f-04e6e523c982",
+        "b450f7fb-4c02-48ea-af1e-73c937fc618b",
+        "3f098407-e04a-4e4a-97cc-a1f5cc30bdde",
+        "6b60352d-c3fe-4ad8-b07d-7b1551009053",
+        "5affa066-59b6-4b22-b822-0843993165c2",
+        "0e9e2ecf-fd9c-451d-9064-bca32f3853b2",
+        "0669bc78-4b5a-489c-a288-341b3c4fa24b"
     ],
     "filterType": "GMSprite",
     "folderName": "Gargoyle Sprites",

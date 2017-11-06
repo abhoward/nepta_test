@@ -1,4 +1,8 @@
 /// @description  Initialize the game object
+
+// MAke game truly random
+randomize();
+
 draw_set_colour(c_white);
 
 // Set the GUI layer size

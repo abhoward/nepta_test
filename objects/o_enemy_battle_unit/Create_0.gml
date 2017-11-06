@@ -1,7 +1,7 @@
 /// @description  Create the player battle object
 event_inherited();
 if (o_game.last_room == r_town) {
-	name = "spider";
+	name = choose("spider", "gargoyle");
 } else {
 	name = "gargoyle";
 }

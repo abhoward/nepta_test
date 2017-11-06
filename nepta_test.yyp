@@ -39,6 +39,25 @@
     },
     "resources": [
         {
+            "Key": "000d1669-3582-4166-bb21-26b23049b759",
+            "Value": {
+                "id": "cfc294f6-d0fc-4750-8da5-6b4c3968230e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_gargoyle_sad_ai\/scr_gargoyle_sad_ai.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "000f56cb-2144-41c2-b0da-e979326f2ac5",
             "Value": {
                 "id": "efd4baea-be54-4b2d-9325-abef421dc90b",
@@ -169,6 +188,25 @@
                 ],
                 "resourcePath": "tilesets\/b_blacksmith_weapon_wall_tileset\/b_blacksmith_weapon_wall_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "0669bc78-4b5a-489c-a288-341b3c4fa24b",
+            "Value": {
+                "id": "6774d8b9-e767-4d47-93ad-92a1c2b5b177",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_return_angry\/s_battle_gargoyle_return_angry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -511,6 +549,25 @@
                 ],
                 "resourcePath": "views\/0e74d86e-abe5-469c-9d24-0e0fd1ae1051.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0e9e2ecf-fd9c-451d-9064-bca32f3853b2",
+            "Value": {
+                "id": "b3b468b8-e304-4e19-bdfc-4aea8e05e040",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_attack_angry\/s_battle_gargoyle_attack_angry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2528,6 +2585,25 @@
             }
         },
         {
+            "Key": "3f098407-e04a-4e4a-97cc-a1f5cc30bdde",
+            "Value": {
+                "id": "1db03abb-bc4a-48c5-a9ce-274ce8f36eb4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_attack_sad\/s_battle_gargoyle_attack_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "40944f03-a164-4aff-8464-71c8005a3886",
             "Value": {
                 "id": "c6d88072-e592-4e0d-9ec0-b379097e17c2",
@@ -2734,6 +2810,25 @@
                 ],
                 "resourcePath": "scripts\/scr_battle_set_sprite\/scr_battle_set_sprite.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "46db24b4-494b-4a5d-8f1a-bbbf91ee6910",
+            "Value": {
+                "id": "9f20248d-f808-46c8-bec6-15598302bcc7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_attack\/s_battle_gargoyle_attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3402,6 +3497,25 @@
             }
         },
         {
+            "Key": "53e162f1-ca02-4952-a68c-838bff1c0889",
+            "Value": {
+                "id": "f7f021b3-7692-46cf-a3c9-1cb37c795590",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_gargoyle_angry_ai\/scr_gargoyle_angry_ai.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "53e3a1e0-e9c0-4fef-99ad-4ee21c5b1dcc",
             "Value": {
                 "id": "6728dd95-edda-4c51-aa01-edef8acb0bf2",
@@ -3570,6 +3684,25 @@
                 ],
                 "resourcePath": "scripts\/scr_move\/scr_move.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5affa066-59b6-4b22-b822-0843993165c2",
+            "Value": {
+                "id": "906ccbd2-6aed-49d8-adc3-d644f9c558de",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_approach_angry\/s_battle_gargoyle_approach_angry.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4139,6 +4272,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/b_cave_dark\/b_cave_dark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6b60352d-c3fe-4ad8-b07d-7b1551009053",
+            "Value": {
+                "id": "33494bb6-7fd3-4664-975e-e7311dd89a17",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_return_sad\/s_battle_gargoyle_return_sad.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5625,6 +5777,25 @@
             }
         },
         {
+            "Key": "8a4b5704-da3e-42c6-ba9f-04e6e523c982",
+            "Value": {
+                "id": "6e962bd5-cb89-4803-b59f-74e6c85cbf2b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_return\/s_battle_gargoyle_return.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8ab703ca-a448-438a-8c1e-f2a4d15cedb5",
             "Value": {
                 "id": "2354aa8c-c8b3-4ef8-999c-f492137a3745",
@@ -6537,6 +6708,25 @@
             }
         },
         {
+            "Key": "a28f6c67-bb0c-4ffb-9f7d-d02d364d4d4b",
+            "Value": {
+                "id": "6135987e-48e4-4cb9-b343-a98a3989d55b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_battle_heal_effect\/scr_battle_heal_effect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a4baeb57-911d-4c5b-8d76-e2d13fc9c20b",
             "Value": {
                 "id": "75e950f7-ccf1-4f5f-849a-ae0e5c3531f0",
@@ -7388,6 +7578,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/s_battle_elizabeth_use_item_sad\/s_battle_elizabeth_use_item_sad.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b450f7fb-4c02-48ea-af1e-73c937fc618b",
+            "Value": {
+                "id": "486b7c89-c028-4d6a-b807-0d643ef10dc8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_approach_sad\/s_battle_gargoyle_approach_sad.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9767,6 +9976,25 @@
             }
         },
         {
+            "Key": "e9656b66-4576-44d0-9e24-310fafdd7824",
+            "Value": {
+                "id": "e2ff5641-7324-4fc1-b8d8-cd53367eab00",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_gargoyle_content_ai\/scr_gargoyle_content_ai.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e9ba0b1e-0c48-421f-b821-d763ce12c8b5",
             "Value": {
                 "id": "d6dff1bd-a826-43ce-a3c3-866fda6cf791",
@@ -10242,6 +10470,25 @@
             }
         },
         {
+            "Key": "f7a688d6-83e9-4b23-bcd6-f32aaa4b5060",
+            "Value": {
+                "id": "3b61031e-67c1-4b33-ae06-9326a2160d8b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_gargoyle_approach\/s_battle_gargoyle_approach.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f93c8f1b-ded8-488e-802f-12336dd2099b",
             "Value": {
                 "id": "c8796e99-ad8f-4024-8113-dbd7e6e208d3",
@@ -10690,6 +10937,7 @@
         "8188269e-79c6-4b5f-89cb-98bea06f8b80",
         "41a7f15f-c204-40bc-904c-b0c2333d7f8f",
         "52363811-c315-4515-aafd-ea3776495926",
+        "a28f6c67-bb0c-4ffb-9f7d-d02d364d4d4b",
         "19a375a3-4a05-4e4b-abf2-ea3659c33979",
         "f9b3b53c-a645-4d03-b042-c220f228bfa0",
         "9f267846-e5b3-487c-bd4a-48f501f47f72",
@@ -10700,6 +10948,9 @@
         "022b7407-500d-4ec0-a3dd-36d529a19f17",
         "d32e1fe1-53be-404c-87ee-23d498497935",
         "808e680f-0c06-4b11-9ce5-4fbe8fd18f2b",
+        "000d1669-3582-4166-bb21-26b23049b759",
+        "53e162f1-ca02-4952-a68c-838bff1c0889",
+        "e9656b66-4576-44d0-9e24-310fafdd7824",
         "ffd83ac9-bab9-42e7-ad4b-4fb2bb97dfab",
         "84c219b3-956a-4651-a6ee-42c0360f1b1e",
         "59c4adab-6078-4de5-968a-c68995f59f1a",
