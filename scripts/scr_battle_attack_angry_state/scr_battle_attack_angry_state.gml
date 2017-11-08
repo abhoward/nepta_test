@@ -15,7 +15,7 @@ if (animation_hit_frame(0)) {
 if(animation_hit_frame(1)) {
 	var foe = instance_place(x + 32 * image_xscale, y, o_battle_unit);
 	if (foe) {
-		scr_deal_damage(id, foe, chance(stats_object.stats[? "critical"] / 100), 1);
+		scr_deal_damage(id, foe, chance(stats_object.stats[? "critical"] / 100), 1, true, false);
 		scr_set_hitflash(foe, room_speed / 2);
 		if (foe.angry_stance) {
 			foe.state = scr_battle_hit_angry_state;

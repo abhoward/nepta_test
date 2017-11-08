@@ -1,36 +1,59 @@
-///scr_deal_damage(attacker, defender, critical, modifier, type)
+///scr_deal_damage(attacker, defender, critical, modifier, type, is_physical, is_magical)
 var attacker = argument0;
 var defender = argument1;
 var critical = argument2;
 var modifier = argument3;
+var is_physical = argument4;
+var is_magical = argument5;
 
-var attack = attacker.stats_object.stats[? "attack"];
-var defense = defender.stats_object.stats[? "defense"];
+var charisma = attacker.stats_object.stats[? "charisma"]; // physical attack
+var fortitude = defender.stats_object.stats[? "fortitude"]; // physical defense
+var emotion = attacker.stats_object.stats[? "emotion"]; // magic attack
+var resistance = defender.stats_object.stats[? "resistance"]; // magic defense
 
 if (instance_exists(defender) && instance_exists(attacker.stats_object)) {
-	var damage = (attack + (attacker.stats_object.level * 3) + (1 - defense * 0.05)) * 0.5;
-	
-	var total_damage = (damage + (critical * damage * (attacker.stats_object.stats[? "critical"] / 100)));
-	
-	if (attacker.angry_stance) {
-		if (attacker.raged) {
-			modifier -= 0.5;
-		} else {
-			modifier += 0.25;
-		}
+	// attacker's stance modifiers
+	if (attacker.sad_stance) {
+		emotion += (attacker.stats_object.level * 2);
+		charisma -= (attacker.stats_object.level * 2);
+	} else if (attacker.angry_stance) {
+		emotion -= (attacker.stats_object.level * 2);
+		charisma += (attacker.stats_object.level * 2);
 	}
 	
+	// defender's stance modifiers
 	if (defender.sad_stance) {
-		modifier += 0.25
+		resistance += (defender.stats_object.level * 2);
+	} else if (defender.angry_stance) {
+		fortitude += (defender.stats_object.level * 2);
 	}
 	
-	total_damage *= modifier;
+	// check to see what kind of damage we are dealing
+	if (is_physical) {
+		var damage = (charisma + ((attacker.stats_object.level - defender.stats_object.level) * 3) - (fortitude * 0.50));
+	} else if (is_magical) {
+		var damage = (emotion + ((attacker.stats_object.level - defender.stats_object.level) * 3)  - (resistance * 0.50));
+	}
+	
+	//var total_damage = (damage + (critical * damage * (attacker.stats_object.stats[? "critical"] / 100)));
+	
+	// need to check different combinations of stances, Sad -> Angry -> Content -> Sad
+	if (attacker.sad_stance && defender.angry_stance) {
+		modifier *= 2;
+	} else if (attacker.angry_stance && defender.content_stance) {
+		modifier *= 2;
+	} else if (attacker.content_stance && defender.sad_stance) {
+		modifier *= 2;
+	} else if (attacker.sad_stance && defender.content_stance) {
+		modifier /= 2;
+	} else if (attacker.content_stance && defender.angry_stance) {
+		modifier /= 2;
+	} else if (attacker.angry_stance && defender.sad_stance) {
+		modifier /= 2;
+	}
+	
+	damage *= modifier;
 	
 	// Deal damage
-	defender.stats_object.stats[? "health"] -= total_damage;
-	
-	if (attacker.raged) {
-		defender.action_meter -= 40 * (sprite_get_number(s_action_meter) / defender.max_action_meter);
-		attacker.raged = false;
-	}
+	defender.stats_object.stats[? "health"] -= damage;
 }

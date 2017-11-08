@@ -5,9 +5,9 @@ return json_decode(@'
 {
 	"elizabeth": {
 		"name": "Elizabeth",
-		"health": 10,
-		"attack": 8,
-		"defense": 20,
+		"health": 300,
+		"charisma": 8,
+		"fortitude": 20,
 		"emotion": 8,
 		"resistance": 20,
 		"speed": 9,
@@ -20,8 +20,8 @@ return json_decode(@'
 	"spider": {
 		"name": "Spider",
 		"health": 300,
-		"attack": 3,
-		"defense": 0,
+		"charisma": 3,
+		"fortitude": 0,
 		"emotion": 8,
 		"resistance": 20,
 		"speed": 5,
@@ -34,9 +34,9 @@ return json_decode(@'
 	"gargoyle": {
 		"name": "Gargoyle",
 		"health": 300,
-		"attack": 3,
-		"defense": 0,
-		"emotion": 8,
+		"charisma": 3,
+		"fortitude": 0,
+		"emotion": 3,
 		"resistance": 20,
 		"speed": 4,
 		"critical": 10,

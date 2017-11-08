@@ -5,6 +5,6 @@ var amount = args_list[| 0];
 // Increase the players attack
 if (instance_exists(o_player_stats)) {
 	with (o_player_stats) {
-		stats[? "attack"] += stats[? "attack"] + amount;
+		stats[? "charisma"] += stats[? "charisma"] + amount;
 	}
 }

@@ -7,7 +7,7 @@ if (animation_hit_frame(7)) {
     
     // Hit the enemy
     var critical = chance(.7);
-    scr_deal_damage(creator, target, critical, 1+(critical*.25));
+    scr_deal_damage(creator, target, critical, 1, false, true);
     scr_set_hitflash(target, room_speed/4);
     target.state = scr_battle_hit_state;
 }
