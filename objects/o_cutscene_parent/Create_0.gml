@@ -23,4 +23,3 @@ if (instance_exists(o_view)) {
         state = scr_view_cutscene_state;
     }
 }
-

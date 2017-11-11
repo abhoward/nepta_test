@@ -3877,6 +3877,25 @@
             }
         },
         {
+            "Key": "6118628e-1bc8-4b6c-a115-2c52304038fa",
+            "Value": {
+                "id": "9c8c5536-2812-4f8c-8e7f-96aeae8aed23",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_cutscene_start\/o_cutscene_start.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "61696498-0532-4908-9148-31cc5005789d",
             "Value": {
                 "id": "20148384-b8cc-46fc-8517-d75d931707f9",
