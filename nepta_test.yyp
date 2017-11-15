@@ -552,6 +552,25 @@
             }
         },
         {
+            "Key": "0e8a4dbb-f1ad-4d1c-b0c8-6ee392211600",
+            "Value": {
+                "id": "af9078d5-8449-442c-ab83-348fd66a1d35",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/tileset51\/tileset51.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "0e9e2ecf-fd9c-451d-9064-bca32f3853b2",
             "Value": {
                 "id": "b3b468b8-e304-4e19-bdfc-4aea8e05e040",
@@ -4048,6 +4067,25 @@
             }
         },
         {
+            "Key": "65c80b89-1269-4de1-8aac-62c921466b73",
+            "Value": {
+                "id": "25db678b-dda6-4d48-986b-e474c104df1b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_temp_message_ui\/o_temp_message_ui.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "664fe4c6-5c8f-404d-a903-2d95a74d56d0",
             "Value": {
                 "id": "b7b37ff2-91b1-4941-bc21-d894f73239d9",
@@ -6290,6 +6328,25 @@
             }
         },
         {
+            "Key": "977d6512-2c52-4e79-98e2-b9764f75c4f2",
+            "Value": {
+                "id": "8ac7acfd-93d0-4188-98b1-bf133dbd810c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_battle_random_dialog\/scr_battle_random_dialog.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "97a0ddc8-dd62-4525-a4b5-8d8b2bf356c8",
             "Value": {
                 "id": "a54d74cc-b1d9-4f4a-8b7a-842747426fc5",
@@ -6742,6 +6799,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/scr_battle_heal_effect\/scr_battle_heal_effect.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a3daafb3-e6b2-4496-90ce-772abd959622",
+            "Value": {
+                "id": "ca1a841b-f8ee-4f89-b9b1-84e38742dc9f",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_create_temp_message_at_view_center\/scr_create_temp_message_at_view_center.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -8719,6 +8795,25 @@
                 ],
                 "resourcePath": "options\/windows\/options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "ccb76ca8-d1bd-4e08-bb58-7155770b55c1",
+            "Value": {
+                "id": "213c2531-6c89-422b-b2ee-1004018001fb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_create_temp_message\/scr_create_temp_message.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -10999,6 +11094,7 @@
         "bc4378ba-b91b-49dc-9c6c-a9bc6262b9aa",
         "dfd14fe5-6562-4e25-b4e5-0d3a906702fd",
         "78e66532-5039-4656-a128-dd673c0a25fd",
+        "977d6512-2c52-4e79-98e2-b9764f75c4f2",
         "b69d03d3-639e-40aa-acc3-5f6b2c5df1e0",
         "c3e7264a-840b-4143-a109-6c90b6d46ed4",
         "dc13053a-3350-4b44-b829-0dc153cf2eb4",
@@ -11027,7 +11123,9 @@
         "9630b391-d259-4838-a8a6-498e370ca4ac",
         "6071ed75-b289-4ab6-85a8-865a15eeee04",
         "6c120922-87ba-41ba-9154-b09ad29d2640",
+        "a3daafb3-e6b2-4496-90ce-772abd959622",
         "82421ab9-f74e-4343-a66a-98d3d0f87904",
+        "ccb76ca8-d1bd-4e08-bb58-7155770b55c1",
         "a972277e-dd04-45f1-8de1-58d4befea62e",
         "6855fe76-c48b-4684-be1f-42e8177938d9",
         "7b2998d3-12c6-4b29-a9d4-f87c9f02b166",

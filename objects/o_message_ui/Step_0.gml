@@ -6,4 +6,3 @@ if (o_input.action || o_input.back || alarm[0] == 0) {
     if (instance_exists(cutscene)) cutscene.action++;
     instance_destroy();
 }
-

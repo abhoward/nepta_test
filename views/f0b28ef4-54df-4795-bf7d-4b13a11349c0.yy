@@ -12,7 +12,8 @@
         "e910792b-c5a1-4ca4-b904-a0a77f7ad067",
         "ad79364c-1648-472c-8a4e-e424f1acbbf2",
         "2f051f91-5299-4ad5-beae-a86d8a26eabc",
-        "9bb6607a-1e91-4b4a-9cb9-6443783b447d"
+        "9bb6607a-1e91-4b4a-9cb9-6443783b447d",
+        "0e8a4dbb-f1ad-4d1c-b0c8-6ee392211600"
     ],
     "filterType": "GMTileSet",
     "folderName": "Cave",
