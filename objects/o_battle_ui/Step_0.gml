@@ -2,19 +2,19 @@
 var targety;
 if (instance_exists(o_player_battle_unit)) {
 	if (o_player_battle_unit.state == scr_battle_action_state) {
-		targety = 160;
+		targety = 450;
 	} else if (o_player_battle_unit.state == scr_battle_angry_state) {
-		targety = 160;
+		targety = 450;
 	} else if (o_player_battle_unit.state == scr_battle_sad_state) {
-		targety = 160;
+		targety = 450;
 	} else {
-		targety = 224;
+		targety = 550;
 	}		
 }
 
 y = lerp(y, targety, .1);
 
-if (point_distance(x, y, x, 160) <= 16 && enabled) {
+if (point_distance(x, y, x, 450) <= 16 && enabled) {
     // Move ui options
     if (o_input.right_pressed && index < 3) {
         index += 1;

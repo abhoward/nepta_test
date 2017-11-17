@@ -1,6 +1,11 @@
 /// @description  Initialize the title ui
 event_inherited();
-height = 150;
+
+var offset = 10;
+height = display_get_gui_height() - (2 * offset);
+
+x = display_get_gui_width() - ((width + 16) + offset);
+y = offset;
 
 // Create the options list
 var option_index = 0;

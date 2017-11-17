@@ -2,15 +2,15 @@
 event_inherited();
 
 // Draw the options list
-for (var i=0; i<ds_list_size(options); i++) {
-    var option = options[| i];
-    var color = purple_gray;
-    if (i == index) {
-		color = c_white;
-	}
-    draw_text_colour(x+16, y+8+12*i, option[? "text"], color, color, color, color, 1);
-}
+//for (var i=0; i<ds_list_size(options); i++) {
+//    var option = options[| i];
+//    var color = purple_gray;
+//    if (i == index) {
+//		color = c_white;
+//	}
+//    draw_text_colour(x+16, y+8+12*(3*i), option[? "text"], color, color, color, color, 1);
+//}
 
 // Draw the caret for the option selection
-draw_sprite(s_ui_caret, 0, x+6, y+8+12*index);
+//draw_sprite(s_ui_caret, 0, x+6, y+8+12*index);
 

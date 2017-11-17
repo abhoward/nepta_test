@@ -1,6 +1,6 @@
 event_inherited();
-width = 56;
-height = 52;
+width = 168;
+height = 156;
 
 // Create the options list
 options = ds_list_create();

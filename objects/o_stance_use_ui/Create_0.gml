@@ -1,7 +1,7 @@
 /// @description Initialize the stance ui
 event_inherited();
-width = 56;
-height = 40;
+width = 168;
+height = 120;
 
 // Create the options list
 options = ds_list_create();

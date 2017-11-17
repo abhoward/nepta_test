@@ -10,7 +10,7 @@
 #macro RETURN 3
 #macro HIT 4
 #macro RANGED 5
-#macro BATTLE_SPACE 160
+#macro BATTLE_SPACE 480
 #macro ACTIVATE 0
 #macro FORMAT_TEXT 0
 #macro IDLE_SAD 10

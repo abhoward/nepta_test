@@ -8,14 +8,14 @@ text_count = 0;
 cutscene = noone;
 width = sprite_width;
 spd = .5;
-margin = 4;
+margin = 36;
 portrait = s_elizabeth_portrait;
 portrait_x = (display_get_gui_width() - sprite_get_width(portrait))-42;
 portrait_y = (display_get_gui_height() - sprite_get_height(portrait))-6;
 enabled = true;
 
 // Position
-pos_x = 42;
+pos_x = display_get_gui_width() / 2 - (width / 2);
 pos_y = (display_get_gui_height()-sprite_height)-4;
 
 

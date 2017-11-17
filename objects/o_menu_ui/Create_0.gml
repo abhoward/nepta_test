@@ -1,6 +1,6 @@
 /// @description  Initialize the menu ui
 event_inherited();
-height = 76;
+height = display_get_gui_height() / 2;
 
 // Create the options list
 var option_index = 0;

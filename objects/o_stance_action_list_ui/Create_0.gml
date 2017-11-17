@@ -1,6 +1,6 @@
 event_inherited();
-width = 100;
-height = 44;
+width = 300;
+height = 124;
 stance_enabled = true;
 
 // Create the options list
