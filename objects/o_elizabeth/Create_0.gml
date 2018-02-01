@@ -8,8 +8,7 @@ last_room = room;
 portrait = s_elizabeth_portrait;
 
 // Create the sprite array
-sprite[RIGHT] = s_elizabeth_right;
-sprite[UP] = s_elizabeth_up;
-sprite[LEFT] = s_elizabeth_left;
-sprite[DOWN] = s_elizabeth_down;
-
+sprite[RIGHT] = s_jane_walk_right;
+sprite[UP] = s_jane_walk_up;
+sprite[LEFT] = s_jane_walk_left;
+sprite[DOWN] = s_jane_walk_down;
