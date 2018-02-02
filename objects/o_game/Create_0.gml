@@ -42,7 +42,7 @@ draw_set_font(global.custom_font);
 room_goto_next();
 
 // Create the last room variable
-last_room = r_town;
+last_room = r_salvus;
 
 // Create the save data
 global.save_data = ds_map_create();

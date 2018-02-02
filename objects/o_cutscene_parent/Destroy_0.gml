@@ -1,6 +1,6 @@
 /// @description  Set Elizabeth back to the move state
-if (instance_exists(o_elizabeth)) {
-    o_elizabeth.state = scr_elizabeth_move_state;
+if (instance_exists(o_jane)) {
+    o_jane.state = scr_elizabeth_move_state;
 }
 
 if (instance_exists(o_view)) {

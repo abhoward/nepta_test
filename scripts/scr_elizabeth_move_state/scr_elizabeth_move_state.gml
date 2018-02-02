@@ -3,8 +3,8 @@
 /// @description Insert description here
 
 // Movement
-var hspd = (o_input.right - o_input.left) * spd;
-var vspd = (o_input.down - o_input.up) * spd;
+var hspd = (o_input.right - o_input.left) * spd * 3;
+var vspd = (o_input.down - o_input.up) * spd * 3;
 
 // move
 if (!scr_move(hspd, vspd, true)) {

@@ -12,8 +12,8 @@ if (instance_exists(parent)) {
 
 // Reactivate the player
 if (instance_number(o_ui_parent) == 1) {
-    if (instance_exists(o_elizabeth)) {
-        o_elizabeth.state = scr_elizabeth_move_state;
+    if (instance_exists(o_jane)) {
+        o_jane.state = scr_elizabeth_move_state;
     }
 }
 

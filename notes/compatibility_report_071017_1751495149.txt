@@ -694,16 +694,16 @@ Converted description /// @description  Create the player battle object
 Converting GML script: ${project_dir}/objects/o_enemy_battle_unit/Other_5.gml
 Converted description /// @description  Destroy the data structures
 
-Converting GML script: ${project_dir}/objects/o_elizabeth/Create_0.gml
+Converting GML script: ${project_dir}/objects/o_jane/Create_0.gml
 Converted description /// @description  Initialize the Elizabeth object
 
-Converting GML script: ${project_dir}/objects/o_elizabeth/Step_0.gml
+Converting GML script: ${project_dir}/objects/o_jane/Step_0.gml
 Converted description /// @description  Control the state
 
-Converting GML script: ${project_dir}/objects/o_elizabeth/Collision_35904492-e13a-42fc-8533-24fe90145415.gml
+Converting GML script: ${project_dir}/objects/o_jane/Collision_35904492-e13a-42fc-8533-24fe90145415.gml
 Converted description /// @description  Go to the next room
 
-Converting GML script: ${project_dir}/objects/o_elizabeth/Other_4.gml
+Converting GML script: ${project_dir}/objects/o_jane/Other_4.gml
 Converted description /// @description  Move to start position
 
 Converting GML script: ${project_dir}/objects/o_battle_unit/Create_0.gml
