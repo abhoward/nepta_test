@@ -153,6 +153,25 @@
             }
         },
         {
+            "Key": "0430fd21-f2da-4b0b-93e6-3520fa19ac24",
+            "Value": {
+                "id": "96f6280f-cd8c-45a5-821c-2b9b8724d4dd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house4_east\/s_salvus_house4_east.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "053f4bba-776b-43bd-a0f1-819c7342d5a0",
             "Value": {
                 "id": "32f27916-cb73-4b8c-a91a-4ed91510ee04",
@@ -267,6 +286,25 @@
             }
         },
         {
+            "Key": "09c565b6-ea55-4c1e-ba22-63af8157fd83",
+            "Value": {
+                "id": "634c94f9-dd9b-4d47-8cb5-ad562e1e9754",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/salvus_walls\/salvus_walls.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "09f63423-2236-4130-b201-bf7504f1102f",
             "Value": {
                 "id": "a1eb3c97-1222-4191-a950-8df4c8436aad",
@@ -321,6 +359,25 @@
                 ],
                 "resourcePath": "scripts\/scr_battle_view_idle_state\/scr_battle_view_idle_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0b2476b0-084e-47fb-bba5-44f7e40c73f0",
+            "Value": {
+                "id": "f14f7d4b-05a3-4f09-9d38-6307fdfc8059",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house1_east\/s_salvus_house1_east.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1635,6 +1692,25 @@
             }
         },
         {
+            "Key": "26083c13-a2f5-43f0-9809-0fb52e235339",
+            "Value": {
+                "id": "42b1d362-cc49-4d53-b4b7-2c25f787970b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "datafiles_yy\/saving.yyz.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "261077ac-ffc2-4f76-a067-a77e6693efdd",
             "Value": {
                 "id": "6bb36f82-5924-437d-beb3-401aa0d2c0a1",
@@ -2069,6 +2145,25 @@
                 ],
                 "resourcePath": "tilesets\/b_cave_dark_tileset\/b_cave_dark_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "31338676-bead-479e-8000-d810dedbc15d",
+            "Value": {
+                "id": "e28c2952-21fb-4851-bc4c-276b634b8e26",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house1_north\/s_salvus_house1_north.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2623,6 +2718,25 @@
             }
         },
         {
+            "Key": "3d75d5c5-a0e7-4895-a272-ce62d97865b8",
+            "Value": {
+                "id": "3614a0d7-f96c-4a7c-ab48-0eb54cb644c1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house4_west\/s_salvus_house4_west.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3dd42d2f-dbf6-4265-9115-9de34f5bc139",
             "Value": {
                 "id": "1d687dd7-aa66-4a50-8dbc-a4e38ba27516",
@@ -2903,7 +3017,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/s_salvus_house1\/s_salvus_house1.yy",
+                "resourcePath": "sprites\/s_salvus_house1_south\/s_salvus_house1_south.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3302,7 +3416,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/s_salvus_house3\/s_salvus_house3.yy",
+                "resourcePath": "sprites\/s_salvus_house3_south\/s_salvus_house3_south.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3323,6 +3437,25 @@
                 ],
                 "resourcePath": "tilesets\/b_toadstools_tileset\/b_toadstools_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "4c9e117a-d41e-46f4-81af-981b5f2bba7a",
+            "Value": {
+                "id": "3e7a8c6e-21db-4d79-82b5-e9b97459e90a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house4_north\/s_salvus_house4_north.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3435,7 +3568,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/s_salvus_house2\/s_salvus_house2.yy",
+                "resourcePath": "sprites\/s_salvus_house2_south\/s_salvus_house2_south.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3668,6 +3801,25 @@
             }
         },
         {
+            "Key": "534c489e-270e-45d9-b156-1ad0658cec4c",
+            "Value": {
+                "id": "739ac774-a499-4c14-a88d-ee46a352c3b8",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house2_north\/s_salvus_house2_north.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "53aee977-481a-4c10-8819-1afa3e8a5676",
             "Value": {
                 "id": "d7ed05dc-ae9d-4cbc-9f21-91723e918e89",
@@ -3740,6 +3892,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/b_sky\/b_sky.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "53e8dc73-d07d-468b-b5e2-58823f35d711",
+            "Value": {
+                "id": "fb70198c-ea8f-405e-a100-a4c1ba30b8a7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house2_east\/s_salvus_house2_east.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -4048,6 +4219,25 @@
             }
         },
         {
+            "Key": "6069a28e-1fd2-483d-b85f-6edfe901bf2d",
+            "Value": {
+                "id": "1f40535f-4ac3-49c8-9e65-f9285dc00047",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_wall_tiles\/s_salvus_wall_tiles.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60715296-5354-483b-84d5-0969b3ed1162",
             "Value": {
                 "id": "c8282ba3-863b-45f7-b4ee-675e1848da05",
@@ -4216,6 +4406,25 @@
                 ],
                 "resourcePath": "sounds\/a_defend\/a_defend.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "64a63333-613e-4cdf-93a4-ca1caff4e52b",
+            "Value": {
+                "id": "2c6301f4-3cf5-4d79-82e4-63b07f8c514a",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house3_north\/s_salvus_house3_north.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5929,6 +6138,25 @@
             }
         },
         {
+            "Key": "88dbdc0c-2619-4f4b-a37c-0c3a7a67fc7e",
+            "Value": {
+                "id": "64ae1f2b-aed7-4461-8144-04ea09fde3ed",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house3_west\/s_salvus_house3_west.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "88ef667f-1ab2-41fb-873c-d6f21df118cf",
             "Value": {
                 "id": "75df3271-b77a-410d-ac0b-4c65f6339166",
@@ -6419,6 +6647,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/s_pot_flower\/s_pot_flower.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9454e0dc-6ebe-493e-a0e9-d646dd50b14b",
+            "Value": {
+                "id": "5e5c9ae5-f9ec-4a81-8344-b6257f836904",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house1_west\/s_salvus_house1_west.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -6931,7 +7178,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/s_salvus_house4\/s_salvus_house4.yy",
+                "resourcePath": "sprites\/s_salvus_house4_south\/s_salvus_house4_south.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7028,6 +7275,25 @@
                 ],
                 "resourcePath": "objects\/o_battle_unit_ui\/o_battle_unit_ui.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a07ac311-b8bb-44d3-9bfd-0b8b6f47df15",
+            "Value": {
+                "id": "c3b4522c-6983-4730-80f4-e140c304d230",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_test_inside\/r_test_inside.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -7349,7 +7615,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "tilesets\/Salvus\/Salvus.yy",
+                "resourcePath": "tilesets\/salvus_ground\/salvus_ground.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -10356,6 +10622,25 @@
             }
         },
         {
+            "Key": "e884421b-6403-43c0-be6c-8179e86eae3b",
+            "Value": {
+                "id": "b086c94c-357d-46ee-8275-245cc995a4be",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house2_west\/s_salvus_house2_west.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e8dea56d-567d-47c7-bc0f-80e911ee9b68",
             "Value": {
                 "id": "bb6c720a-a186-4140-ad8f-16e6adfd500e",
@@ -10904,6 +11189,25 @@
                 ],
                 "resourcePath": "rooms\/r_cave_two\/r_cave_two.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f65126e7-b90c-495c-b2cb-0aa5c5213d7f",
+            "Value": {
+                "id": "47c64998-4c93-4425-a59a-00d0a24250ec",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_salvus_house3_east\/s_salvus_house3_east.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

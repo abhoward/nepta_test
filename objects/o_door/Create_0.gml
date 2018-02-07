@@ -1,3 +1,2 @@
-next_room = r_town;
+next_room = r_test_inside;
 sound = a_enter_next_area;
-

@@ -1,6 +1,6 @@
 /// @description  Initialize the Elizabeth object
 event_inherited();
-spd = 2;
+spd = 6;
 image_speed = 0;
 facing = RIGHT;
 state = scr_elizabeth_move_state;

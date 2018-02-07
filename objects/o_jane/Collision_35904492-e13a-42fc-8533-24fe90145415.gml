@@ -1,5 +1,5 @@
 /// @description  Go to the next room
-if (state != scr_elizabeth_wait_state) {
+if (state != scr_elizabeth_wait_state && o_jane.action) {
     state = scr_elizabeth_wait_state;
     var transition = instance_create_depth(0, 0, 0, o_fade_transition);
     transition.next_room = other.next_room;
