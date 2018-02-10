@@ -6,7 +6,8 @@
     "children": [
         "25870203-9941-4d27-94ae-175c5b3e5a24",
         "a69fc962-45f2-4d8c-9ee3-f5645b5629dc",
-        "721df061-d474-41d9-ade3-9f896eea72ee"
+        "721df061-d474-41d9-ade3-9f896eea72ee",
+        "e7375fad-0d57-4d05-a7ee-dd5c58082b7e"
     ],
     "filterType": "GMObject",
     "folderName": "Decorations",

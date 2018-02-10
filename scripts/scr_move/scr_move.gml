@@ -9,7 +9,6 @@ if (!place_meeting(x + hspd, y, o_solid)) {
 }
 
 // vertical movement
-
 if (!place_meeting(x, y + vspd, o_solid)) {
 	y += vspd;
 }
