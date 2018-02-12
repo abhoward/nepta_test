@@ -2,7 +2,7 @@
 event_inherited();
 
 // Set the view state
-state = scr_view_follow_elizabeth_state;
+state = scr_view_follow_jane_state;
 
 // update target position
 target[? "x"] = x;

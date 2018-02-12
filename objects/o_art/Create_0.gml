@@ -6,7 +6,7 @@ image_speed = 0;
 dialog_object = o_dialog;
 
 // Portrait
-portrait = s_adam_portrait;
+portrait = s_art_portrait;
 
 // Create the sprite array
 sprite[RIGHT] = s_art;
@@ -16,6 +16,6 @@ sprite[DOWN] = s_art;
 
 // Dialog
 var i = 0;
-text[i++] = "Hey Elizabeth!";
+text[i++] = "Hey Jane!";
 text[i++] = "How are you today?";
 

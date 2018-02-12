@@ -3,8 +3,8 @@
 // if enemy actions are changed, need to change action_index in their respective ai scripts as well
 return json_decode(@'
 {
-	"elizabeth": {
-		"name": "Elizabeth",
+	"jane": {
+		"name": "Jane",
 		"health": 300,
 		"charisma": 8,
 		"fortitude": 20,

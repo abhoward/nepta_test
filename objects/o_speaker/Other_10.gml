@@ -9,7 +9,7 @@ if (!instance_exists(dialog)) {
         
         // Format the text
         with (dialog) event_user(FORMAT_TEXT);
-        other.state = scr_elizabeth_talking_state;
+        other.state = scr_jane_talking_state;
     }
 }
 

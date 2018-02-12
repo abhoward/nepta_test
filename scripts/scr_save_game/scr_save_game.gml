@@ -3,14 +3,14 @@ var file_name = argument0;
 
 // Break cases
 if (!instance_exists(o_player_stats)) show_error("Save error: Stats object not found.", false);
-if (!instance_exists(o_jane)) show_error("Save error: Elizabeth object not found.", false);
+if (!instance_exists(o_jane)) show_error("Save error: Jane object not found.", false);
 
 // Save the room
 global.save_data[? "room"] = room_get_name(room); // Saving name of room rather than id because id isn't guaranteed to persist
 
-// Save Elizabeth's position
+// Save Jane's position
 with (o_jane) {
-	global.save_data[? "x"] = x; // generic key because we don't have multiple elizabeth objects...for now
+	global.save_data[? "x"] = x; // generic key because we don't have multiple jane objects...for now
 	global.save_data[? "y"] = y;
 }
 

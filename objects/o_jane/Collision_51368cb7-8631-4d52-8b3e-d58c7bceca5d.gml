@@ -3,8 +3,8 @@
 var vowels = array("a", "A", "e", "E", "i", "I", "o", "O", "u", "U");
 
 /// @description  Go to the next room
-if (state != scr_elizabeth_wait_state && o_input.action) {
-    state = scr_elizabeth_wait_state;
+if (state != scr_jane_wait_state && o_input.action) {
+    state = scr_jane_wait_state;
 	scr_pickup_item(o_data.items[? other.item], other.amount);
 	if (is_in_array(string_char_at(other.item, 1), vowels)) {
 		var word = "an";

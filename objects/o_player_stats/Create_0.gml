@@ -1,9 +1,9 @@
 /// @description  Initialize the player's states
 level = 2;
-class = o_data.classes[? "elizabeth"];
+class = o_data.classes[? "jane"];
 
 // Get the stats from the class
-stats = scr_get_stats("elizabeth");
+stats = scr_get_stats("jane");
 draw_health = stats[? "health"];
 //defend = false;
 

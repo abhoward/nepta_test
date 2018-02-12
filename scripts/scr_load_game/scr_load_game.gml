@@ -3,7 +3,7 @@ var file_name = argument0;
 
 // Break cases
 if (!instance_exists(o_player_stats)) show_error("Save error: Stats object not found.", false);
-if (!instance_exists(o_jane)) show_error("Save error: Elizabeth object not found.", false);
+if (!instance_exists(o_jane)) show_error("Save error: Jane object not found.", false);
 
 // Load the file
 var loaded_data = ds_map_secure_load(file_name);
@@ -20,7 +20,7 @@ global.save_data = loaded_data;
 with (o_player_stats) {
 	level = global.save_data[? "level"];
 	ds_map_destroy(stats);
-	stats = scr_get_stats("elizabeth");
+	stats = scr_get_stats("jane");
 	draw_health = stats[? "health"];
 	
 	// Load the items
