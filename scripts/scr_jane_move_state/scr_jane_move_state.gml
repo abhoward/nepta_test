@@ -23,7 +23,7 @@ if (o_input.menu) {
 if (!instance_exists(o_last_encounter)) {
 	instance_create_depth(x, y, 1, o_last_encounter);
 	//o_last_encounter.distance = random_range(50, 200);
-	o_last_encounter.distance = 9999999; // changed for testing purposes
+	o_last_encounter.distance = 200; // changed for testing purposes
 	show_debug_message("When o_last_encounter doesn't exist: " + string(o_last_encounter.distance));
 } else {
 	if(point_distance(x, y, o_last_encounter.x, o_last_encounter.y) >= o_last_encounter.distance) {

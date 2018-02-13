@@ -11,7 +11,8 @@
         "ba5e5dd9-a692-48de-84c2-aba95c7f163f",
         "872b4b03-6446-4c09-b27e-e55983b346cd",
         "ee3b1a3d-07f3-4654-a189-f26821d5ab39",
-        "0e7eef7b-5de1-4c25-8eab-e4ff2a7e6f34"
+        "0e7eef7b-5de1-4c25-8eab-e4ff2a7e6f34",
+        "cac351f8-7e7b-4d90-b2d7-14660e591e61"
     ],
     "filterType": "GMSprite",
     "folderName": "Decoration Sprites",

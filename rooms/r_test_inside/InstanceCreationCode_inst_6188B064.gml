@@ -1,0 +1,2 @@
+message = "Locked.";
+facing = UP;
