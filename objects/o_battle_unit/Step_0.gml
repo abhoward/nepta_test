@@ -3,18 +3,23 @@ script_execute(state);
 
 with (o_player_battle_unit) {
 	// Check for poison damage
-	if (poisoned && !poison_hit && instance_exists(o_player_poison_line)) {
-		if (floor(unit_ui.x + 3 + ((sprite_get_number(s_action_meter) / max_action_meter) * action_meter)) == o_player_poison_line.x) {
+	if (poisoned && instance_exists(o_player_poison_line)) {
+		show_debug_message("theoretical pos of action_meter: " + string(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)));
+		show_debug_message("actual pos of poison_line: " + string(o_player_poison_line.x));
+		if (floor(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)) != o_player_poison_line.x) {
+			poison_passed = false;
+		} else if (floor(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)) == o_player_poison_line.x && !poison_passed) {
 			scr_battle_poison_effect(o_player_battle_unit);
 			poison_timer--;
+			poison_passed = true;
 			show_debug_message("Player poison timer: " + string(poison_timer))
 		}
 	}
 	// Check for confuse damage
-	if (confused && !confuse_hit && instance_exists(o_player_confuse_line)) {
-		if (floor(unit_ui.x + 3 + ((sprite_get_number(s_action_meter) / max_action_meter) * action_meter)) != o_player_confuse_line.x) {
+	if (confused && instance_exists(o_player_confuse_line)) {
+		if (floor(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)) != o_player_confuse_line.x) {
 			confuse_passed = false;	
-		} else if (floor(unit_ui.x + 3 + ((sprite_get_number(s_action_meter) / max_action_meter) * action_meter)) == o_player_confuse_line.x && !confuse_passed) {
+		} else if (floor(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)) == o_player_confuse_line.x && !confuse_passed) {
 			scr_battle_confuse_effect(o_player_battle_unit);
 			confuse_timer--;
 			confuse_passed = true;
@@ -25,18 +30,21 @@ with (o_player_battle_unit) {
 
 with (o_enemy_battle_unit) {
 	// Check for poison damage
-	if (poisoned && !poison_hit && instance_exists(o_enemy_poison_line)) {
-		if (floor(unit_ui.x + 3 + ((sprite_get_number(s_action_meter) / max_action_meter) * action_meter)) == o_enemy_poison_line.x) {
+	if (poisoned && instance_exists(o_enemy_poison_line)) {
+		if (floor(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)) != o_enemy_poison_line.x) {
+			poison_passed = false;
+		} else if (floor(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)) == o_enemy_poison_line.x && !poison_passed) {
 			scr_battle_poison_effect(o_enemy_battle_unit);
 			poison_timer--;
+			poison_passed = true;
 			show_debug_message("Enemy poison timer: " + string(poison_timer))
 		}
 	}
 	// Check for confuse damage
-	if (confused && !confuse_hit && instance_exists(o_enemy_confuse_line)) {
-		if (floor(unit_ui.x + 3 + ((sprite_get_number(s_action_meter) / max_action_meter) * action_meter)) != o_enemy_confuse_line.x) {
+	if (confused && instance_exists(o_enemy_confuse_line)) {	
+		if (floor(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)) != o_enemy_confuse_line.x) { //190 is width of the action_meter portion of s_info_bar
 			confuse_passed = false;	
-		} else if (floor(unit_ui.x + 3 + ((sprite_get_number(s_action_meter) / max_action_meter) * action_meter)) == o_enemy_confuse_line.x && !confuse_passed) {
+		} else if (floor(unit_ui.x + 3 + ((190 / max_action_meter) * action_meter)) == o_enemy_confuse_line.x && !confuse_passed) {
 			scr_battle_confuse_effect(o_enemy_battle_unit);
 			confuse_timer--;
 			confuse_passed = true;
@@ -44,12 +52,3 @@ with (o_enemy_battle_unit) {
 		}
 	}
 }
-
-// Check for confuse damage
-//with (o_player_battle_unit) {
-	
-//}
-
-//with (o_enemy_battle_unit) {
-
-//}

@@ -11,7 +11,7 @@ if (chance(0.25)) {
 	scr_deal_damage(battle_unit, battle_unit, 0, 1, true, false);
 	scr_set_hitflash(battle_unit, room_speed / 2);
 
-	confuse_hit = true;
+	//confuse_hit = true;
 	action_meter = 0;
 }
 

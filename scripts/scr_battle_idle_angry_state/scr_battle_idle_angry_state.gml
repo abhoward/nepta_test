@@ -16,8 +16,8 @@ if (o_battle.play && instance_exists(stats_object)) {
 		state = scr_battle_angry_state;
 		o_battle.play = false;
 		action_meter = 0;
-		poison_hit = false;
-		confuse_hit = false;
+		//poison_hit = false;
+		//confuse_hit = false;
 		poison_cooldown--;
 		rage_cooldown--;
 		confuse_cooldown--;

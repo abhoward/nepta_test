@@ -8,7 +8,17 @@ if (animation_hit_frame(4)) {
 	
 	target.poisoned = true;
 	target.poison_created = false;
-	target.poison_pos = clamp(irandom(sprite_get_width(s_action_meter)), 4, 58);
+	target.poison_pos = irandom_range(2, 188);
+	
+	show_debug_message("poison_pos before while loop: " + string(target.poison_pos));
+	
+	while (target.confused && (target.confuse_pos - 3) < target.poison_pos && target.poison_pos < (target.confuse_pos + 3)) {
+		target.poison_pos++;
+		show_debug_message("poison_pos during while loop: " + string(target.poison_pos));
+	}
+	
+	show_debug_message("poison_pos after while loop: " + string(target.poison_pos));
+	
 	target.poison_timer = 4;
 	
 	if (target.sad_stance) {
