@@ -22,6 +22,7 @@ if (o_battle.play && instance_exists(stats_object)) {
 		poison_cooldown--;
 		rage_cooldown--;
 		confuse_cooldown--;
+		cripple_cooldown--;
 		//stats_object.defend = false;
 	}
 }

@@ -56,4 +56,12 @@ if (instance_exists(defender) && instance_exists(attacker.stats_object)) {
 	
 	// Deal damage
 	defender.stats_object.stats[? "health"] -= damage;
+	
+	if (attacker.crippling) {
+		show_debug_message("action meter before crippling: " + string(defender.action_meter));
+		defender.action_meter = defender.action_meter / 2;
+		show_debug_message("action meter after crippling: " + string(defender.action_meter));
+		attacker.crippling = false;
+	}
+		
 }

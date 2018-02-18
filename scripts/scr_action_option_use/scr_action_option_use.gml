@@ -1,6 +1,6 @@
 ///scr_action_option_use()
 with (o_player_battle_unit) {
-	if (o_stance_action_list_ui.option[? "text"] == "Sad Actions") {
+	if (o_stance_action_list_ui.option[? "text"] == "Sad") {
 		if (sad_stance) {
 			var action = stats_object.sad_actions[| other.parent.index];
 			if (action[? "name"] == "Confuse" && confuse_cooldown > 0) {
@@ -14,11 +14,13 @@ with (o_player_battle_unit) {
 			var action = stats_object.sad_actions[| other.parent.index];
 			scr_create_message_at_view_center(action[? "message"]);
 		}
-	} else if (o_stance_action_list_ui.option[? "text"] == "Angry Actions") {
+	} else if (o_stance_action_list_ui.option[? "text"] == "Angry") {
 		if (angry_stance) {
 			var action = stats_object.angry_actions[| other.parent.index];
 			if (action[? "name"] == "Rage" && rage_cooldown > 0) {
 				scr_create_message_at_view_center(action[? "cooldown"] + string(rage_cooldown));
+			} else if (action[? "name"] == "Cripple" && cripple_cooldown > 0) {
+				scr_create_message_at_view_center(action[? "cooldown"] + string(cripple_cooldown));
 			} else { 
 				state = asset_get_index(action[? "action"]);
 			}
@@ -26,7 +28,7 @@ with (o_player_battle_unit) {
 			var action = stats_object.angry_actions[| other.parent.index];
 			scr_create_message_at_view_center(action[? "message"]);
 		}
-	} else if (o_stance_action_list_ui.option[? "text"] == "Content Actions") {
+	} else if (o_stance_action_list_ui.option[? "text"] == "Content") {
 		if (content_stance) {
 			var action = stats_object.content_actions[| other.parent.index];
 			state = asset_get_index(action[? "action"]);
@@ -34,6 +36,8 @@ with (o_player_battle_unit) {
 			var action = stats_object.content_actions[| other.parent.index];
 			scr_create_message_at_view_center(action[? "message"]);
 		}
+	} else {
+		scr_create_message_at_view_center("Error: option text does not match.\nPlease edit scr_action_option_use.");
 	}
 	//if (action[? "name"] == "Defend") {
 	//	script_execute(asset_get_index(action[? "action"]));

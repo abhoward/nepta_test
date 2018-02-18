@@ -7,16 +7,19 @@ if (animation_hit_frame(4)) {
 	
 	target.confused = true;
 	target.confuse_created = false;
-	target.confuse_pos = irandom_range(2, 188);
+	target.confuse_pos = irandom_range(3, 183);
 	
-	show_debug_message("confuse_pos before while loop: " + string(target.confuse_pos));
+	//show_debug_message("poison_pos before while loop: " + string(target.confuse_pos));
 	
-	while (target.poisoned && (target.poison_pos - 3) < target.confuse_pos && target.confuse_pos < (target.poison_pos + 3)) {
-		target.confuse_pos++;
-		show_debug_message("confuse_pos during while loop: " + string(target.confuse_pos));
+	while (target.confuse_pos mod 3 != 0) {
+		target.confuse_pos--;
 	}
 	
-	show_debug_message("confuse_pos after while loop: " + string(target.confuse_pos));
+	if (target.poisoned && target.confuse_pos == target.poison_pos) {
+		target.confuse_pos += 3;
+	}
+	
+	//show_debug_message("confuse_pos after while loop: " + string(target.confuse_pos));
 	
 	target.confuse_timer = 5;
 	

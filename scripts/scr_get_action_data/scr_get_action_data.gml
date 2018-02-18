@@ -43,6 +43,14 @@ return json_decode(@'{
 		"cooldown": "Turns left to use this attack: "
 	},
 	
+	"cripple": {
+		"name": "Cripple",
+		"action": "scr_battle_cripple_state",
+		"info": "Make sure they can never\nwalk again. Emotionally,\nat least.",
+		"message": "You must be angry\nto use this.",
+		"cooldown": "Turns left to use this attack: "
+	},
+	
 	"cry": {
 		"name": "Cry",
 		"action": "scr_battle_cry_state",
@@ -54,7 +62,7 @@ return json_decode(@'{
 	"confuse": {
 		"name": "Confuse",
 		"action": "scr_battle_confuse_state",
-		"info": "Spout a bunch of\nrandom nonsense to confuse\nthe enemy.",
+		"info": "Spout a bunch of\nrandom nonsense to\nconfuse the enemy.",
 		"message": "You must be sad\n to use this.",
 		"cooldown": "Turns left to use this attack: "
 	}

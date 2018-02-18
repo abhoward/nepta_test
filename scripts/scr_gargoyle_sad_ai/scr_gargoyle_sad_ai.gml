@@ -3,7 +3,7 @@
 // action_index: cry = 0, confuse = 1, sad attack = 2, rage = 3, angry attack = 4, content attack = 5
 // stance_index: sad = 0, angry = 1, content = 2
 if (o_player_battle_unit.sad_stance) {
-	if (chance(0.25)) {
+	if (chance(0)) {
 		var stance_index = 2; 
 		var stance = stances[| stance_index];
 		state = asset_get_index(stance[? "stance"]);

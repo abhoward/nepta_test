@@ -11,6 +11,8 @@ draw_health = stats[? "health"];
 items = ds_list_create();
 item_number = ds_list_create();
 scr_pickup_item(o_data.items[? "potion"], 4);
+scr_pickup_item(o_data.items[? "attack_boost"], 2);
+scr_pickup_item(o_data.items[? "antidote"], 69);
 
 // Action lists
 content_actions = ds_list_create();
@@ -31,6 +33,7 @@ sad_actions[| sad_action_index++] = o_data.actions[? "confuse"];
 
 angry_actions[| angry_action_index++] = o_data.actions[? "angry attack"];
 angry_actions[| angry_action_index++] = o_data.actions[? "rage"];
+angry_actions[| angry_action_index++] = o_data.actions[? "cripple"];
 
 //actions[| action_index++] = o_data.actions[? "defend"];
 

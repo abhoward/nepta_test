@@ -9,15 +9,15 @@ if (instance_exists(parent)) {
 			var content_action = ds_list_find_value(content_actions, other.index);
 			var angry_action = ds_list_find_value(angry_actions, other.index);
 			
-			if (o_stance_action_list_ui.option[? "text"] == "Sad Actions") {
+			if (o_stance_action_list_ui.option[? "text"] == "Sad") {
 				if (sad_action != undefined) {
 					var message = scr_create_message(xx, yy, sad_action[? "info"]);
 				}
-			} else if (o_stance_action_list_ui.option[? "text"] == "Content Actions") {
+			} else if (o_stance_action_list_ui.option[? "text"] == "Content") {
 				if (content_action != undefined) {
 					var message = scr_create_message(xx, yy, content_action[? "info"]);
 				}
-			} else if (o_stance_action_list_ui.option[? "text"] == "Angry Actions") {
+			} else if (o_stance_action_list_ui.option[? "text"] == "Angry") {
 				if (angry_action != undefined) {
 					var message = scr_create_message(xx, yy, angry_action[? "info"]);
 				}

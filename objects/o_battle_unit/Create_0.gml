@@ -1,4 +1,4 @@
-/// @description  Initialize the battle unit
+/// @description Initialize the battle unit
 action_meter = 0;
 max_action_meter = 100;
 item_index = 0;
@@ -32,6 +32,10 @@ confuse_passed = false;
 // Rage
 raged = false;
 rage_cooldown = 0;
+
+// Cripple
+crippling = false;
+cripple_cooldown = 0;
 
 // Set up the state
 if (sad_stance) {

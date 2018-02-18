@@ -1,7 +1,7 @@
 /// @description  Initialize the action ui
 event_inherited();
-width = 168;
-height = 120;
+width = 84;
+height = 100;
 
 // Create the options list
 options = ds_list_create();
