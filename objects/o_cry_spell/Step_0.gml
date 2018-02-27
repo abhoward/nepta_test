@@ -22,7 +22,7 @@ if (animation_hit_frame(4)) {
 	
 	//show_debug_message("poison_pos after while loop: " + string(target.poison_pos));
 	
-	target.poison_timer = 4;
+	target.poison_timer = 1;
 	
 	if (target.sad_stance) {
 		target.state = scr_battle_hit_sad_state;

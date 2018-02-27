@@ -11,7 +11,8 @@
         "34fbb3cc-332e-4730-b9ba-8e9069f7ae43",
         "c6fa19d1-94b6-415e-8d90-d6f57e2c4ae5",
         "d3dc4b60-cc31-4d07-9965-fff799a227f2",
-        "c5d0d54e-6fcc-4372-baee-a11ae6dc9058"
+        "c5d0d54e-6fcc-4372-baee-a11ae6dc9058",
+        "9b02e1bf-f0f8-4c7d-90ab-d52f462f2370"
     ],
     "filterType": "GMSprite",
     "folderName": "Normal Sprites",

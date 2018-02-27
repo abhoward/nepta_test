@@ -438,6 +438,25 @@
             }
         },
         {
+            "Key": "0a08037a-5ce2-4b1b-891d-d79fa6e70bcb",
+            "Value": {
+                "id": "73b7b4ba-170a-437a-b242-bf95993c36ab",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_player_poison_emblem\/o_player_poison_emblem.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0a3c4bbb-9f23-4c9c-b2ed-4dfb958b9005",
             "Value": {
                 "id": "77b65c27-b035-423a-bc58-1d9de552fe5c",
@@ -890,6 +909,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/scr_title_option_quit\/scr_title_option_quit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "109038c7-3abf-4619-83e9-75ec638bb057",
+            "Value": {
+                "id": "33dd304b-7073-44e2-96f2-1bc33104e0e5",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_get_enemy_name\/scr_get_enemy_name.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2357,6 +2395,25 @@
             }
         },
         {
+            "Key": "2e376d6f-5110-47b6-aaea-f628bec20de3",
+            "Value": {
+                "id": "59f6ba0e-8f4e-42de-b365-8c59814234f9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_poison_emblem\/s_poison_emblem.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2f051f91-5299-4ad5-beae-a86d8a26eabc",
             "Value": {
                 "id": "5e236a2d-a66e-4670-a5d4-f8dc14ec1767",
@@ -2392,6 +2449,25 @@
                 ],
                 "resourcePath": "scripts\/scr_battle_attack_state\/scr_battle_attack_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2f402e6f-6c34-4860-b058-34308a2b1264",
+            "Value": {
+                "id": "2c1c568b-ad31-426a-bbde-2daccb49fa57",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/2f402e6f-6c34-4860-b058-34308a2b1264.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -4523,6 +4599,25 @@
             }
         },
         {
+            "Key": "58f88a7a-48aa-4d11-8890-11afd1b4a518",
+            "Value": {
+                "id": "febe93a7-38bb-4392-bef9-af2247f2c105",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_phae_walk_left\/s_phae_walk_left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5919770c-cfce-4b58-8f72-6f7bfb0b0b38",
             "Value": {
                 "id": "0db752a5-8f48-48ee-9120-199b9e2cdf06",
@@ -4938,6 +5033,25 @@
                 ],
                 "resourcePath": "objects\/o_temp_message_ui\/o_temp_message_ui.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "65f7c097-a7e6-457a-920f-1b3b2eba4422",
+            "Value": {
+                "id": "f0b4add5-417b-40ff-80e0-5a2dff5c2a08",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_confuse_emblem\/s_confuse_emblem.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6841,6 +6955,25 @@
             }
         },
         {
+            "Key": "8ba62129-5507-4348-9022-1ee64b5b68cd",
+            "Value": {
+                "id": "83ac43a2-34bb-411e-87a4-80625db50c28",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_phae_walk_right\/s_phae_walk_right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8d379730-b2bb-46c6-9749-ce90366ad10a",
             "Value": {
                 "id": "4a164dba-ceb7-4483-adeb-9ec2305b0337",
@@ -6857,6 +6990,25 @@
                 ],
                 "resourcePath": "sprites\/b_small_stalagmites\/b_small_stalagmites.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8d379ad7-17e4-425f-9547-67e827e86464",
+            "Value": {
+                "id": "7cefb324-57ed-4982-b9cf-cc8faf2f715d",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_player_confuse_emblem\/o_player_confuse_emblem.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7407,6 +7559,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/s_ui_caret\/s_ui_caret.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9b02e1bf-f0f8-4c7d-90ab-d52f462f2370",
+            "Value": {
+                "id": "0dd4e989-3d0d-42f0-934c-59a10bb83e6b",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_battle_jane_idle\/s_battle_jane_idle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -7962,6 +8133,25 @@
             }
         },
         {
+            "Key": "a688c135-8d02-4620-9bbb-83a840b1a86f",
+            "Value": {
+                "id": "f728296f-ee75-47e2-bd72-e013dc7b0c62",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_enemy_poison_emblem\/o_enemy_poison_emblem.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a73f2463-337a-4bc9-a110-d2e1be0d2f99",
             "Value": {
                 "id": "f54dbc0d-70fe-4180-86aa-f5251fd253d1",
@@ -8358,6 +8548,25 @@
                 ],
                 "resourcePath": "tilesets\/b_cave_bits_tileset\/b_cave_bits_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "ad7a6b26-bdcf-4bec-9354-d76d13305ec9",
+            "Value": {
+                "id": "28b491d4-6caa-42c4-b43c-b9f23a5040a4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_phae_walk_down\/s_phae_walk_down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -9140,6 +9349,25 @@
             }
         },
         {
+            "Key": "bd8269a8-c9eb-4010-9091-da93be599439",
+            "Value": {
+                "id": "56b04900-24c9-478d-a991-c48d8b201f18",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/s_phae_walk_up\/s_phae_walk_up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "be8fd915-0eb7-49f2-8227-00d0fe39721a",
             "Value": {
                 "id": "7528de8e-a168-43fb-a979-6c8b0e0d7bc9",
@@ -9403,6 +9631,25 @@
                 ],
                 "resourcePath": "scripts\/scr_attack_effect\/scr_attack_effect.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c448b457-4772-4638-b31b-9698675d9c90",
+            "Value": {
+                "id": "6417f7fc-5116-423e-9060-4e527bc435ab",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/o_enemy_confuse_emblem\/o_enemy_confuse_emblem.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -12359,6 +12606,7 @@
         "000d1669-3582-4166-bb21-26b23049b759",
         "53e162f1-ca02-4952-a68c-838bff1c0889",
         "e9656b66-4576-44d0-9e24-310fafdd7824",
+        "109038c7-3abf-4619-83e9-75ec638bb057",
         "ffd83ac9-bab9-42e7-ad4b-4fb2bb97dfab",
         "84c219b3-956a-4651-a6ee-42c0360f1b1e",
         "59c4adab-6078-4de5-968a-c68995f59f1a",

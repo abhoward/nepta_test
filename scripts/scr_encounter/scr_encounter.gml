@@ -1,6 +1,6 @@
 ///scr_encounter()
 
-// Exist cases
+// exist cases
 if (!instance_exists(o_jane) || !instance_exists(o_random_encounters)) exit;
 
 if (o_random_encounters.on && !instance_exists(o_battle_transition)) {

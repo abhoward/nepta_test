@@ -9,7 +9,7 @@
         "c6e1224c-4431-4446-a5b1-6324b18b8dc3"
     ],
     "filterType": "GMSprite",
-    "folderName": "Elizebeth Sprites",
+    "folderName": "Elizabeth Sprites",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

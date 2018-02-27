@@ -18,4 +18,3 @@ sprite[DOWN] = s_art;
 var i = 0;
 text[i++] = "Hey Jane!";
 text[i++] = "How are you today?";
-

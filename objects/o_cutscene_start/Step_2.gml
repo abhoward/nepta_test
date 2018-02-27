@@ -14,6 +14,9 @@ switch (action) {
 		case 5: scr_character_show_dialog(o_jane, array("I’m sorry, what? Arrived from the heavens?", "What is exactly going on? And why can’t I remember anything?")); break;
 	    //case 6: scr_wait(2); break;
 		case 6: scr_character_show_dialog(o_art, array("Ah yes yes, of course. Let me explain everything from the beginning…")); break;
+		case 7: o_enemy_battle_unit.art = true; break;
+		case 8: scr_encounter();
+		case 9: instance_destroy(); break;
 		//case 3: o_jane.image_blend = c_red; action++; break;
 	    //case 4: scr_cutscene_show_message("The cutscene is over."); break;
 	    //case 5: scr_wait(.5); break;
