@@ -27,7 +27,7 @@ return json_decode(@'
 		"speed": 5,
 		"critical": 5,
 		"experience": 100,
-		"actions": ["cry", "confuse", "sad attack", "rage", "cripple", "angry attack", "content attack"],
+		"actions": ["cry", "confuse", "sad attack", "rage", "cripple", "angry attack", "content attack", "heal"],
 		"stances": ["sad", "angry", "content"]
 	},
 	
@@ -41,7 +41,7 @@ return json_decode(@'
 		"speed": 4,
 		"critical": 10,
 		"experience": 100,
-		"actions": ["cry", "confuse", "sad attack", "rage", "cripple", "angry attack", "content attack"],
+		"actions": ["cry", "confuse", "sad attack", "rage", "cripple", "angry attack", "content attack", "heal"],
 		"stances": ["sad", "angry", "content"]
 	}
 }');

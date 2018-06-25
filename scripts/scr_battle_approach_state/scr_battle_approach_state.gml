@@ -8,7 +8,7 @@ var frames = scr_get_frames(targetx, xstart, spd);
 image_speed = scr_get_image_speed_from_frames(frames, image_number);
 
 // Set the view state
-o_battle_view.target[? "x"] = targetx - 32 * image_xscale;
+o_battle_view.target[? "x"] = targetx - 128 * image_xscale;
 o_battle_view.state = scr_battle_view_focus_state;
 
 // Approach the target

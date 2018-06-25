@@ -8,4 +8,3 @@ if (instance_exists(o_view)) {
 }
 
 global.save_data[? scr_save_key()] = true;
-

@@ -18,6 +18,6 @@ return json_decode(@'{
 		"name": "Content",
 		"stance": "scr_set_content_stance",
 		"info": "A neutral stance,\naffecting neither attack\nnor defense.",
-		"actions": ["attack", "fire_spell", "sonar_spell"]
+		"actions": ["attack", "heal", "sonar_spell"]
 	}
 }')

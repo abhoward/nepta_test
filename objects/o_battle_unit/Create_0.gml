@@ -37,6 +37,10 @@ rage_cooldown = 0;
 crippling = false;
 cripple_cooldown = 0;
 
+// Heal
+healing = false;
+heal_cooldown = 0;
+
 // Set up the state
 if (sad_stance) {
 	state = scr_battle_idle_sad_state;

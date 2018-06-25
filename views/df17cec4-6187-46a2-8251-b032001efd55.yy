@@ -11,7 +11,8 @@
         "b2e33329-8a07-4004-b550-0c5b43c39edb",
         "d0b3182f-da26-4f13-9f90-570369f16214",
         "91f29b3e-4d8a-4e37-9f86-d03aee078531",
-        "39ede777-b029-46fd-8287-09fde5614431"
+        "39ede777-b029-46fd-8287-09fde5614431",
+        "0bf2297c-ae40-4a2f-9f6a-70ab30ef15c1"
     ],
     "filterType": "GMSprite",
     "folderName": "Battle Backgrounds",

@@ -65,5 +65,13 @@ return json_decode(@'{
 		"info": "Spout a bunch of\nrandom nonsense to\nconfuse the enemy.",
 		"message": "You must be sad\n to use this.",
 		"cooldown": "Turns left to use this attack: "
+	},
+	
+	"heal": {
+		"name": "Heal",
+		"action": "scr_battle_heal_state",
+		"info": "Give yourself a\ngreat big bear hug.",
+		"message": "You must be content\n to use this.",
+		"cooldown": "Turns left to use this attack: "
 	}
 }')

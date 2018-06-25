@@ -9,7 +9,7 @@ draw_sprite(portrait, 0, portrait_x-1, portrait_y);
 draw_sprite(s_portrait_frame, 0, portrait_x-4, portrait_y-4);
 
 // Set the font
-draw_set_font(global.custom_font);
+draw_set_font(nepta_font);
 draw_set_halign(fa_left);
 
 // Draw the text shadow

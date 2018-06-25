@@ -11,7 +11,10 @@
         "492ef0f1-24e9-41fa-aec1-748e77f9b39d",
         "57d07159-a595-4708-8174-63521a3d0034",
         "4f5e0993-ae42-44c3-b350-a58074f7a3bf",
-        "4fd3407b-22c3-44d1-b986-916f1d9adfaf"
+        "4fd3407b-22c3-44d1-b986-916f1d9adfaf",
+        "b497ad60-a63f-4fdf-89ff-6e4169b2ba1e",
+        "f3346267-07b6-4797-951d-433143a759af",
+        "b98c27b5-66b3-45b9-a30a-f2e291d1d389"
     ],
     "filterType": "GMObject",
     "folderName": "Salvus",

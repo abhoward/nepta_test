@@ -12,7 +12,7 @@ var sprite_data = o_data.sprites[? sprite_get_name(sprite[RANGED])];
 
 if (animation_hit_frame(sprite_data[? "hit frame"])) {
 	// Set the view state
-	o_battle_view.target[? "x"] = targetx - 32 * image_xscale;
+	o_battle_view.target[? "x"] = targetx - 128 * image_xscale;
 	o_battle_view.state = scr_battle_view_focus_state;
 }
 

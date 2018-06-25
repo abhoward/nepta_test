@@ -1,0 +1,122 @@
+{
+    "id": "71830420-a416-4ee6-bf53-6eb9f55cbf51",
+    "modelName": "GMTileSet",
+    "mvc": "1.11",
+    "name": "ts_street",
+    "auto_tile_sets": [
+        {
+            "id": "4f675619-238e-401a-a8f5-cd24569c4d72",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "road_1",
+            "tiles": [
+                17,
+                32,
+                30,
+                31,
+                10,
+                21,
+                3,
+                26,
+                8,
+                4,
+                19,
+                1,
+                9,
+                2,
+                25,
+                20
+            ]
+        },
+        {
+            "id": "677a06fa-da47-495e-808d-e5e3ab0cafbf",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "road_2",
+            "tiles": [
+                20,
+                29,
+                27,
+                28,
+                7,
+                18,
+                14,
+                24,
+                5,
+                15,
+                16,
+                12,
+                6,
+                13,
+                23,
+                17
+            ]
+        }
+    ],
+    "macroPageTiles": {
+        "SerialiseData": null,
+        "SerialiseHeight": 0,
+        "SerialiseWidth": 0,
+        "TileSerialiseData": [
+            
+        ]
+    },
+    "out_columns": 6,
+    "out_tilehborder": 2,
+    "out_tilevborder": 2,
+    "spriteId": "5e57efe7-6854-4661-a05a-7e4a56698f7b",
+    "sprite_no_export": true,
+    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
+    "tile_animation": {
+        "AnimationCreationOrder": null,
+        "FrameData": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32
+        ],
+        "SerialiseFrameCount": 1
+    },
+    "tile_animation_frames": [
+        
+    ],
+    "tile_animation_speed": 15,
+    "tile_count": 33,
+    "tileheight": 32,
+    "tilehsep": 0,
+    "tilevsep": 0,
+    "tilewidth": 32,
+    "tilexoff": 0,
+    "tileyoff": 0
+}

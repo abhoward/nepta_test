@@ -35,8 +35,8 @@ draw_set_colour(c_white);
 display_set_gui_size(view_wview[0], view_hview[0]);
 
 // Font
-global.custom_font = font_add_sprite_ext(s_font, FONT_CHARS, 1, 1);
-draw_set_font(global.custom_font);
+//global.custom_font = font_add_sprite_ext(s_font, FONT_CHARS, 1, 1);
+draw_set_font(nepta_font);
 
 // Go to the next room
 room_goto_next();
@@ -48,3 +48,8 @@ last_room = r_salvus;
 global.save_data = ds_map_create();
 global.load = false;
 
+// Initialize non-random enemy names
+global.enemy_name = noone;
+
+// Create a check to see if we're in a cutscene or not 
+global.in_cutscene = false;

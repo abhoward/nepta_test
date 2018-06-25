@@ -2,6 +2,7 @@
 action = 0;
 last_room = noone;
 persistent = true;
+global.in_cutscene = true;
 
 if (ds_map_find_value(global.save_data, scr_save_key())) {
     instance_destroy();

@@ -5,7 +5,7 @@ image_speed = 0;
 facing = RIGHT;
 state = scr_jane_move_state;
 last_room = room;
-portrait = s_jane_portrait;
+portrait = s_jane_neutral_portrait;
 
 // Create the sprite array
 sprite[RIGHT] = s_jane_walk_right;

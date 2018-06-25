@@ -1,6 +1,6 @@
 ///scr_spider_angry_ai()
 
-// action_index: cry = 0, confuse = 1, sad attack = 2, rage = 3, angry attack = 4, content attack = 5
+// action_index: cry = 0, confuse = 1, sad attack = 2, rage = 3, angry attack = 4, content attack = 5, heal = 6
 // stance_index: sad = 0, angry = 1, content = 2
 if (o_player_battle_unit.angry_stance) {
 	if (chance(0.25)) {
