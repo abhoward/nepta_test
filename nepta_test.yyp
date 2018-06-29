@@ -5283,6 +5283,25 @@
             }
         },
         {
+            "Key": "666408a0-cbbb-4252-b51d-3c2408d98ea8",
+            "Value": {
+                "id": "26b79314-1c71-45f9-a354-98b50dda5981",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "rooms\/r_jane_house\/r_jane_house.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6769021f-d445-49fb-a5bb-e9c29d03c08c",
             "Value": {
                 "id": "5c979982-a318-42b4-953e-8d15f368916e",
