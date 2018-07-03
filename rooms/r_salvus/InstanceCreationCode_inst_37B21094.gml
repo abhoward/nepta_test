@@ -1,1 +1,1 @@
-next_room = r_test_inside;
+next_room = r_jane_house;

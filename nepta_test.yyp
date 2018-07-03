@@ -1003,7 +1003,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "sprites\/s_art_portrait\/s_art_portrait.yy",
+                "resourcePath": "sprites\/s_art_neutral_portrait\/s_art_neutral_portrait.yy",
                 "resourceType": "GMSprite"
             }
         },

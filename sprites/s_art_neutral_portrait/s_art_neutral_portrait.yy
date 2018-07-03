@@ -2,38 +2,38 @@
     "id": "113228e3-14cf-4114-9834-26c1bdf20860",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_art_portrait",
+    "name": "s_art_neutral_portrait",
     "For3D": false,
     "HTile": false,
     "VTile": false,
     "bbox_bottom": 127,
-    "bbox_left": 8,
-    "bbox_right": 118,
-    "bbox_top": 0,
+    "bbox_left": 0,
+    "bbox_right": 127,
+    "bbox_top": 9,
     "bboxmode": 0,
     "colkind": 1,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
         {
-            "id": "be1b3437-89e8-4c62-8120-3c31f65e2863",
+            "id": "4a5497a4-6c27-4191-b1ec-c778b6feaced",
             "modelName": "GMSpriteFrame",
             "mvc": "1.0",
             "SpriteId": "113228e3-14cf-4114-9834-26c1bdf20860",
             "compositeImage": {
-                "id": "91700c59-3411-4b3f-b0e7-f9d5dfe0f47e",
+                "id": "e7a86e0d-49c9-4e14-8c5c-334d6e7bf7e2",
                 "modelName": "GMSpriteImage",
                 "mvc": "1.0",
-                "FrameId": "be1b3437-89e8-4c62-8120-3c31f65e2863",
+                "FrameId": "4a5497a4-6c27-4191-b1ec-c778b6feaced",
                 "LayerId": "00000000-0000-0000-0000-000000000000"
             },
             "images": [
                 {
-                    "id": "c7410814-4988-4cc6-9e0b-a319a9cb5f3c",
+                    "id": "b2bfd133-475a-4f3b-8ff2-9fd379beb62a",
                     "modelName": "GMSpriteImage",
                     "mvc": "1.0",
-                    "FrameId": "be1b3437-89e8-4c62-8120-3c31f65e2863",
-                    "LayerId": "0dd5cbd1-5e48-48b7-8c1f-2222072030f1"
+                    "FrameId": "4a5497a4-6c27-4191-b1ec-c778b6feaced",
+                    "LayerId": "880d9f28-8f8b-45be-bb82-77aa31ff3c4c"
                 }
             ]
         }
@@ -43,7 +43,7 @@
     "height": 128,
     "layers": [
         {
-            "id": "0dd5cbd1-5e48-48b7-8c1f-2222072030f1",
+            "id": "880d9f28-8f8b-45be-bb82-77aa31ff3c4c",
             "modelName": "GMImageLayer",
             "mvc": "1.0",
             "SpriteId": "113228e3-14cf-4114-9834-26c1bdf20860",

@@ -6,7 +6,7 @@ image_speed = 0;
 dialog_object = o_dialog;
 
 // Portrait
-portrait = s_art_portrait;
+portrait = s_art_neutral_portrait;
 
 // Create the sprite array
 sprite[RIGHT] = s_art;
