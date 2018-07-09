@@ -9,7 +9,8 @@
         "7df2f1eb-da23-4876-88fa-7128bbe8cc52",
         "71830420-a416-4ee6-bf53-6eb9f55cbf51",
         "1d614d40-6833-49c5-a859-9a0138d13e3e",
-        "8d9a2679-f184-48db-a4aa-84054a3dbd19"
+        "8d9a2679-f184-48db-a4aa-84054a3dbd19",
+        "466e8618-6312-4603-9600-39d6f91f526a"
     ],
     "filterType": "GMTileSet",
     "folderName": "Salvus",
