@@ -3831,6 +3831,14 @@
             }
         },
         {
+            "Key": "afc00aef-a8ff-4f71-b33b-4032bb6c07d0",
+            "Value": {
+                "id": "1b4b042b-e927-46b5-9931-c1e396c78d75",
+                "resourcePath": "objects\\o_salvus_house4_south\\o_salvus_house4_south.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b034aba4-4baa-4993-bb5d-95dae3ae4866",
             "Value": {
                 "id": "eedd3d55-f31d-47b8-8a1b-6b39e1672982",
@@ -4020,6 +4028,14 @@
                 "id": "7bed9810-fd91-4d59-9bd1-de39d5cd5df4",
                 "resourcePath": "scripts\/scr_character_cutscene_state\/scr_character_cutscene_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b65fd0cb-4312-4fe4-b257-4178d9cb0e0b",
+            "Value": {
+                "id": "38b4b14f-3ae5-4dd3-b33d-9b6f545e5e62",
+                "resourcePath": "objects\\o_salvus_house3_south\\o_salvus_house3_south.yy",
+                "resourceType": "GMObject"
             }
         },
         {

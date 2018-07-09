@@ -5,11 +5,36 @@
     "name": "ts_wood_carpet_test2",
     "auto_tile_sets": [
         {
-            "id": "351ea341-e58d-4213-8a03-0d93a99f683f",
+            "id": "422b6d65-f3a1-4d7d-9106-cc3629c9ca1f",
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
-            "name": "wood_carpet",
+            "name": "carpet",
+            "tiles": [
+                17,
+                32,
+                30,
+                6,
+                10,
+                16,
+                4,
+                5,
+                8,
+                3,
+                18,
+                7,
+                28,
+                27,
+                29,
+                20
+            ]
+        },
+        {
+            "id": "fe15ee64-9d1a-46bb-9dde-3132f29af8cc",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "wood",
             "tiles": [
                 20,
                 29,
