@@ -1,6 +1,7 @@
-///scr_schow_dialog(character, dialog_array)
+///scr_show_dialog(character, dialog_array)
 var character = argument0;
-var dialog_array = argument1;
+var portrait = argument1;
+var dialog_array = argument2;
 
 if (!instance_exists(character)) {
 	action++;
@@ -16,6 +17,6 @@ if (!instance_exists(o_dialog)) {
 	var dialog = instance_create_depth(0, 0, 0, o_dialog);
 	dialog.cutscene = id;
 	dialog.text = dialog_array;
-	dialog.portrait = character.portrait;
+	dialog.portrait = character.portrait[portrait];
 	with (dialog) event_user(FORMAT_TEXT);
 }

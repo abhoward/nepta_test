@@ -1,1 +1,1 @@
-last_room = r_test_inside;
+last_room = r_inside_jane_house;

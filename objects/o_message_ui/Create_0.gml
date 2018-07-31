@@ -6,4 +6,3 @@ cutscene = noone;
 
 // Create the message
 message = "";
-

@@ -5,14 +5,14 @@ image_speed = 0;
 // Set the dialog object
 dialog_object = o_dialog;
 
-// Portrait
-portrait = s_art_neutral_portrait;
+// Create the portrait array
+portrait[PORTRAIT_NEUTRAL] = s_art_portrait_neutral;
 
 // Create the sprite array
-sprite[RIGHT] = s_art;
-sprite[UP] = s_art;
-sprite[LEFT] = s_art;
-sprite[DOWN] = s_art;
+sprite[RIGHT] = s_art_right;
+// sprite[UP] = s_art;
+sprite[LEFT] = s_art_left;
+// sprite[DOWN] = s_art;
 
 // Dialog
 var i = 0;

@@ -8,5 +8,7 @@ if (!instance_exists(character)) {
 	exit;
 }
 
+character.image_index = 0;
+
 character.facing = facing;
 scr_wait(wait_seconds);

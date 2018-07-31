@@ -6,9 +6,12 @@
     "children": [
         "b61c5691-581e-4153-9ae7-ddbdb894da5d",
         "d15fed61-dbb5-4bf4-a776-de339cd4084c",
+        "6daf7143-6473-4b87-8647-ee00c8051847",
+        "f4bfb87d-26b4-40b4-8d86-f7224567be06",
         "e8dea56d-567d-47c7-bc0f-80e911ee9b68",
         "e38b334d-2b33-4978-b150-29688c196c1e",
-        "7b879107-da34-4454-b039-a8f9168a6cda"
+        "7b879107-da34-4454-b039-a8f9168a6cda",
+        "ff949f0a-d01c-4f4c-9557-b4c7ac72c952"
     ],
     "filterType": "GMScript",
     "folderName": "Cutscene Scripts",
