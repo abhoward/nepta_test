@@ -1,6 +1,11 @@
 /// @description  Initialize the cutscene
 action = 0;
 last_room = noone;
+myPortrait = -1;
+myVoice = -1;
+myFont = nepta_font;
+myName = "None";
+
 persistent = true;
 global.in_cutscene = true;
 

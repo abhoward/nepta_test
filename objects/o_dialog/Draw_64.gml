@@ -14,6 +14,7 @@ draw_set_halign(fa_left);
 
 // Draw the text shadow
 draw_text_ext_colour(pos_x+margin+9, pos_y+12, string_hash_to_newline(text_visible), -1, width-margin*2, c_black, c_black, c_black, c_black, 1);
+show_debug_message(pos_x+margin+9);
 
 // Draw the text
 draw_text_ext_colour(pos_x+margin+6, pos_y+9, string_hash_to_newline(text_visible), -1, width-margin*2, c_white, c_white, c_white, c_white, 1);

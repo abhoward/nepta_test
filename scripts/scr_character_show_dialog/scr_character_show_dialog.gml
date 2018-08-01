@@ -17,6 +17,6 @@ if (!instance_exists(o_dialog)) {
 	var dialog = instance_create_depth(0, 0, 0, o_dialog);
 	dialog.cutscene = id;
 	dialog.text = dialog_array;
-	dialog.portrait = character.portrait[portrait];
+	dialog.portrait = portrait;
 	with (dialog) event_user(FORMAT_TEXT);
 }
