@@ -2,11 +2,8 @@
 event_inherited();
 image_speed = 0;
 
-// Set the dialog object
-dialog_object = o_dialog;
-
-// Create the portrait array
-portrait[PORTRAIT_NEUTRAL] = s_phae_portrait_neutral;
+myName = "Phae"
+myPortrait = s_phae_portrait;
 
 // Create the sprite array
 sprite[RIGHT] = s_phae_walk_right;

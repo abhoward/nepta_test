@@ -2,7 +2,7 @@
     "id": "5cd9a0b5-78d2-4545-a100-dbe1444c86f6",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_rose_portrait_neutral",
+    "name": "s_rose_portrait",
     "For3D": false,
     "HTile": false,
     "VTile": false,

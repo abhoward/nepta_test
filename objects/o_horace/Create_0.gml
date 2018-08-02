@@ -2,17 +2,14 @@
 event_inherited();
 image_speed = 0;
 
-// Set the dialog object
-dialog_object = o_dialog;
-
-// Create the portrait array
-portrait[PORTRAIT_NEUTRAL] = s_horace_portrait_neutral;
+myName = "Horace"
+myPortrait = s_horace_portrait;
 
 // Create the sprite array
 sprite[RIGHT] = s_horace_right;
-// sprite[UP] = s_art;
+sprite[UP] = s_horace_right;
 sprite[LEFT] = s_horace_left;
-// sprite[DOWN] = s_art;
+sprite[DOWN] = s_horace_left
 
 // Dialog
 var i = 0;

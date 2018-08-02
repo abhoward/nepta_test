@@ -7,6 +7,7 @@ if(instance_number(obj_textevent)>1 or instance_number(obj_textbox)>1) {
 
 //-----------Customise (FOR USER)
 cutscene			= noone;
+is_cutscene			= false;
 interact_key		= vk_space;
 up_key				= ord("W");		//for dialogue choices
 down_key			= ord("S");		//for dialogue choices

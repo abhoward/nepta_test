@@ -1,5 +1,6 @@
-///scr_wait(seconds)
+///scr_wait(seconds, action)
 var seconds = argument0;
+var inc_action = argument1;
 
 var steps = seconds_to_steps(seconds);
 
@@ -10,8 +11,11 @@ if (alarm[0] == -1) {
 
 // End the wait period
 if (alarm[0] == 0) {
-	action++;
+	if (inc_action) {
+		action++;
+	}
 	return false;
 }
+
 
 return true;

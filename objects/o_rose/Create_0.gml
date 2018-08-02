@@ -2,17 +2,14 @@
 event_inherited();
 image_speed = 0;
 
-// Set the dialog object
-dialog_object = o_dialog;
-
-// Create the portrait array
-portrait[PORTRAIT_NEUTRAL] = s_rose_portrait_neutral;
+myName = "Rose"
+myPortrait = s_rose_portrait;
 
 // Create the sprite array
 sprite[RIGHT] = s_rose_right;
-// sprite[UP] = s_art;
+sprite[UP] = s_rose_right;
 sprite[LEFT] = s_rose_left;
-// sprite[DOWN] = s_art;
+sprite[DOWN] = s_rose_left;
 
 // Dialog
 var i = 0;

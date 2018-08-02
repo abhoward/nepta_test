@@ -546,7 +546,7 @@
             "Key": "1693fdff-9db7-46e8-81ca-147350b6b56b",
             "Value": {
                 "id": "af397bae-990a-4b37-a043-019f6efc7310",
-                "resourcePath": "sprites\\s_hiro_portrait_neutral\\s_hiro_portrait_neutral.yy",
+                "resourcePath": "sprites\\s_hiro_portrait\\s_hiro_portrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1274,7 +1274,7 @@
             "Key": "32eceb52-7ea7-4654-a61c-fbcc476a9237",
             "Value": {
                 "id": "8d7293bc-f398-41e4-9206-2991528efd1a",
-                "resourcePath": "sprites\\s_gwen_portrait_neutral\\s_gwen_portrait_neutral.yy",
+                "resourcePath": "sprites\\s_gwen_portrait\\s_gwen_portrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1588,14 +1588,6 @@
                 "id": "3c61f16d-e7d5-4f4d-b7ba-d6b675bc8369",
                 "resourcePath": "objects\/o_battle_ui\/o_battle_ui.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "3e72126a-1fa6-445c-8251-e142d596b631",
-            "Value": {
-                "id": "148d6267-a2f0-4469-bd06-c857357c67ff",
-                "resourcePath": "sprites\\s_jane_portrait_happy\\s_jane_portrait_happy.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -2018,7 +2010,7 @@
             "Key": "4f00ed7e-09d0-416c-9b23-39d4f9fe7d98",
             "Value": {
                 "id": "851784b1-b691-467a-8aea-88c3827254d5",
-                "resourcePath": "sprites\\s_horace_portrait_neutral\\s_horace_portrait_neutral.yy",
+                "resourcePath": "sprites\\s_horace_portrait\\s_horace_portrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2330,7 +2322,7 @@
             "Key": "5cd9a0b5-78d2-4545-a100-dbe1444c86f6",
             "Value": {
                 "id": "ea7b2a73-3735-4be7-ac6e-6914c9563250",
-                "resourcePath": "sprites\\s_rose_portrait_neutral\\s_rose_portrait_neutral.yy",
+                "resourcePath": "sprites\\s_rose_portrait\\s_rose_portrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2642,7 +2634,7 @@
             "Key": "69b12282-1c90-496c-a1af-788830bbb755",
             "Value": {
                 "id": "a7d11874-f22b-46c7-9fc9-a82c817e2514",
-                "resourcePath": "sprites\\s_phae_portrait_neutral\\s_phae_portrait_neutral.yy",
+                "resourcePath": "sprites\\s_phae_portrait\\s_phae_portrait.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2827,14 +2819,6 @@
             "Value": {
                 "id": "be8b69c6-71b6-466a-b1a0-391ef2c1fcf9",
                 "resourcePath": "sprites\/b_ancient_pebbles\/b_ancient_pebbles.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "7039a981-93e8-4dad-a8a8-5bc03eb4c4e8",
-            "Value": {
-                "id": "20b49bac-7e7c-4228-bcf1-758767867a79",
-                "resourcePath": "sprites\\s_jane_portrait_sad\\s_jane_portrait_sad.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3639,6 +3623,14 @@
             }
         },
         {
+            "Key": "93398336-a871-4113-a72b-18beb2cd9393",
+            "Value": {
+                "id": "21fd8928-ac02-4e0f-b887-313ee6d8b511",
+                "resourcePath": "objects\\o_cutscene_salvus_intro\\o_cutscene_salvus_intro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93559c49-104d-4a72-b282-9f5fb0af5048",
             "Value": {
                 "id": "5ce7687e-5492-4f2e-9471-d03645c2d120",
@@ -3935,14 +3927,6 @@
             }
         },
         {
-            "Key": "9f5c37f2-3c45-44b6-b132-79656f175101",
-            "Value": {
-                "id": "07cb4873-a212-4b30-8e6e-e56087f2531d",
-                "resourcePath": "sprites\\s_jane_portrait_angry\\s_jane_portrait_angry.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "9ffc9ca8-2a74-4e49-a0b2-98728653ea92",
             "Value": {
                 "id": "aae02796-6dc8-44b1-9b72-6d15a879a40e",
@@ -4159,14 +4143,6 @@
             }
         },
         {
-            "Key": "a8f3dd01-23db-4202-97fc-854c925d7de7",
-            "Value": {
-                "id": "681068f1-9402-478d-bbc2-8bc5fdca8d64",
-                "resourcePath": "sprites\\s_jane_portrait_annoyed\\s_jane_portrait_annoyed.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "a335c43e-270b-4bb1-a1ca-400a0b05bf05",
@@ -4268,14 +4244,6 @@
                 "id": "384e95d5-ca2b-4083-b278-077596add16b",
                 "resourcePath": "views\\ace44f99-7892-4f38-89b0-86ee51b8f280.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "ace50b0e-a196-4ba5-9e29-9baf227eb53b",
-            "Value": {
-                "id": "e9adf3a7-c011-45be-90e8-bcaa615d130c",
-                "resourcePath": "sprites\\s_jane_portrait_embarrassed\\s_jane_portrait_embarrassed.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

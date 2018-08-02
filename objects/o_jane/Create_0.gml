@@ -6,6 +6,7 @@ facing = RIGHT;
 state = scr_jane_move_state;
 last_room = room;
 cutscene = noone;
+is_cutscene = false;
 
 myName = "Jane";
 myPortrait = s_jane_portrait;

@@ -20,7 +20,7 @@ var i = 0, var arg; repeat(arg_count){
 
 var textevent = instance_create_layer(0,0,"Instances",obj_textevent);
 
-if (instance_exists(cutscene)) {
+if (is_cutscene) {
 	textevent.cutscene = id;
 }
 

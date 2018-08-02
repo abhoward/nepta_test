@@ -2,17 +2,14 @@
 event_inherited();
 image_speed = 0;
 
-// Set the dialog object
-dialog_object = o_dialog;
-
-// Create the portrait array
-portrait[PORTRAIT_NEUTRAL] = s_gwen_portrait_neutral;
+myName = "Gwen"
+myPortrait = s_gwen_portrait;
 
 // Create the sprite array
 sprite[RIGHT] = s_gwen_right;
-// sprite[UP] = s_art;
+sprite[UP] = s_gwen_right;
 sprite[LEFT] = s_gwen_left;
-// sprite[DOWN] = s_art;
+sprite[DOWN] = s_gwen_left;
 
 // Dialog
 var i = 0;

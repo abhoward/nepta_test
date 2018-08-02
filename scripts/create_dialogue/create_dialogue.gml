@@ -18,8 +18,11 @@ if(instance_exists(obj_textbox)) {
 //Create the Textbox
 var _textbox = instance_create_layer(x, y, "Text", obj_textbox);
 
-if (instance_exists(cutscene)) {
+if (is_cutscene) {
 	_textbox.cutscene = id;
+} else if instance_exists(obj_textevent) {
+	// if we're not being called from a cutscene, we must be called from a textevent
+	_textbox.cutscene = obj_textevent.cutscene;
 }
 
 //Get Arguments
