@@ -14,9 +14,11 @@ repeat(i + 1) {
 
 	characters[i].facing = facing[i];
 	
-	//if (i == 0) {
-	//	action++;
-	//}
+	if (!scr_wait(wait_seconds, false)) {
+		if (i == 0) {
+			action++;
+		}
+		
+		i--;
+	}
 }
-
-scr_wait(wait_seconds, true);

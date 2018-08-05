@@ -1,14 +1,24 @@
 ///// @description  Activate the dialog
-//if (!instance_exists(dialog)) {
-//    dialog = instance_create_depth(0, 0, 0, dialog_object);
-    
-//    // Is it a dialog object?
-//    if (dialog.object_index == o_dialog) {
-//        dialog.text = text;
-//        dialog.portrait = portrait;
-        
-//        // Format the text
-//        with (dialog) event_user(FORMAT_TEXT);
-//        other.state = scr_jane_talking_state;
-//    }
-//}
+
+if (state != scr_jane_wait_state && o_input.action) {
+	other.wander = false;
+	reset_dialogue_defaults();
+    state = scr_jane_wait_state;
+	
+	create_textevent(
+		other.dialog_array, 
+		other.speaker,
+		other.effects,
+		other.txt_speed,
+		other.dialog_types,
+		other.next_lines,
+		other.change_vars,
+		other.text_col,
+		other.emotions,
+		other.emotes
+	)
+}
+
+if (!instance_exists(obj_textbox)) {
+	state = scr_jane_move_state;
+}

@@ -767,6 +767,14 @@
             }
         },
         {
+            "Key": "1efa4d57-d95b-47e7-95a3-7fc43ed279a1",
+            "Value": {
+                "id": "668ce7bc-4bcd-483a-816c-856beebf58d4",
+                "resourcePath": "sprites\\s_salvus_road\\s_salvus_road.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1eff7f82-7e69-4add-b014-ea5fca1c11ad",
             "Value": {
                 "id": "ef944da6-7800-4c38-ac56-81e711827145",
@@ -3039,6 +3047,14 @@
             }
         },
         {
+            "Key": "7ae3615a-6c7b-4d78-b0ae-4c1debfce166",
+            "Value": {
+                "id": "3f979619-70b1-4fbb-8113-40e139c4f0d6",
+                "resourcePath": "scripts\\scr_cutscene_play_audio\\scr_cutscene_play_audio.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "7b0f85df-099e-40b9-a73d-66757cb45ce7",
             "Value": {
                 "id": "71c9608d-48e8-4e21-bce5-283f871bce7a",
@@ -4983,6 +4999,14 @@
             }
         },
         {
+            "Key": "cb37515b-537c-4388-9d77-53e5ea2e9afc",
+            "Value": {
+                "id": "45c709d0-682c-4aeb-a059-245fac3e3a64",
+                "resourcePath": "tilesets\\ts_wood_purple_carpet1\\ts_wood_purple_carpet1.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "cb67d37d-1d5a-4230-80aa-1bbe2ade8e5c",
             "Value": {
                 "id": "22cef7cc-d33f-4f8d-baa5-038397a8743d",
@@ -5588,6 +5612,14 @@
                 "id": "82e9d6e0-7922-42db-b3a5-8c5f191dff99",
                 "resourcePath": "scripts\/scr_battle_angry_state\/scr_battle_angry_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e6a67d1c-f142-4a6b-a6f0-6e4e4fd1456f",
+            "Value": {
+                "id": "c1e4509b-13f1-4f3f-a07a-c272a6e756b9",
+                "resourcePath": "sprites\\wood_carpet_test3\\wood_carpet_test3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6292,6 +6324,7 @@
         "b61c5691-581e-4153-9ae7-ddbdb894da5d",
         "d15fed61-dbb5-4bf4-a776-de339cd4084c",
         "6daf7143-6473-4b87-8647-ee00c8051847",
+        "7ae3615a-6c7b-4d78-b0ae-4c1debfce166",
         "f4bfb87d-26b4-40b4-8d86-f7224567be06",
         "e8dea56d-567d-47c7-bc0f-80e911ee9b68",
         "e38b334d-2b33-4978-b150-29688c196c1e",

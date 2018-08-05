@@ -5,6 +5,15 @@ targety = noone;
 
 facing = RIGHT;
 
+// initializing npcs wandering variables
+wander = false;
+start_wander = false;
+walk_spd = 0;
+choosex = 0;
+choosey = 0;
+xmax = 0;
+ymax = 0;
+
 // Create the sprite array
 sprite[RIGHT] = s_jane_walk_right;
 sprite[UP] = s_jane_walk_up;

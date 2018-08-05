@@ -8,10 +8,10 @@ if (keyboard_check_pressed(vk_escape)) {
 switch (action) {
 	case 0: scr_character_face_direction(o_jane, WAKE, 0); break;
 	case 1: scr_character_face_direction(o_art, LEFT, .5); break;
-	case 2: scr_character_move_to(o_art, -200, 0, true, 3, 3); break;
+	case 2: scr_character_move_to(o_art, -200, 0, true, 3, false, 3); break;
 	//case 3: scr_character_show_dialog(o_art, PORTRAIT_NEUTRAL, array("My name is Art, and you're currently in the grand city of Salvus!")); break;
 	case 3: create_dialogue(["Testing, testing..."], o_jane, [[1, 2, 8, 1]], [[1, 0.5, 8, 1]], 0, -1, -1, [[10, c_blue, 16, c_white]], [PORTRAIT_SAD], -1); break;
-	case 4: scr_character_move_to(o_art, 200, 0, true, 3, 3); break;
+	case 4: scr_character_move_to(o_art, 200, 0, true, 3, false, 3); break;
 	//case 4: scr_character_show_dialog(o_jane, PORTRAIT_SAD, array("Wha...where am I? Who are you?")); break;
 	//case 5: scr_character_show_dialog(o_art, PORTRAIT_NEUTRAL, array("My name is Art, and you're currently in the grand city of Salvus!")); break;
 	//case 6: scr_character_show_dialog(o_jane, PORTRAIT_NEUTRAL, array("Salvus...never heard of it.")); break;

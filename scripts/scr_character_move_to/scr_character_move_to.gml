@@ -1,10 +1,11 @@
-///scr_character_move_to(character, x, y, relative, speed, wait_seconds)
+///scr_character_move_to(character, x, y, relative, speed, view_follow, wait_seconds)
 var characters = argument0;
 var xx = argument1;
 var yy = argument2;
 var relative = argument3;
 var spd = argument4;
-var wait_seconds = argument5;
+var view_follow = argument5;
+var wait_seconds = argument6;
 var cutscene = id;
 var i = array_length_1d(characters) - 1;
 
@@ -15,7 +16,7 @@ repeat(i + 1) {
 		exit;
 	}
 
-	if (instance_exists(o_view)) {
+	if (instance_exists(o_view) && view_follow) {
 		o_view.target[? "x"] = characters[i].x;
 		o_view.target[? "y"] = characters[i].y;
 	}
@@ -46,16 +47,16 @@ repeat(i + 1) {
 			image_speed = 0;
 			image_index = 0;
 			with (cutscene) {
-				
-				if (i == 0) {
-					action++;
-				}
-				
-				if (!scr_wait(wait_seconds, false)) {
+				if (!scr_wait(wait_seconds, false) or (wait_seconds == 0)) {
 					other.targetx = noone;
 					other.targety = noone;
+					
+					if (i == 0) {
+						action++;
+					}
 				}
 			}
 		}
 	}
+	i--;
 }

@@ -2,7 +2,7 @@
 
 /// @description  Go to the next room
 if (state != scr_jane_wait_state && o_input.action && facing = other.facing) {
-	//reset_dialogue_defaults();
+	reset_dialogue_defaults();
     state = scr_jane_wait_state;
 	create_textevent(
 		other.dialog_array, 

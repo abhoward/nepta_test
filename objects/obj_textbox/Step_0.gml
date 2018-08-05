@@ -14,9 +14,7 @@ if(type[page] == 0){
 			event_perform(ev_other, ev_user0);
 			switch(nextline[page]){
 				case -1: 
-					show_debug_message("obj_textbox_step1");
 					if instance_exists(cutscene) {
-						show_debug_message("cutscene exists step1");
 						cutscene.action++;
 					}
 					instance_destroy();
@@ -28,13 +26,10 @@ if(type[page] == 0){
 			
 		} else { 
 			event_perform(ev_other, ev_user0);
-			show_debug_message("obj_textbox_step2");
 			if instance_exists(cutscene) {
-				show_debug_message("cutscene exists step2");
 				cutscene.action++;
 			}
 			instance_destroy(); 
-			show_debug_message("obj_textbox_step3");
 		}
 	}
 } 
