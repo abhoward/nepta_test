@@ -8,6 +8,7 @@ facing = RIGHT;
 // initializing npcs wandering variables
 wander = false;
 start_wander = false;
+can_approach = false;
 walk_spd = 0;
 choosex = 0;
 choosey = 0;

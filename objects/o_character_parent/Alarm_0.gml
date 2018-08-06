@@ -13,6 +13,8 @@ if (choosex == 0) {
 targetx = max(sprite_height, x + choosex);
 targety = max(sprite_width, y + choosey);
 
+show_debug_message("x: " + string(x));
+show_debug_message("y: " + string(y));
 show_debug_message("targetx: " + string(targetx));
 show_debug_message("targety: " + string(targety));
 
