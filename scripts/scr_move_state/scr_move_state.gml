@@ -1,4 +1,4 @@
-///scr_jane_move_state()
+///scr_move_state()
 
 /// @description Insert description here
 

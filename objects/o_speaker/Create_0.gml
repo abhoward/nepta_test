@@ -12,10 +12,10 @@
 //-----------Customise (FOR USER)
 playerobject = o_jane;
 interact_key = vk_space;
-detection_radius = 32;
+detection_radius = 48;
 
 myVoice			= snd_voice1;
-myPortrait		= s_jane_portrait
+myPortrait		= s_jane_portrait;
 myFont			= nepta_font;
 myName			= "None";
 

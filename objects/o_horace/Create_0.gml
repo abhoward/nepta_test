@@ -5,6 +5,7 @@ image_speed = 0;
 myName = "Horace"
 myPortrait = s_horace_portrait;
 
+
 // Create the sprite array
 sprite[RIGHT] = s_horace_right;
 sprite[UP] = s_horace_right;

@@ -14,8 +14,7 @@ if (instance_exists(parent)) {
 if (!instance_exists(cutscene)) {
 	if (instance_number(o_ui_parent) == 1) {
 	    if (instance_exists(o_jane)) {
-	        o_jane.state = scr_jane_move_state;
+	        o_jane.state = scr_move_state;
 	    }
 	}
 }
-

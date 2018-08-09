@@ -3,10 +3,10 @@ event_inherited();
 spd = 6;
 image_speed = 0;
 facing = RIGHT;
-state = scr_jane_move_state;
+state = scr_wait_state;
 last_room = room;
 cutscene = noone;
-is_cutscene = false;
+need_input = false;
 
 myName = "Jane";
 myPortrait = s_jane_portrait;

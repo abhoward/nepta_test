@@ -12,8 +12,8 @@ if (instance_exists(o_start_position)) {
 last_room = room;
 
 // Set the player's state
-if (state == scr_jane_wait_state) {
-    state = scr_jane_move_state;
+if (state == scr_wait_state) {
+    state = scr_move_state;
     room_persistent = false;
     persistent = true;
 }

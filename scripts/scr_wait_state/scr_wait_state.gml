@@ -1,3 +1,3 @@
-///scr_jane_wait_state()
+///scr_wait_state()
 image_index = 0;
 image_speed = 0;

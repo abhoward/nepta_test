@@ -10,15 +10,10 @@ repeat(i + 1) {
 		exit;
 	}
 
-	show_debug_message("wait: " + string(wait_seconds[i]));
-
 	if (!scr_wait(wait_seconds[i], false) or (wait_seconds[i] == 0)) {
-		show_debug_message("inside wait statement");
-		show_debug_message("image_alpha before: " + string(objects[i].image_alpha));
 		
 		if (objects[i].image_alpha > 0) {
 			objects[i].image_alpha -= fade[i];
-			show_debug_message("image_alpha after: " + string(objects[i].image_alpha));
 		} else if (objects[i].image_alpha == 0) {	
 			instance_destroy(objects[i]);
 			if (i == 0) {

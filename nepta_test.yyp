@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "0e3f5dd0-0fd5-49d7-8cdc-48d6620c186e",
+            "Value": {
+                "id": "979cc992-47c6-4d05-a1d2-3f342c97eab3",
+                "resourcePath": "scripts\\scr_get_opposite_facing\\scr_get_opposite_facing.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0e547086-775e-43f0-9aff-05d5e4e21168",
             "Value": {
                 "id": "9ac6d6a9-3e56-4478-8a7a-fc97eb55c358",
@@ -1007,6 +1015,14 @@
             }
         },
         {
+            "Key": "2700c23e-ea71-45b4-8c5a-017928beb6c4",
+            "Value": {
+                "id": "7b5838b7-04a9-4ec0-b285-9dc68e7c640c",
+                "resourcePath": "sprites\\s_wander_border\\s_wander_border.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "27991e95-5989-4c45-9003-bf2bd1f22493",
             "Value": {
                 "id": "5b9874b5-4d58-4cf1-b3d2-a686ffa29bdf",
@@ -1154,7 +1170,7 @@
             "Key": "2c58d72b-e190-4be9-9f47-6842b0563d5e",
             "Value": {
                 "id": "f29150d1-cf55-4d15-96d7-5fe1d0f6728f",
-                "resourcePath": "scripts\/scr_jane_move_state\/scr_jane_move_state.yy",
+                "resourcePath": "scripts\\scr_move_state\\scr_move_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1204,6 +1220,14 @@
                 "id": "59f6ba0e-8f4e-42de-b365-8c59814234f9",
                 "resourcePath": "sprites\/s_poison_emblem\/s_poison_emblem.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2eee4716-c088-42b5-87be-29820395e92c",
+            "Value": {
+                "id": "a2e2b217-b039-45a1-af7b-17ba6718d9af",
+                "resourcePath": "objects\\o_wander_border\\o_wander_border.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2919,6 +2943,14 @@
             }
         },
         {
+            "Key": "75ddc485-acf5-42e0-a6d4-b7603458d315",
+            "Value": {
+                "id": "a4a593dd-07d0-4309-bc15-5f46f25ec444",
+                "resourcePath": "scripts\\scr_wander_state\\scr_wander_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75f50386-0f8e-437a-b70d-48cf1df06417",
             "Value": {
                 "id": "f7801538-6eae-4c48-abdd-3cbe792631c3",
@@ -3383,6 +3415,14 @@
             }
         },
         {
+            "Key": "87d7d56e-7d59-465c-9549-7351ef5a2b96",
+            "Value": {
+                "id": "b5873f24-d479-4649-8f4d-233d2ff72047",
+                "resourcePath": "views\\87d7d56e-7d59-465c-9549-7351ef5a2b96.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "88716d89-b83a-4a6e-a9a3-d9621ab9dc4e",
             "Value": {
                 "id": "61a14310-bbdc-4cda-a9b4-9fdbaf7f4ba9",
@@ -3394,7 +3434,7 @@
             "Key": "88902e86-c566-4d7b-920a-e9328690f1e3",
             "Value": {
                 "id": "26d1d8ed-5942-470a-af84-7e86e3be91bc",
-                "resourcePath": "scripts\/scr_jane_wait_state\/scr_jane_wait_state.yy",
+                "resourcePath": "scripts\\scr_wait_state\\scr_wait_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -5018,7 +5058,7 @@
             "Key": "cb8ef86a-a692-47af-8fbc-3af3d272e873",
             "Value": {
                 "id": "07c3ef08-8c33-485b-a187-5eb9a0eff0dd",
-                "resourcePath": "scripts\/scr_view_follow_jane_state\/scr_view_follow_jane_state.yy",
+                "resourcePath": "scripts\\scr_view_follow_state\\scr_view_follow_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -5530,7 +5570,7 @@
             "Key": "e0b86766-1143-42dd-90cb-fe0b06974238",
             "Value": {
                 "id": "cc3ce8cc-bb6b-4f63-9509-47df42553edc",
-                "resourcePath": "scripts\/scr_jane_talking_state\/scr_jane_talking_state.yy",
+                "resourcePath": "scripts\\scr_talking_state\\scr_talking_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -6257,15 +6297,18 @@
         "84c219b3-956a-4651-a6ee-42c0360f1b1e",
         "59c4adab-6078-4de5-968a-c68995f59f1a",
         "47294fbc-c6b7-462b-88e7-83e29a802de0",
-        "88902e86-c566-4d7b-920a-e9328690f1e3",
         "d997da14-c1d8-41c9-9691-a46f5830fc64",
-        "2c58d72b-e190-4be9-9f47-6842b0563d5e",
-        "e0b86766-1143-42dd-90cb-fe0b06974238",
         "7797f103-4504-46a0-85b5-ac4000324d10",
         "1a0874dc-2705-40c5-b618-d8617a7c2c99",
+        "0e3f5dd0-0fd5-49d7-8cdc-48d6620c186e",
         "c25e0728-fec0-432c-9ede-8dd29bb78f55",
         "d368c642-dabb-457b-a223-c6bbd2d94bb3",
         "61696498-0532-4908-9148-31cc5005789d",
+        "88902e86-c566-4d7b-920a-e9328690f1e3",
+        "2c58d72b-e190-4be9-9f47-6842b0563d5e",
+        "e0b86766-1143-42dd-90cb-fe0b06974238",
+        "b61c5691-581e-4153-9ae7-ddbdb894da5d",
+        "75ddc485-acf5-42e0-a6d4-b7603458d315",
         "aa4e6429-7dec-4dec-af1a-57c9c84017af",
         "bab6544b-43e1-46b6-a358-f4d544f780df",
         "cb8ef86a-a692-47af-8fbc-3af3d272e873",
@@ -6321,7 +6364,6 @@
         "7b2998d3-12c6-4b29-a9d4-f87c9f02b166",
         "ccbe3603-e3b9-420b-855a-ec1f2528a7d0",
         "d6cb2469-880f-4bc9-b971-1c4b7d8b54b2",
-        "b61c5691-581e-4153-9ae7-ddbdb894da5d",
         "d15fed61-dbb5-4bf4-a776-de339cd4084c",
         "6daf7143-6473-4b87-8647-ee00c8051847",
         "7ae3615a-6c7b-4d78-b0ae-4c1debfce166",

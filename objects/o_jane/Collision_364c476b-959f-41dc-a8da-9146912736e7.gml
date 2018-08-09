@@ -1,9 +1,9 @@
 /// @description Interact with object
 
 /// @description  Go to the next room
-if (state != scr_jane_wait_state && o_input.action && facing = other.facing) {
+if (state != scr_wait_state && o_input.action && facing = other.facing) {
 	reset_dialogue_defaults();
-    state = scr_jane_wait_state;
+    state = scr_wait_state;
 	create_textevent(
 		other.dialog_array, 
 		other.speaker,
@@ -18,6 +18,6 @@ if (state != scr_jane_wait_state && o_input.action && facing = other.facing) {
 	)
 }
 
-if (!instance_exists(obj_textbox)) {
-	state = scr_jane_move_state;
+if (!instance_exists(obj_textbox) && !instance_exists(o_cutscene_parent)) {
+	state = scr_move_state;
 }
