@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "02ddae55-efd6-481a-9a3e-327233a5dfa9",
+            "Value": {
+                "id": "a3ee570d-23fc-4afa-a53e-be09d3b0a551",
+                "resourcePath": "objects\\o_fade_out\\o_fade_out.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "02dec893-29bb-4697-a563-f0674a11623c",
             "Value": {
                 "id": "dde14ead-22ae-4050-84b5-bee9ff63a170",
@@ -468,6 +476,14 @@
                 "id": "989345e5-d13f-4876-8ab1-efc64fdcd4fa",
                 "resourcePath": "sounds\\snd_voice1\\snd_voice1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "11c98d0e-cc90-4a91-9cf0-28155440c59d",
+            "Value": {
+                "id": "4d9be91e-c9ae-4288-95df-8b6a6bea6410",
+                "resourcePath": "objects\\o_cutscene_jane_salvus_sleep1\\o_cutscene_jane_salvus_sleep1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1322,7 +1338,7 @@
             "Key": "337201f9-bb5b-4cf0-a9be-f11493b7e066",
             "Value": {
                 "id": "0e119c59-9004-400f-b090-1572aad2c28e",
-                "resourcePath": "objects\\o_cutscene_jane_wake_up\\o_cutscene_jane_wake_up.yy",
+                "resourcePath": "objects\\o_cutscene_jane_salvus_wake1\\o_cutscene_jane_salvus_wake1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1356,6 +1372,14 @@
                 "id": "c8ebf423-d1bd-4b1d-9dff-e483189bbfd8",
                 "resourcePath": "views\/342a5294-a729-4125-9634-2ea893102107.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "34917a7a-679b-43db-a2c9-ca967057542c",
+            "Value": {
+                "id": "7dc5809a-f385-4bcd-904e-551113d2cd11",
+                "resourcePath": "scripts\\scr_cutscene_fade_transition\\scr_cutscene_fade_transition.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -2343,14 +2367,6 @@
             }
         },
         {
-            "Key": "5c11c32d-8192-4709-a36d-accba3c8fd20",
-            "Value": {
-                "id": "530b79b6-5eba-499a-9356-de6b541c45e5",
-                "resourcePath": "sprites\\sprite258\\sprite258.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5cd9a0b5-78d2-4545-a100-dbe1444c86f6",
             "Value": {
                 "id": "ea7b2a73-3735-4be7-ac6e-6914c9563250",
@@ -2500,6 +2516,14 @@
                 "id": "fb2871e2-718f-406f-8815-d84cfb40011f",
                 "resourcePath": "sprites\/wood_purple_carpet\/wood_purple_carpet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "631e8b46-da5a-41b8-a876-235e60c7f47e",
+            "Value": {
+                "id": "34e061f6-35a0-441e-8030-9cb1aff75700",
+                "resourcePath": "views\\631e8b46-da5a-41b8-a876-235e60c7f47e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -4351,6 +4375,14 @@
             }
         },
         {
+            "Key": "aec0d01e-3560-4c0e-81e9-7a6f6ad890e9",
+            "Value": {
+                "id": "fd865027-3c3e-4449-b5c3-f0b76ffe144b",
+                "resourcePath": "objects\\o_fade_in\\o_fade_in.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aee99822-0c93-4578-884c-6adcea1515d5",
             "Value": {
                 "id": "8fa72e4d-21c9-4dc6-a318-87f5b0110188",
@@ -5695,6 +5727,14 @@
             }
         },
         {
+            "Key": "e7e798a2-f155-4c11-bb54-cf8989459dca",
+            "Value": {
+                "id": "e7c65107-7983-42ab-a258-efc6e7b401bc",
+                "resourcePath": "scripts\\create_cutscene\\create_cutscene.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e800050d-c054-4a25-bf72-acfba49e043a",
             "Value": {
                 "id": "9b3720c6-2c7d-4d13-b92f-e4a2158030cb",
@@ -6232,6 +6272,7 @@
         "de6786b3-162a-4949-b285-05c9bb22225f",
         "6de2eeb1-c30e-4c1f-8bb9-9eff09391c71",
         "bfcd09ac-e630-441c-b344-0762b0e00589",
+        "e7e798a2-f155-4c11-bb54-cf8989459dca",
         "f953ec08-fa43-4929-936f-66d869241ec8",
         "0abc502e-791b-4b6e-9207-bfebc6938684",
         "65b75b57-32e9-4d64-8ad9-295c88fa7232",
@@ -6372,6 +6413,7 @@
         "e38b334d-2b33-4978-b150-29688c196c1e",
         "7b879107-da34-4454-b039-a8f9168a6cda",
         "ff949f0a-d01c-4f4c-9557-b4c7ac72c952",
+        "34917a7a-679b-43db-a2c9-ca967057542c",
         "3a57676c-8e20-4e34-9cdb-712b34d184f7",
         "21161498-3821-4216-a92c-6c38d070222f",
         "fd3d504c-ad48-481b-b5b0-396bafa8a5bf",

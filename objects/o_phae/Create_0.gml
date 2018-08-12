@@ -12,8 +12,3 @@ sprite[LEFT] = s_phae_walk_left;
 sprite[DOWN] = s_phae_walk_down;
 
 state = scr_wait_state;
-
-// Dialog
-//var i = 0;
-//text[i++] = "Hey Jane!";
-//text[i++] = "How are you today?";

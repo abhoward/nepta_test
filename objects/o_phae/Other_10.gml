@@ -1,7 +1,8 @@
+///@description Initialize all dialogue options
 //---You can update variables here!---//
 reset_dialogue_defaults();
 
-switch(choice_variable){
+switch(choice_variable) {
 	case -1:
 	#region First Dialogue
 		//Line 0
@@ -67,7 +68,6 @@ switch(choice_variable){
 		myEmote[i]		= 0;
 		myNextLine[i]	= -1;
 		mySpeaker[i]	= id;
-		//choice_variable = "wander";
 
 		//Line 9
 		i++;
@@ -76,7 +76,6 @@ switch(choice_variable){
 		myEmotion[i]	= 2;
 		myEmote[i]		= 9;
 		mySpeaker[i]	= id;
-		//choice_variable = "wander";
 		#endregion
 	break;
 	
@@ -90,12 +89,10 @@ switch(choice_variable){
 		myEmote[i]		= 9;
 		mySpeaker[i]	= id;
 		myTextCol[i]	= [26,c_lime, 31,c_white];
-		//choice_variable = "wander";
 		
 		//uncommenting this will make the first conversation begin again
 		//choice_variable	= -1;
 	#endregion
-	
 	break;
 	
 	case "blue":
@@ -115,9 +112,43 @@ switch(choice_variable){
 	#endregion
 	break;
 	
-	//case "wander":
-	//#region
-	//	wander = true;
-	//#endregion
-	//break;
+	case -2:
+	#region First Salvus Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "Hi Jane! How are you doing?";
+		mySpeaker[i]	= id;
+		
+		//Line 1
+		i++;
+		myText[i]		= ["Good!", "Bad."];
+		myTypes[i]		= 1;
+		mySpeaker[i]	= o_jane;
+		myNextLine[i]	= [2, 3];
+		myScripts[i]	= [[change_variable, id, "choice_variable", "salvus_done"], [change_variable, id, "choice_variable", "salvus_done"]];
+		
+		//Line 2
+		i++;
+		myText[i]		= "Glad to hear it! I'm looking forward to you helping us out tomorrow!";
+		mySpeaker[i]	= id;
+		myNextLine[i]	= -1;
+		
+		//Line 3
+		i++;
+		myText[i]		= "Aw, I'm sorry to hear that. Maybe you'll feel better after helping us out tomorrow?";
+		mySpeaker[i]	= id;
+		
+	#endregion
+	break;
+		
+	case "salvus_done":
+	#region After First Salvus Dialogue
+		//Line 0
+		var i = 0;
+		myText[i]		= "I can't wait for tomorrow!";
+		mySpeaker[i]	= id;
+	#endregion
+	break;
+		
+	break;
 }

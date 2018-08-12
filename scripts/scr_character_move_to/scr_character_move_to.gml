@@ -1,4 +1,12 @@
-///scr_character_move_to(character, x, y, relative, speed, view_follow, wait_seconds)
+///@description move character to x, y position
+///@arg character
+///@arg x
+///@arg y
+///@arg relative?
+///@arg speed
+///@arg follow_view?
+///@arg seconds_to_wait
+
 var characters = argument0;
 var xx = argument1;
 var yy = argument2;

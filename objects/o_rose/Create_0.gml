@@ -1,4 +1,4 @@
-/// @description  Initailize Rose
+/// @description Initailize Rose
 event_inherited();
 image_speed = 0;
 
@@ -11,7 +11,4 @@ sprite[UP] = s_rose_right;
 sprite[LEFT] = s_rose_left;
 sprite[DOWN] = s_rose_left;
 
-// Dialog
-var i = 0;
-text[i++] = "Hey Jane!";
-text[i++] = "How are you today?";
+state = scr_wait_state;

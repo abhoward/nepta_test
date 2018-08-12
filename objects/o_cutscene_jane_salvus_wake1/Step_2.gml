@@ -11,7 +11,7 @@ switch (action) {
 	case 2: scr_character_move_to([o_art], [-200], [0], [true], [3], false, 3); break;
 	case 3: scr_character_face_direction([o_art], [RIGHT], .5); break;
 	case 4: scr_character_move_to([o_art], [200], [0], [true], [3], false, 3); break;
-	case 5: scr_character_play_animation(o_jane, s_jane_wake_up); break;
+	case 5: scr_character_play_animation(o_jane, s_jane_wake_up, 0.2); break;
 	case 6: scr_wait(2, true); break;
 	case 7: scr_character_face_direction([o_jane], [RIGHT], 1); break;
 	case 8: scr_character_move_to([o_jane], [75], [0], [true], [2], false, 1); break;

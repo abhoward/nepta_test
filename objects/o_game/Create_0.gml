@@ -53,3 +53,6 @@ global.enemy_name = noone;
 
 // Create a check to see if we're in a cutscene or not 
 global.in_cutscene = false;
+
+// Dialogue variable to tell various instances across the game what dialogues to create, if any
+global.dialogue_variable = 1;

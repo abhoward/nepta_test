@@ -1,18 +1,18 @@
 {
-    "id": "337201f9-bb5b-4cf0-a9be-f11493b7e066",
+    "id": "11c98d0e-cc90-4a91-9cf0-28155440c59d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_cutscene_jane_wake_up",
+    "name": "o_cutscene_jane_salvus_sleep1",
     "eventList": [
         {
-            "id": "e4322650-14b0-48fd-856c-234fadb024b4",
+            "id": "b8054fc2-8f2c-4bed-91f9-6873a423792b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 2,
             "eventtype": 3,
-            "m_owner": "337201f9-bb5b-4cf0-a9be-f11493b7e066"
+            "m_owner": "11c98d0e-cc90-4a91-9cf0-28155440c59d"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

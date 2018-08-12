@@ -11,7 +11,4 @@ sprite[UP] = s_gwen_right;
 sprite[LEFT] = s_gwen_left;
 sprite[DOWN] = s_gwen_left;
 
-// Dialog
-var i = 0;
-text[i++] = "Hey Jane!";
-text[i++] = "How are you today?";
+state = scr_wait_state;

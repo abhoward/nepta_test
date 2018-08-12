@@ -1,4 +1,8 @@
-///scr_character_face_direction(character, facing, wait_seconds)
+///@description choose animation for character to be idle in
+///@arg characters
+///@arg facing
+///@arg seconds_to_wait
+
 var characters = argument0;
 var facing = argument1;
 var wait_seconds = argument2;

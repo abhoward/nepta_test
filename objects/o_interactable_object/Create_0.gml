@@ -1,3 +1,3 @@
 /// @description 
-message = noone;
 facing = RIGHT;
+cutscene = noone;
