@@ -8,9 +8,13 @@ if (image_alpha != target_image_alpha) {
 		transition = false;
 		show_debug_message(alarm[0]);
         // Go to the next room
-    } else {
+    } else if (alarm[0] == -1) {
         // Destroy the transition object
         instance_destroy();
+		show_debug_message("fade destroyed");
+		if (instance_exists(o_cutscene_parent)) {
+			o_cutscene_parent.action++;
+		}
     }
 }
 

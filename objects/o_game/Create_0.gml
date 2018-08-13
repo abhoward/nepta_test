@@ -38,6 +38,9 @@ display_set_gui_size(view_wview[0], view_hview[0]);
 //global.custom_font = font_add_sprite_ext(s_font, FONT_CHARS, 1, 1);
 draw_set_font(nepta_font);
 
+show_debug_message("being called from:");
+show_debug_message(other);
+
 // Go to the next room
 room_goto_next();
 

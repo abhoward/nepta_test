@@ -4,6 +4,7 @@
 #macro LEFT 2
 #macro DOWN 3
 #macro WAKE 5
+#macro SLEEP 6
 #macro TREE_TILES 1000
 #macro IDLE 0
 #macro APPROACH 1

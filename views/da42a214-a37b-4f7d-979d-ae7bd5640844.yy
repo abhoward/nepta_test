@@ -12,7 +12,8 @@
         "2c8a5cb3-b98f-4d2d-8856-670d422496ae",
         "4ca6ab3c-ee74-4c9d-a890-ee951b2d7a52",
         "b1acf5a5-7a81-424b-a05e-b59b993f3740",
-        "658ecac1-8847-4197-b5b0-0e88e3b44a62"
+        "658ecac1-8847-4197-b5b0-0e88e3b44a62",
+        "2bf03953-a8fb-4d7f-ab68-5b9a71e4848e"
     ],
     "filterType": "GMSprite",
     "folderName": "Jane",

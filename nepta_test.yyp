@@ -1167,6 +1167,14 @@
             }
         },
         {
+            "Key": "2bf03953-a8fb-4d7f-ab68-5b9a71e4848e",
+            "Value": {
+                "id": "f880b1b8-8a1c-43d1-9449-a839ef5c81f9",
+                "resourcePath": "sprites\\s_jane_sleep\\s_jane_sleep.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2bf9926f-bc3b-4d6c-ae83-d4c64812c715",
             "Value": {
                 "id": "b46132fe-e062-4988-b0cd-c272d01b491b",

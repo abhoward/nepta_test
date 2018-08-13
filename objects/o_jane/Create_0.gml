@@ -17,3 +17,4 @@ sprite[UP] = s_jane_walk_up;
 sprite[LEFT] = s_jane_walk_left;
 sprite[DOWN] = s_jane_walk_down;
 sprite[WAKE] = s_jane_wake_up;
+sprite[SLEEP] = s_jane_sleep;
