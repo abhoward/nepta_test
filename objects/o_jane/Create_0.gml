@@ -8,6 +8,8 @@ last_room = room;
 cutscene = noone;
 need_input = false;
 
+talked_to = ds_list_create();
+
 myName = "Jane";
 myPortrait = s_jane_portrait;
 

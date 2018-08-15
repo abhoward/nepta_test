@@ -23,4 +23,3 @@ if (state == scr_wait_state) {
 if (!instance_exists(o_view)) {
     instance_create_depth(x+8, y+8, 0, o_view);
 }
-

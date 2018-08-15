@@ -1,5 +1,9 @@
 reset_dialogue_defaults();
 
+if (ds_list_size(o_jane.talked_to) >= 4) {
+	global.dialogue_variable = 1;
+}
+
 switch(global.dialogue_variable) {
 	case 0:
 	#region Before entering Salvus

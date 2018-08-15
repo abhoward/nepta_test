@@ -19,8 +19,11 @@ if ((id.myName != playerobject.myName) && (playerobject.state == scr_move_state)
 			event_user(0);								//if you need variables to update for text
 			
 			id.state = scr_talking_state;
-			playerobject.state = scr_talking_state;
 			id.facing = scr_get_opposite_facing(playerobject.facing); // turn npc to our player
+			if (ds_list_find_index(playerobject.talked_to, id.myName) != -1) {
+				ds_list_add(playerobject.talked_to, id.myName); // if value is in list, add it
+			}
+			playerobject.state = scr_talking_state;
 			
 			//Hand over variables
 			create_dialogue(myText, mySpeaker, myEffects, myTextSpeed, myTypes, myNextLine, myScripts, myTextCol, myEmotion, myEmote);

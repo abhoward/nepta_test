@@ -6,9 +6,9 @@ myName = "Horace"
 myPortrait = s_horace_portrait;
 
 // Create the sprite array
-sprite[RIGHT] = s_horace_right;
-sprite[UP] = s_horace_right;
-sprite[LEFT] = s_horace_left;
-sprite[DOWN] = s_horace_left
+sprite[RIGHT] = s_horace_walk_right;
+sprite[UP] = s_horace_walk_up;
+sprite[LEFT] = s_horace_walk_left;
+sprite[DOWN] = s_horace_walk_down;
 
 state = scr_wait_state;

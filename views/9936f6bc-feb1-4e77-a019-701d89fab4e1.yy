@@ -5,8 +5,9 @@
     "name": "9936f6bc-feb1-4e77-a019-701d89fab4e1",
     "children": [
         "83619518-91d6-4ada-88dc-878f8a8bebac",
-        "c9dd5c31-d9ea-414a-b274-72a7785101a7",
-        "b25238ae-6f0b-4f2f-b609-79804f42149b"
+        "224d9fe7-8f75-4952-8c5f-7044e1fe4773",
+        "5dd990e7-018e-4e86-b410-30b31186d888",
+        "1b718e7c-92f1-4a02-9a47-3523af102bbc"
     ],
     "filterType": "GMSprite",
     "folderName": "Horace",
