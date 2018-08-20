@@ -3,4 +3,5 @@ image_alpha = 0;
 target_image_alpha = 1;
 next_room = noone;
 amount = 0.2;
-cutscene = noone;
+transition_length = 0;
+transition = true;

@@ -2,7 +2,7 @@
 {
     "name": "r_inside_jane_house",
     "id": "a07ac311-b8bb-44d3-9bfd-0b8b6f47df15",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
@@ -31,8 +31,7 @@
         "1c60a52e-fd27-4976-b075-28b38c43062f",
         "510dd201-6280-43ba-bb7a-ac90cf6bb5c2",
         "44501dab-8a54-4ad3-b745-0a9db4cd0e2e",
-        "4c412bbb-2020-472b-8344-0eee0f610004",
-        "1d99d3a2-dbbd-445d-9f7d-e1a5d9db3430"
+        "4c412bbb-2020-472b-8344-0eee0f610004"
     ],
     "IsDnD": false,
     "layers": [
@@ -76,7 +75,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-{"name": "inst_2247F830","id": "1d99d3a2-dbbd-445d-9f7d-e1a5d9db3430","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2247F830","objId": "337201f9-bb5b-4cf0-a9be-f11493b7e066","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 256,"y": 192}
+
             ],
             "layers": [
 

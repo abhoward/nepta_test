@@ -20,8 +20,9 @@ if ((id.myName != playerobject.myName) && (playerobject.state == scr_move_state)
 			
 			id.state = scr_talking_state;
 			id.facing = scr_get_opposite_facing(playerobject.facing); // turn npc to our player
-			if (ds_list_find_index(playerobject.talked_to, id.myName) != -1) {
-				ds_list_add(playerobject.talked_to, id.myName); // if value is in list, add it
+			if (ds_list_find_index(playerobject.talked_to, id.myName) == -1) {
+				show_debug_message("added to list");
+				ds_list_add(playerobject.talked_to, id.myName); // if value isn't in list, add it
 			}
 			playerobject.state = scr_talking_state;
 			

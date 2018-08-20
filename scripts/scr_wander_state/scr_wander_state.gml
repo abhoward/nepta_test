@@ -1,7 +1,5 @@
 //scr_wander()
 
-show_debug_message("alarm0: " + string(alarm[0]));
-
 // for if y is greater than targety or if x is less than targetx
 var inst1 = collision_rectangle(targetx + 48, targety - 32, x - 16, y + 32, o_solid, false, true);
 var inst2 = collision_rectangle(targetx + 48, targety - 32, x - 16, y + 32, o_wander_border, false, true);

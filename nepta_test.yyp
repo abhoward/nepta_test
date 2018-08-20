@@ -1695,6 +1695,14 @@
             }
         },
         {
+            "Key": "3fb07f9e-7530-4458-9cfc-68cf3360746c",
+            "Value": {
+                "id": "54c134a2-7f3f-4ac5-880a-da5ae114b2d9",
+                "resourcePath": "scripts\\scr_cutscene_fade_in\\scr_cutscene_fade_in.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3fe641a9-fdc8-4b24-8d82-b7765872533b",
             "Value": {
                 "id": "8b82b2e3-3d1f-4eb2-9db0-15a3ae69aaf2",
@@ -1780,6 +1788,14 @@
                 "id": "97507aeb-6003-466e-897e-0eb4e063d77a",
                 "resourcePath": "views\/448a6309-f521-422d-a93f-868f77d75348.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "448dcad4-3fb7-4524-b698-45dba3552993",
+            "Value": {
+                "id": "c26195d7-94cb-45b4-afc8-3a3f456fd14a",
+                "resourcePath": "objects\\o_cutscene_fade_transition\\o_cutscene_fade_transition.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2284,6 +2300,14 @@
                 "id": "fb70198c-ea8f-405e-a100-a4c1ba30b8a7",
                 "resourcePath": "sprites\/s_salvus_house2_east\/s_salvus_house2_east.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "54121115-53d3-4f23-8b81-96bbf0ac2a39",
+            "Value": {
+                "id": "c1bd3da5-8214-4326-9f70-d199326cc575",
+                "resourcePath": "objects\\o_cutscene_fade_in\\o_cutscene_fade_in.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4095,6 +4119,14 @@
             }
         },
         {
+            "Key": "a1fa9070-c230-4fe5-8212-27e17389cef7",
+            "Value": {
+                "id": "99f4601e-8bcb-405b-92a6-9b4c94f6179a",
+                "resourcePath": "scripts\\scr_cutscene_fade_out\\scr_cutscene_fade_out.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a206288c-5909-4220-92ad-d7245777a1cc",
             "Value": {
                 "id": "6bc32439-7dbc-476c-a0c3-6edeb1e01f16",
@@ -4532,6 +4564,14 @@
                 "id": "aa87972e-2a1f-48e9-a393-8618acf3d32f",
                 "resourcePath": "sprites\/s_jane_run_up\/s_jane_run_up.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b20ea81c-0d88-4e98-8040-032533bd17be",
+            "Value": {
+                "id": "9f347e53-20ed-40f2-8df0-5dc08abe7003",
+                "resourcePath": "objects\\o_cutscene_salvus_begin_trial_day1\\o_cutscene_salvus_begin_trial_day1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5036,6 +5076,14 @@
                 "id": "916fe309-dc37-4f2f-92b4-ad388bf93560",
                 "resourcePath": "sprites\/s_battle_spider_ranged\/s_battle_spider_ranged.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c71906e5-e2d5-4a14-9bb5-0fe029d4332b",
+            "Value": {
+                "id": "80ea5d17-a9f7-4c61-8809-abb80d31146b",
+                "resourcePath": "objects\\o_cutscene_fade_out\\o_cutscene_fade_out.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -6470,6 +6518,8 @@
         "7b879107-da34-4454-b039-a8f9168a6cda",
         "ff949f0a-d01c-4f4c-9557-b4c7ac72c952",
         "34917a7a-679b-43db-a2c9-ca967057542c",
+        "a1fa9070-c230-4fe5-8212-27e17389cef7",
+        "3fb07f9e-7530-4458-9cfc-68cf3360746c",
         "802e15b6-99ce-4afd-a77e-35aba85ec0de",
         "3a57676c-8e20-4e34-9cdb-712b34d184f7",
         "21161498-3821-4216-a92c-6c38d070222f",

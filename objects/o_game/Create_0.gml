@@ -35,11 +35,7 @@ draw_set_colour(c_white);
 display_set_gui_size(view_wview[0], view_hview[0]);
 
 // Font
-//global.custom_font = font_add_sprite_ext(s_font, FONT_CHARS, 1, 1);
 draw_set_font(nepta_font);
-
-show_debug_message("being called from:");
-show_debug_message(other);
 
 // Go to the next room
 room_goto_next();
@@ -59,3 +55,6 @@ global.in_cutscene = false;
 
 // Dialogue variable to tell various instances across the game what dialogues to create, if any
 global.dialogue_variable = 0;
+
+// Create data structure to store id of destroyed instances so they stay destroyed
+//global.destroyed_instances = ds_map_create();

@@ -14,7 +14,7 @@ last_room = room;
 // Set the player's state
 if (state == scr_wait_state) {
     state = scr_move_state;
-    room_persistent = false;
+    //room_persistent = false;
     persistent = true;
 }
 

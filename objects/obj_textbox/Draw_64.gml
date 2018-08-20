@@ -189,7 +189,6 @@ else {
 			case 0:	//normal
 				draw_text_color(xx, yy+(cy*stringHeight), letter, col, col, col, col, 1);
 				xx = xx + string_width(letter);
-				//draw_text_ext_colour(xx, yy+(cy*stringHeight), letter, 5, 300, col, col, col, col, 1);
 				break;
 			
 			case 1:	//shakey
@@ -246,6 +245,11 @@ else {
 				draw_text_color(xx, yy+(cy*stringHeight), letter, col, col, col, col, shift+random_range(-1,1));
 				xx = xx + string_width(letter);
 				break; 
+				
+			case 8: //shrink
+				draw_text_transformed_color(xx, yy+(cy*stringHeight), letter, 0.5, 0.5, 0, col, col, col, col, 0.75);
+				xx = xx + string_width(letter);
+				break;
 		}
 		
 		//Increment variables for next letter
