@@ -7,10 +7,10 @@ myName = "Art"
 myPortrait = s_art_portrait;
 
 // Create the sprite array
-sprite[RIGHT] = s_art_right;
-sprite[UP] = s_art_right;
-sprite[LEFT] = s_art_left;
-sprite[DOWN] = s_art_left;
+sprite[RIGHT] = s_art_walk_right;
+sprite[UP] = s_art_walk_up;
+sprite[LEFT] = s_art_walk_left;
+sprite[DOWN] = s_art_walk_down;
 
 // Dialog
 //var i = 0;

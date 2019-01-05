@@ -15,7 +15,7 @@ switch (action) {
 	case 6: create_dialogue(["Hm. She's a bit shorter than I was hoping for..."], o_horace, -1, -1, 0, -1, -1, -1, [PORTRAIT_NEUTRAL], -1); break;
 	case 7: create_dialogue(["Shut it Horace. She'll do just fine."], o_gwen, -1, -1, 0, -1, -1, -1, [PORTRAIT_NEUTRAL], -1); break;
 	case 8: create_dialogue(["Excuse me?"], o_jane, -1, -1, 0, -1, -1, -1, [PORTRAIT_NEUTRAL], -1); break;
-	case 9: create_dialogue(["Alright alright, give her some space. Jane, these are the members of Salvus' governing board.", "From right to left we've got Horace, Phae, Rose, and Gwen."], [o_art, o_art], -1, -1, [0, 0], -1, -1, -1, [PORTRAIT_NEUTRAL, PORTRAIT_NEUTRAL], -1); break;
+	case 9: create_dialogue(["Okay okay, give her some space. Jane, these are the members of Salvus' governing board.", "From right to left we've got Horace, Phae, Rose, and Gwen."], [o_art, o_art], -1, -1, [0, 0], -1, -1, -1, [PORTRAIT_NEUTRAL, PORTRAIT_NEUTRAL], -1); break;
 	case 10: create_dialogue(["Um. Hi."], o_jane, -1, -1, 0, -1, -1, -1, [PORTRAIT_NEUTRAL], -1); break;
 	case 11: create_dialogue(["Okay Jane, it's time for some real talk."], o_art, -1, -1, 0, -1, -1, -1, [PORTRAIT_NEUTRAL], -1);
 	case 12: create_dialogue(["Real talk? The hell is that?"], o_jane, -1, -1, 0, -1, -1, -1, [PORTRAIT_ANNOYED], -1);
