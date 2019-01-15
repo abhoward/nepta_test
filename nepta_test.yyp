@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "0719ce89-c2e9-4511-b828-ed0e093c267b",
+            "Value": {
+                "id": "7b274747-2c0d-442d-99c5-e070abe88bf1",
+                "resourcePath": "objects\\o_salvus_house1_west\\o_salvus_house1_west.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "07e9a637-d741-4ed3-95c3-1aeb605d5f30",
             "Value": {
                 "id": "29fc6ca0-738b-43b2-94a0-f521b7c1a5a0",
@@ -1127,6 +1135,14 @@
             }
         },
         {
+            "Key": "28f00375-a0db-435d-ba56-0c69063943a5",
+            "Value": {
+                "id": "c9f89d20-6cbe-40bf-ac4d-5568d20704c0",
+                "resourcePath": "scripts\\scr_last_room_controller\\scr_last_room_controller.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "292d62a4-b913-4e77-a3a2-b23c3d26ed07",
             "Value": {
                 "id": "e79d7df2-434c-4c50-aba6-f608247e7d16",
@@ -1639,6 +1655,14 @@
             }
         },
         {
+            "Key": "3ccd5dec-9c6a-4d5d-8ea3-1eddd3d89c43",
+            "Value": {
+                "id": "643cc9f2-8ca9-4a88-a8b0-8f07f4cb3399",
+                "resourcePath": "sprites\\s_interact_with_bed\\s_interact_with_bed.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3d0bab0c-24b3-49b4-9e76-3a4a8bd3d004",
             "Value": {
                 "id": "ef010013-e5c6-445b-a87b-28e5ca5adb3f",
@@ -1700,6 +1724,14 @@
                 "id": "1db03abb-bc4a-48c5-a9ce-274ce8f36eb4",
                 "resourcePath": "sprites\/s_battle_gargoyle_attack_sad\/s_battle_gargoyle_attack_sad.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3f781d3f-6f75-4da0-b382-200324558be4",
+            "Value": {
+                "id": "a8fd4c49-e448-43b2-a0a2-8d38d5b5a552",
+                "resourcePath": "objects\\o_salvus_house3_west\\o_salvus_house3_west.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1780,6 +1812,14 @@
                 "id": "c023d47f-f280-4bdb-b869-9d93760a1975",
                 "resourcePath": "objects\/o_input\/o_input.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4430b391-852a-4800-b956-d2756296347d",
+            "Value": {
+                "id": "dc39724e-cf28-448e-aceb-dd7b00c09b96",
+                "resourcePath": "scripts\\change_multiple_variables\\change_multiple_variables.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1924,6 +1964,14 @@
                 "id": "cc7aefd6-3a2f-4103-8158-2a7a49d9109e",
                 "resourcePath": "views\/471e880b-9004-4317-ac5d-4838d5ddbb6e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4723fc9e-34e3-4584-82a7-90c0530ad71e",
+            "Value": {
+                "id": "e7bfe329-30db-484d-a619-7dc70c301be4",
+                "resourcePath": "objects\\o_salvus_house1_east\\o_salvus_house1_east.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2263,6 +2311,14 @@
             }
         },
         {
+            "Key": "52e0250f-5c1a-4ffe-b41f-7b2aa6930422",
+            "Value": {
+                "id": "15dd264a-6b23-4830-bbf0-9649e1dcc7ca",
+                "resourcePath": "objects\\o_salvus_house4_west\\o_salvus_house4_west.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "534c489e-270e-45d9-b156-1ad0658cec4c",
             "Value": {
                 "id": "739ac774-a499-4c14-a88d-ee46a352c3b8",
@@ -2364,6 +2420,14 @@
                 "id": "7077e280-5ce6-4786-b41c-d92f08202591",
                 "resourcePath": "sprites\/s_battle_elizabeth_hit_angry\/s_battle_elizabeth_hit_angry.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "570ef0ca-0f98-47fc-894b-73d8e4156a8e",
+            "Value": {
+                "id": "4967bef3-ef0d-42e5-bf10-1002f099fbf3",
+                "resourcePath": "rooms\\r_salvus_day2\\r_salvus_day2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -2476,6 +2540,14 @@
                 "id": "de6c1fd3-9b52-4f37-be24-23a660f5cffe",
                 "resourcePath": "sprites\\s_gwen_walk_left\\s_gwen_walk_left.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f4a72c2-b576-4828-9f27-06623d48ec1a",
+            "Value": {
+                "id": "28a56ad7-188d-4555-be9b-cd646c9e5e4a",
+                "resourcePath": "objects\\o_salvus_house4_east\\o_salvus_house4_east.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3207,6 +3279,14 @@
             }
         },
         {
+            "Key": "7b2192ed-d271-483b-8b5a-bff31e9ab1a9",
+            "Value": {
+                "id": "6b96f3f5-3b2a-49ad-889e-86b96a71a3b1",
+                "resourcePath": "views\\7b2192ed-d271-483b-8b5a-bff31e9ab1a9.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7b2998d3-12c6-4b29-a9d4-f87c9f02b166",
             "Value": {
                 "id": "05e4a993-0195-4a40-a54e-97de88d5fd3a",
@@ -3396,6 +3476,14 @@
                 "id": "43043cab-01e4-486f-9565-1d3fea2882fb",
                 "resourcePath": "scripts\/scr_save_game\/scr_save_game.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "81849852-f035-4f73-bc21-a21326f324a7",
+            "Value": {
+                "id": "92d0d7e1-d019-42ea-86df-f5f136496cc6",
+                "resourcePath": "objects\\o_interact_with_bed\\o_interact_with_bed.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -3652,6 +3740,14 @@
                 "id": "6e962bd5-cb89-4803-b59f-74e6c85cbf2b",
                 "resourcePath": "sprites\/s_battle_gargoyle_return\/s_battle_gargoyle_return.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8aa939ea-49e4-4ad7-b07b-bde8065feb17",
+            "Value": {
+                "id": "d215add8-5b60-461f-8025-3fd76d3b3eba",
+                "resourcePath": "objects\\o_salvus_house3_east\\o_salvus_house3_east.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4018,7 +4114,7 @@
             "Key": "9b3c1804-cd14-4ade-a208-1b0ee9c0b4f7",
             "Value": {
                 "id": "cf880d4c-d929-44d0-b03c-7b9a0e3faf88",
-                "resourcePath": "objects\/o_door\/o_door.yy",
+                "resourcePath": "objects\\o_room_transition\\o_room_transition.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -4879,6 +4975,14 @@
             }
         },
         {
+            "Key": "bb685b76-aedc-4559-858f-db8c8170a9a2",
+            "Value": {
+                "id": "bb8575a7-b613-4fd1-a491-07b92dceee98",
+                "resourcePath": "objects\\o_salvus_house2_west\\o_salvus_house2_west.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bc4378ba-b91b-49dc-9c6c-a9bc6262b9aa",
             "Value": {
                 "id": "def0b374-91f4-404d-bdb6-1a649d5bacf3",
@@ -4972,6 +5076,14 @@
                 "id": "634c2e8a-d214-4b98-bbfd-57810b15dd40",
                 "resourcePath": "sprites\/b_grass_base\/b_grass_base.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c1c3d9d3-4352-44e2-8486-f3885a4f8db9",
+            "Value": {
+                "id": "f3054b87-e28b-416a-8a2a-006dc20b1823",
+                "resourcePath": "objects\\o_salvus_house2_east\\o_salvus_house2_east.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5226,7 +5338,7 @@
             "Key": "cb67d37d-1d5a-4230-80aa-1bbe2ade8e5c",
             "Value": {
                 "id": "22cef7cc-d33f-4f8d-baa5-038397a8743d",
-                "resourcePath": "sprites\/s_door\/s_door.yy",
+                "resourcePath": "sprites\\s_room_transition\\s_room_transition.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5867,6 +5979,14 @@
             "Value": {
                 "id": "39f3da50-7b07-4278-b290-5d5f67f140b4",
                 "resourcePath": "scripts\/scr_set_layer_depth\/scr_set_layer_depth.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e63fb2d4-0cf4-4fde-9180-1faf17c86ed9",
+            "Value": {
+                "id": "c8f2c7fb-35d3-427c-998b-26b943a3526a",
+                "resourcePath": "scripts\\scr_next_room_controller\\scr_next_room_controller.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -6611,12 +6731,15 @@
         "802e15b6-99ce-4afd-a77e-35aba85ec0de",
         "3a57676c-8e20-4e34-9cdb-712b34d184f7",
         "21161498-3821-4216-a92c-6c38d070222f",
+        "e63fb2d4-0cf4-4fde-9180-1faf17c86ed9",
+        "28f00375-a0db-435d-ba56-0c69063943a5",
         "fd3d504c-ad48-481b-b5b0-396bafa8a5bf",
         "3617c53b-fbad-41c1-b107-7ab92fa8aaca",
         "8c296651-c031-4b1f-bd69-0a6b58852c62",
         "22c57393-d17c-4500-b428-2d67f27d9725",
         "d0cbf33f-2b88-430a-92bc-d8adabf7fd7e",
         "57dec62d-9ad0-4d05-85bf-948c81f5184b",
+        "4430b391-852a-4800-b956-d2756296347d",
         "02a93034-8f6e-4718-a90d-ef3a3edfc5ae"
     ],
     "tutorial": ""

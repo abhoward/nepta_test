@@ -8,6 +8,9 @@ last_room = room;
 cutscene = noone;
 need_input = false;
 
+room_state = "game_start";
+dialogue_state = "game_start";
+
 talked_to = ds_list_create();
 
 myName = "Jane";

@@ -12,7 +12,4 @@ sprite[UP] = s_art_walk_up;
 sprite[LEFT] = s_art_walk_left;
 sprite[DOWN] = s_art_walk_down;
 
-// Dialog
-//var i = 0;
-//text[i++] = "Hey Jane!";
-//text[i++] = "How are you today?";
+state = scr_wait_state;

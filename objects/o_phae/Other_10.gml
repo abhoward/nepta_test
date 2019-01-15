@@ -9,7 +9,7 @@ switch(choice_variable) {
 		var i = 0;
 		myText[i]		= "You can run a script after any line of dialogue! Let's make an emote to the left.";
 		mySpeaker[i]	= id;
-		myScripts[i]	= [create_instance_layer, 170,120,"Instances",obj_emote];
+		myScripts[i]	= [create_instance_layer, 170, 120, "Instances", obj_emote];
 		
 		//Line 1
 		i++;
@@ -21,7 +21,7 @@ switch(choice_variable) {
 		myText[i]		= ["An emote", "Another you!"];
 		myTypes[i]		= 1;
 		mySpeaker[i]	= o_jane;
-		myScripts[i]	= [[create_instance_layer, 170,120,"Instances",obj_emote], [create_instance_layer, 170,120,"Instances",obj_examplechar]];
+		myScripts[i]	= [[create_instance_layer, 170, 120, "Instances", obj_emote], [create_instance_layer, 170, 120, "Instances", obj_examplechar]];
 		myNextLine[i]	= [0,0];
 		
 		//Line 3
