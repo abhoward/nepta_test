@@ -1,3 +1,3 @@
-next_room = r_salvus_dirt_mound;
+next_room = r_salvus;
 need_input = false;
 facing = LEFT;

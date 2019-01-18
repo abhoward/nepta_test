@@ -12,7 +12,7 @@
 //-----------Customise (FOR USER)
 playerobject = o_jane;
 interact_key = vk_space;
-detection_radius = 48;
+detection_radius = 36;
 
 myVoice			= snd_voice1;
 myPortrait		= s_jane_portrait;

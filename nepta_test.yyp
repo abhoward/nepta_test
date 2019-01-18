@@ -1663,14 +1663,6 @@
             }
         },
         {
-            "Key": "3d0bab0c-24b3-49b4-9e76-3a4a8bd3d004",
-            "Value": {
-                "id": "ef010013-e5c6-445b-a87b-28e5ca5adb3f",
-                "resourcePath": "rooms\/r_salvus\/r_salvus.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "3d2c9093-d4d6-43ca-8782-55d79bd788b4",
             "Value": {
                 "id": "997e64ce-8fa4-47cc-a153-d45d7b2ab7ab",
@@ -2295,6 +2287,14 @@
             }
         },
         {
+            "Key": "524ea2c1-8071-475c-ba45-7bf7274548c5",
+            "Value": {
+                "id": "26d4834a-0d62-488f-8a7d-7daadfad5c46",
+                "resourcePath": "rooms\\r_salvus\\r_salvus.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5252f118-8c0c-40b8-ba37-58a81a862f8c",
             "Value": {
                 "id": "37381154-2237-496e-9655-186ba8b79e2d",
@@ -2420,14 +2420,6 @@
                 "id": "7077e280-5ce6-4786-b41c-d92f08202591",
                 "resourcePath": "sprites\/s_battle_elizabeth_hit_angry\/s_battle_elizabeth_hit_angry.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "570ef0ca-0f98-47fc-894b-73d8e4156a8e",
-            "Value": {
-                "id": "4967bef3-ef0d-42e5-bf10-1002f099fbf3",
-                "resourcePath": "rooms\\r_salvus_day2\\r_salvus_day2.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -2707,6 +2699,14 @@
             "Value": {
                 "id": "b2fa3641-3d70-4576-8166-a02db273a6da",
                 "resourcePath": "tilesets\/b_water_detail_tileset\/b_water_detail_tileset.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "64fe5bfb-7ef8-4ef8-9b02-f4baf3742d97",
+            "Value": {
+                "id": "1c097bbe-f6bc-4cbc-9d8d-3a0e442a3231",
+                "resourcePath": "tilesets\\ts_street_cracked\\ts_street_cracked.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -4727,6 +4727,14 @@
             }
         },
         {
+            "Key": "b2b459f2-655f-4c1f-aec3-646ff09faf31",
+            "Value": {
+                "id": "c59cc895-0292-4790-814e-20bba1d8b7f8",
+                "resourcePath": "sprites\\street_cracked\\street_cracked.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b2e33329-8a07-4004-b550-0c5b43c39edb",
             "Value": {
                 "id": "0723f671-7145-456a-85a0-6b3798ee3c9b",
@@ -5780,6 +5788,14 @@
                 "id": "ae2d9f5c-d475-4035-a9c6-7cf459274735",
                 "resourcePath": "tilesets\/b_ancient_trees_tileset\/b_ancient_trees_tileset.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "dbcdea41-0d79-4c43-a92f-001baddb7615",
+            "Value": {
+                "id": "4e151e2d-240a-48f4-a257-f305b567b4eb",
+                "resourcePath": "rooms\\r_salvus_day2\\r_salvus_day2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
