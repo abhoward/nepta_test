@@ -24,4 +24,4 @@ if (!instance_exists(o_view)) {
     instance_create_depth(x+8, y+8, 0, o_view);
 }
 
-scr_cutscene_fade_transition(1, 0.2, 1);
+scr_cutscene_fade_transition(1, 0.2, 1.5);

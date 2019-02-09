@@ -1,6 +1,4 @@
 /// @description Interact with object
-
-/// @description  Go to the next room
 if (state != scr_wait_state && o_input.action && facing = other.facing) {
 	reset_dialogue_defaults();
     state = scr_wait_state;

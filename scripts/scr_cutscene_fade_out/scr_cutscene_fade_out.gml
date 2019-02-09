@@ -13,8 +13,8 @@ if (!instance_exists(o_cutscene_fade_out)) {
 }
 
 with(o_cutscene_fade_out) {
-	if(image_alpha == target_image_alpha) {
+	if(image_alpha == target_image_alpha && instance_exists(o_cutscene_parent)) {
 		o_cutscene_parent.action++;
-		exit;
 	}
+	exit;
 }

@@ -10,7 +10,9 @@
         "2f402e6f-6c34-4860-b058-34308a2b1264",
         "9936f6bc-feb1-4e77-a019-701d89fab4e1",
         "acf42fbf-2f0a-4112-b21c-f3fa3bf72769",
-        "b01c59a3-d5f8-40f5-a776-a08bb6ff9de2"
+        "b01c59a3-d5f8-40f5-a776-a08bb6ff9de2",
+        "89591a28-fb74-41af-b5b8-3e292ae5c73e",
+        "564ffe28-6e42-4bec-8659-01318f266655"
     ],
     "filterType": "GMSprite",
     "folderName": "Character Sprites",

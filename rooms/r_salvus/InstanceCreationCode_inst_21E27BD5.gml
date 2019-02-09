@@ -1,1 +1,0 @@
-last_room = r_salvus_dirt_mound;

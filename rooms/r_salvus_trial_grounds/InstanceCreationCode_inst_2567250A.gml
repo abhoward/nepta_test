@@ -1,0 +1,1 @@
+last_room = r_salvus_day2;
